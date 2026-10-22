@@ -5,47 +5,54 @@ const { $supabase } = useNuxtApp()
 const sb = $supabase as SupabaseClient | null
 const session = useState<any>('sb-session')
 
+// 用 email + 密碼登入，不用信件連結：iPhone 主畫面 App 和 Safari 的登入狀態是分開的，
+// 點信裡的連結只會登入 Safari。而 Supabase 免費方案沒設 SMTP 不能改信件內容，也加不了驗證碼。
+const mode = ref<'login' | 'signup'>('login')
 const email = ref('')
-const code = ref('')
-const sent = ref(false)
+const password = ref('')
 const busy = ref(false)
 const err = ref<string | null>(null)
+const info = ref<string | null>(null)
 
-async function send() {
-  if (!sb || !email.value) return
-  busy.value = true
-  err.value = null
-  const { error } = await sb.auth.signInWithOtp({
-    email: email.value.trim(),
-    options: { emailRedirectTo: window.location.origin },
-  })
-  busy.value = false
-  if (error) err.value = error.message
-  else sent.value = true
+function messageFor(msg: string) {
+  if (/invalid login credentials/i.test(msg)) return 'Email 或密碼不對。'
+  if (/email not confirmed/i.test(msg)) return '這個帳號還沒確認 email，請先去信箱點確認連結（在 Safari 打開沒關係），再回來登入。'
+  if (/already registered/i.test(msg)) return '這個 email 已經有帳號了，請直接登入。'
+  if (/at least 6/i.test(msg)) return '密碼至少要 6 個字。'
+  if (/signups not allowed/i.test(msg)) return '目前不開放建立新帳號。'
+  return msg
 }
 
-// 主畫面 App 和 Safari 的登入狀態是分開的，點信裡的連結只會登入 Safari，
-// 所以也讓她在 App 裡直接輸入信裡的驗證碼
-async function verify() {
-  if (!sb || !code.value) return
+async function submit() {
+  if (!sb) return
   busy.value = true
   err.value = null
-  const { error } = await sb.auth.verifyOtp({ email: email.value.trim(), token: code.value.trim(), type: 'email' })
+  info.value = null
+  const creds = { email: email.value.trim(), password: password.value }
+  if (mode.value === 'login') {
+    const { error } = await sb.auth.signInWithPassword(creds)
+    busy.value = false
+    if (error) err.value = messageFor(error.message)
+    else await navigateTo('/')
+    return
+  }
+  const { data, error } = await sb.auth.signUp(creds)
   busy.value = false
-  if (error) err.value = '驗證碼不對或已過期，請再寄一次。'
-  else await navigateTo('/')
-}
-
-function restart() {
-  sent.value = false
-  code.value = ''
-  err.value = null
+  if (error) err.value = messageFor(error.message)
+  else if (data.session) await navigateTo('/')
+  else {
+    // Supabase 開著「確認 email」時，要先點信裡的確認連結
+    info.value = '帳號建立好了。去信箱點確認連結（在 Safari 打開沒關係），再回到這裡登入。'
+    mode.value = 'login'
+  }
 }
 
 async function logout() {
   await sb?.auth.signOut()
   await navigateTo('/')
 }
+
+const inputClass = 'h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 focus:border-brand-accent focus:outline-none'
 
 useHead({ title: '登入 · TCF Prep' })
 </script>
@@ -73,47 +80,24 @@ useHead({ title: '登入 · TCF Prep' })
       </button>
     </div>
 
-    <form v-else-if="sent" class="rounded-2xl border border-brand-border bg-white p-4" @submit.prevent="verify">
-      <p class="text-body">已寄到 <b>{{ email }}</b>。</p>
-      <p class="mt-1 text-body text-brand-muted">把信裡的驗證碼輸入在這裡。用手機主畫面打開的話，請用驗證碼登入，不要點信裡的連結（連結會在 Safari 登入，不是這裡）。</p>
-      <label class="mt-4 block">
-        <span class="mb-1 block text-caption text-brand-muted">驗證碼</span>
-        <input
-          v-model="code"
-          type="text"
-          inputmode="numeric"
-          autocomplete="one-time-code"
-          pattern="[0-9]*"
-          maxlength="10"
-          required
-          placeholder="123456"
-          class="h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 text-h3 tracking-[0.3em] focus:border-brand-accent focus:outline-none"
-        />
-      </label>
-      <button
-        type="submit"
-        class="mt-4 h-12 w-full rounded-xl bg-brand-primary text-body font-bold text-brand-on-primary transition active:bg-brand-primary-dark disabled:opacity-50"
-        :disabled="busy || !code.trim()"
-      >
-        {{ busy ? '登入中…' : '登入' }}
-      </button>
-      <button type="button" class="mt-3 w-full text-small text-brand-muted underline" @click="restart">沒收到？換個 email 或重寄</button>
-      <p v-if="err" class="mt-3 rounded-xl border-2 border-red-200 bg-red-50 p-3 text-body text-red-700">{{ err }}</p>
-    </form>
-
-    <form v-else class="rounded-2xl border border-brand-border bg-white p-4" @submit.prevent="send">
+    <form v-else class="rounded-2xl border border-brand-border bg-white p-4" @submit.prevent="submit">
       <p class="text-body text-brand-muted">
-        輸入 email，會收到一封有驗證碼的信，輸入驗證碼就登入，不用密碼。這台裝置上的作答紀錄、筆記、單字卡進度，登入後會自動搬到雲端。
+        {{ mode === 'login' ? '用 email 和密碼登入。' : '第一次使用，建立一個帳號。' }}
+        這台裝置上的作答紀錄、筆記、單字卡進度，登入後會自動搬到雲端。
       </p>
       <label class="mt-4 block">
         <span class="mb-1 block text-caption text-brand-muted">Email</span>
+        <input v-model="email" type="email" autocomplete="email" required placeholder="you@example.com" :class="inputClass" />
+      </label>
+      <label class="mt-3 block">
+        <span class="mb-1 block text-caption text-brand-muted">密碼{{ mode === 'signup' ? '（至少 6 個字）' : '' }}</span>
         <input
-          v-model="email"
-          type="email"
-          autocomplete="email"
+          v-model="password"
+          type="password"
+          :autocomplete="mode === 'login' ? 'current-password' : 'new-password'"
           required
-          placeholder="you@example.com"
-          class="h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 focus:border-brand-accent focus:outline-none"
+          minlength="6"
+          :class="inputClass"
         />
       </label>
       <button
@@ -121,8 +105,16 @@ useHead({ title: '登入 · TCF Prep' })
         class="mt-4 h-12 w-full rounded-xl bg-brand-primary text-body font-bold text-brand-on-primary transition active:bg-brand-primary-dark disabled:opacity-50"
         :disabled="busy"
       >
-        {{ busy ? '寄送中…' : '寄送驗證碼' }}
+        {{ busy ? '請稍等…' : mode === 'login' ? '登入' : '建立帳號' }}
       </button>
+      <button
+        type="button"
+        class="mt-3 w-full text-small text-brand-muted underline"
+        @click="mode = mode === 'login' ? 'signup' : 'login'; err = null; info = null"
+      >
+        {{ mode === 'login' ? '還沒有帳號？建立帳號' : '已經有帳號了？登入' }}
+      </button>
+      <p v-if="info" class="mt-3 rounded-xl border-2 border-green-200 bg-green-50 p-3 text-body text-brand-green">{{ info }}</p>
       <p v-if="err" class="mt-3 rounded-xl border-2 border-red-200 bg-red-50 p-3 text-body text-red-700">{{ err }}</p>
     </form>
   </div>
