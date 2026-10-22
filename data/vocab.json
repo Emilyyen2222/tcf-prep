@@ -4,1187 +4,3058 @@
     "fr": "Bonjour",
     "zh": "你好、早安",
     "tag": "打招呼",
-    "note": "白天任何時候都可以用"
+    "note": "白天任何時候都可以用",
+    "level": "A1"
   },
   {
     "id": "v-bonsoir",
     "fr": "Bonsoir",
     "zh": "晚上好",
     "tag": "打招呼",
-    "note": "傍晚見面時用"
+    "note": "傍晚見面時用",
+    "level": "A1"
   },
   {
     "id": "v-salut",
     "fr": "Salut",
     "zh": "嗨、掰掰",
     "tag": "打招呼",
-    "note": "朋友之間用，不正式"
+    "note": "朋友之間用，不正式",
+    "level": "A1"
   },
   {
     "id": "v-au-revoir",
     "fr": "Au revoir",
     "zh": "再見",
-    "tag": "打招呼"
+    "tag": "打招呼",
+    "level": "A1"
   },
   {
     "id": "v-a-bientot",
     "fr": "À bientôt",
     "zh": "很快再見",
-    "tag": "打招呼"
+    "tag": "打招呼",
+    "level": "A1"
   },
   {
     "id": "v-a-demain",
     "fr": "À demain",
     "zh": "明天見",
-    "tag": "打招呼"
+    "tag": "打招呼",
+    "level": "A1"
   },
   {
     "id": "v-merci-beaucoup",
     "fr": "Merci beaucoup",
     "zh": "非常感謝",
-    "tag": "打招呼"
+    "tag": "打招呼",
+    "level": "A1"
   },
   {
     "id": "v-s-il-vous-plait",
     "fr": "S'il vous plaît",
     "zh": "請（對您）",
     "tag": "打招呼",
-    "note": "對朋友說 s'il te plaît"
+    "note": "對朋友說 s'il te plaît",
+    "level": "A1"
   },
   {
     "id": "v-excusez-moi",
     "fr": "Excusez-moi",
     "zh": "不好意思",
     "tag": "打招呼",
-    "note": "問路、叫服務生時用"
+    "note": "問路、叫服務生時用",
+    "level": "A1"
   },
   {
     "id": "v-enchante-e",
     "fr": "Enchanté(e)",
     "zh": "幸會",
     "tag": "打招呼",
-    "note": "女生寫 enchantée，唸法一樣"
+    "note": "女生寫 enchantée，唸法一樣",
+    "level": "A1"
   },
   {
     "id": "v-ca-va",
     "fr": "Ça va ?",
     "zh": "你好嗎？",
     "tag": "打招呼",
-    "note": "語調上揚是問句，平平地說是回答「還好」"
+    "note": "語調上揚是問句，平平地說是回答「還好」",
+    "level": "A1"
   },
   {
     "id": "v-je-m-appelle",
     "fr": "Je m'appelle…",
     "zh": "我叫…",
-    "tag": "打招呼"
+    "tag": "打招呼",
+    "level": "A1"
   },
   {
     "id": "v-bonne-journee",
     "fr": "Bonne journée",
     "zh": "祝你有美好的一天",
     "tag": "打招呼",
-    "note": "離開時說；見面說 bonjour"
+    "note": "離開時說；見面說 bonjour",
+    "level": "A1"
   },
   {
     "id": "v-de-rien",
     "fr": "De rien",
     "zh": "不客氣",
-    "tag": "打招呼"
+    "tag": "打招呼",
+    "level": "A1"
   },
   {
     "id": "v-pere",
     "fr": "le père",
     "zh": "父親",
     "tag": "家庭",
-    "note": "mon père"
+    "note": "mon père",
+    "level": "A1"
   },
   {
     "id": "v-mere",
     "fr": "la mère",
     "zh": "母親",
     "tag": "家庭",
-    "note": "ma mère"
+    "note": "ma mère",
+    "level": "A1"
   },
   {
     "id": "v-frere",
     "fr": "le frère",
     "zh": "兄弟",
-    "tag": "家庭"
+    "tag": "家庭",
+    "level": "A1"
   },
   {
     "id": "v-soeur",
     "fr": "la sœur",
     "zh": "姊妹",
     "tag": "家庭",
-    "note": "œu 唸起來像英文 sir 的母音，嘴巴嘟圓"
+    "note": "œu 唸起來像英文 sir 的母音，嘴巴嘟圓",
+    "level": "A1"
   },
   {
     "id": "v-fils",
     "fr": "le fils",
     "zh": "兒子",
     "tag": "家庭",
-    "note": "特例：l 不唸，s 要唸，唸 Fees"
+    "note": "特例：l 不唸，s 要唸，唸 Fees",
+    "level": "A1"
   },
   {
     "id": "v-fille",
     "fr": "la fille",
     "zh": "女兒、女孩",
     "tag": "家庭",
-    "note": "ll 發 y 的音"
+    "note": "ll 發 y 的音",
+    "level": "A1"
   },
   {
     "id": "v-mari",
     "fr": "le mari",
     "zh": "丈夫",
-    "tag": "家庭"
+    "tag": "家庭",
+    "level": "A1"
   },
   {
     "id": "v-femme",
     "fr": "la femme",
     "zh": "妻子、女人",
     "tag": "家庭",
-    "note": "特例：唸 Fam"
+    "note": "特例：唸 Fam",
+    "level": "A1"
   },
   {
     "id": "v-famille",
     "fr": "la famille",
     "zh": "家庭",
     "tag": "家庭",
-    "note": "單數名詞：Ma famille habite…（不是 habitent）"
+    "note": "單數名詞：Ma famille habite…（不是 habitent）",
+    "level": "A1"
   },
   {
     "id": "v-enfant-m-f",
     "fr": "l'enfant (m./f.)",
     "zh": "小孩",
     "tag": "家庭",
-    "note": "男生女生都寫 enfant"
+    "note": "男生女生都寫 enfant",
+    "level": "A1"
   },
   {
     "id": "v-parents",
     "fr": "les parents",
     "zh": "父母",
     "tag": "家庭",
-    "note": "也可以指親戚"
+    "note": "也可以指親戚",
+    "level": "A1"
   },
   {
     "id": "v-copain-la-copine",
     "fr": "le copain / la copine",
     "zh": "朋友、男友 / 女友",
-    "tag": "家庭"
+    "tag": "家庭",
+    "level": "A1"
   },
   {
     "id": "v-ami-l-amie",
     "fr": "l'ami / l'amie",
     "zh": "朋友",
-    "tag": "家庭"
+    "tag": "家庭",
+    "level": "A1"
   },
   {
     "id": "v-animal-de-compagnie-m",
     "fr": "l'animal de compagnie (m.)",
     "zh": "寵物",
     "tag": "家庭",
-    "note": "字面是「陪伴的動物」"
+    "note": "字面是「陪伴的動物」",
+    "level": "A1"
   },
   {
     "id": "v-metier",
     "fr": "le métier",
     "zh": "職業",
     "tag": "職業",
-    "note": "Quel est ton métier ?"
+    "note": "Quel est ton métier ?",
+    "level": "A1"
   },
   {
     "id": "v-travail",
     "fr": "le travail",
     "zh": "工作",
-    "tag": "職業"
+    "tag": "職業",
+    "level": "A1"
   },
   {
     "id": "v-la-medecin",
     "fr": "le / la médecin",
     "zh": "醫生",
     "tag": "職業",
-    "note": "結尾是鼻音「桑」"
+    "note": "結尾是鼻音「桑」",
+    "level": "A1"
   },
   {
     "id": "v-ingenieur-e",
     "fr": "l'ingénieur(e)",
     "zh": "工程師",
     "tag": "職業",
-    "note": "Je suis ingénieure.（職業前不加冠詞）"
+    "note": "Je suis ingénieure.（職業前不加冠詞）",
+    "level": "A1"
   },
   {
     "id": "v-etudiant-l-etudiante",
     "fr": "l'étudiant / l'étudiante",
     "zh": "學生",
-    "tag": "職業"
+    "tag": "職業",
+    "level": "A1"
   },
   {
     "id": "v-chauffeur",
     "fr": "le chauffeur",
     "zh": "司機",
-    "tag": "職業"
+    "tag": "職業",
+    "level": "A1"
   },
   {
     "id": "v-professeur-la-professeure",
     "fr": "le professeur / la professeure",
     "zh": "老師",
     "tag": "職業",
-    "note": "口語常說 le / la prof"
+    "note": "口語常說 le / la prof",
+    "level": "A1"
   },
   {
     "id": "v-serveur-la-serveuse",
     "fr": "le serveur / la serveuse",
     "zh": "服務生",
-    "tag": "職業"
+    "tag": "職業",
+    "level": "A1"
   },
   {
     "id": "v-bureau",
     "fr": "le bureau",
     "zh": "辦公室、書桌",
-    "tag": "職業"
+    "tag": "職業",
+    "level": "A1"
   },
   {
     "id": "v-entreprise-f",
     "fr": "l'entreprise (f.)",
     "zh": "公司",
-    "tag": "職業"
+    "tag": "職業",
+    "level": "A1"
   },
   {
     "id": "v-la-collegue",
     "fr": "le / la collègue",
     "zh": "同事",
-    "tag": "職業"
+    "tag": "職業",
+    "level": "A1"
   },
   {
     "id": "v-salaire",
     "fr": "le salaire",
     "zh": "薪水",
-    "tag": "職業"
+    "tag": "職業",
+    "level": "A1"
   },
   {
     "id": "v-etre",
     "fr": "être",
     "zh": "是",
     "tag": "動詞",
-    "note": "je suis, tu es, il est"
+    "note": "je suis, tu es, il est",
+    "level": "A1"
   },
   {
     "id": "v-avoir",
     "fr": "avoir",
     "zh": "有",
     "tag": "動詞",
-    "note": "j'ai, tu as, il a"
+    "note": "j'ai, tu as, il a",
+    "level": "A1"
   },
   {
     "id": "v-aller",
     "fr": "aller",
     "zh": "去",
     "tag": "動詞",
-    "note": "je vais, tu vas, il va"
+    "note": "je vais, tu vas, il va",
+    "level": "A1"
   },
   {
     "id": "v-venir",
     "fr": "venir",
     "zh": "來",
     "tag": "動詞",
-    "note": "je viens, ils viennent"
+    "note": "je viens, ils viennent",
+    "level": "A1"
   },
   {
     "id": "v-faire",
     "fr": "faire",
     "zh": "做",
     "tag": "動詞",
-    "note": "je fais, vous faites, ils font"
+    "note": "je fais, vous faites, ils font",
+    "level": "A1"
   },
   {
     "id": "v-prendre",
     "fr": "prendre",
     "zh": "拿、吃喝、搭乘",
     "tag": "動詞",
-    "note": "je prends un café / le métro"
+    "note": "je prends un café / le métro",
+    "level": "A1"
   },
   {
     "id": "v-vouloir",
     "fr": "vouloir",
     "zh": "想要",
     "tag": "動詞",
-    "note": "je veux；客氣說 je voudrais"
+    "note": "je veux；客氣說 je voudrais",
+    "level": "A1"
   },
   {
     "id": "v-pouvoir",
     "fr": "pouvoir",
     "zh": "能夠",
     "tag": "動詞",
-    "note": "je peux + 原形"
+    "note": "je peux + 原形",
+    "level": "A1"
   },
   {
     "id": "v-devoir",
     "fr": "devoir",
     "zh": "必須",
     "tag": "動詞",
-    "note": "je dois + 原形"
+    "note": "je dois + 原形",
+    "level": "A1"
   },
   {
     "id": "v-savoir",
     "fr": "savoir",
     "zh": "知道、會（技能）",
     "tag": "動詞",
-    "note": "Je sais nager.（我會游泳）"
+    "note": "Je sais nager.（我會游泳）",
+    "level": "A1"
   },
   {
     "id": "v-connaitre",
     "fr": "connaître",
     "zh": "認識（人、地方）",
     "tag": "動詞",
-    "note": "Je connais Paris."
+    "note": "Je connais Paris.",
+    "level": "A1"
   },
   {
     "id": "v-parler",
     "fr": "parler",
     "zh": "說",
-    "tag": "動詞"
+    "tag": "動詞",
+    "level": "A1"
   },
   {
     "id": "v-habiter",
     "fr": "habiter",
     "zh": "住",
     "tag": "動詞",
-    "note": "J'habite à Taipei."
+    "note": "J'habite à Taipei.",
+    "level": "A1"
   },
   {
     "id": "v-aimer",
     "fr": "aimer",
     "zh": "喜歡、愛",
     "tag": "動詞",
-    "note": "J'aime beaucoup…（不能說 j'aime très）"
+    "note": "J'aime beaucoup…（不能說 j'aime très）",
+    "level": "A1"
   },
   {
     "id": "v-travailler",
     "fr": "travailler",
     "zh": "工作",
-    "tag": "動詞"
+    "tag": "動詞",
+    "level": "A1"
   },
   {
     "id": "v-manger",
     "fr": "manger",
     "zh": "吃",
     "tag": "動詞",
-    "note": "nous mangeons"
+    "note": "nous mangeons",
+    "level": "A1"
   },
   {
     "id": "v-boire",
     "fr": "boire",
     "zh": "喝",
     "tag": "動詞",
-    "note": "je bois, nous buvons"
+    "note": "je bois, nous buvons",
+    "level": "A1"
   },
   {
     "id": "v-acheter",
     "fr": "acheter",
     "zh": "買",
     "tag": "動詞",
-    "note": "j'achète"
+    "note": "j'achète",
+    "level": "A1"
   },
   {
     "id": "v-partager",
     "fr": "partager",
     "zh": "分享",
-    "tag": "動詞"
+    "tag": "動詞",
+    "level": "A1"
   },
   {
     "id": "v-apporter",
     "fr": "apporter",
     "zh": "帶來",
     "tag": "動詞",
-    "note": "J'apporte le vin.（去聚會帶東西）"
+    "note": "J'apporte le vin.（去聚會帶東西）",
+    "level": "A1"
   },
   {
     "id": "v-jouer",
     "fr": "jouer",
     "zh": "玩、演奏",
     "tag": "動詞",
-    "note": "運動用 à（jouer au tennis），樂器用 de（jouer du piano）"
+    "note": "運動用 à（jouer au tennis），樂器用 de（jouer du piano）",
+    "level": "A1"
   },
   {
     "id": "v-sortir",
     "fr": "sortir",
     "zh": "出去",
     "tag": "動詞",
-    "note": "je sors, il sort"
+    "note": "je sors, il sort",
+    "level": "A1"
   },
   {
     "id": "v-dormir",
     "fr": "dormir",
     "zh": "睡覺",
     "tag": "動詞",
-    "note": "je dors"
+    "note": "je dors",
+    "level": "A1"
   },
   {
     "id": "v-partir",
     "fr": "partir",
     "zh": "出發、離開",
     "tag": "動詞",
-    "note": "je pars"
+    "note": "je pars",
+    "level": "A1"
   },
   {
     "id": "v-finir",
     "fr": "finir",
     "zh": "結束",
     "tag": "動詞",
-    "note": "nous finissons"
+    "note": "nous finissons",
+    "level": "A1"
   },
   {
     "id": "v-choisir",
     "fr": "choisir",
     "zh": "選擇",
     "tag": "動詞",
-    "note": "nous choisissons"
+    "note": "nous choisissons",
+    "level": "A1"
   },
   {
     "id": "v-attendre",
     "fr": "attendre",
     "zh": "等",
     "tag": "動詞",
-    "note": "J'attends le bus."
+    "note": "J'attends le bus.",
+    "level": "A1"
   },
   {
     "id": "v-chercher",
     "fr": "chercher",
     "zh": "找",
-    "tag": "動詞"
+    "tag": "動詞",
+    "level": "A1"
   },
   {
     "id": "v-trouver",
     "fr": "trouver",
     "zh": "找到",
-    "tag": "動詞"
+    "tag": "動詞",
+    "level": "A1"
   },
   {
     "id": "v-comprendre",
     "fr": "comprendre",
     "zh": "懂",
     "tag": "動詞",
-    "note": "跟 prendre 一樣變"
+    "note": "跟 prendre 一樣變",
+    "level": "A1"
   },
   {
     "id": "v-apprendre",
     "fr": "apprendre",
     "zh": "學",
     "tag": "動詞",
-    "note": "J'apprends le français."
+    "note": "J'apprends le français.",
+    "level": "A1"
   },
   {
     "id": "v-ralentir",
     "fr": "ralentir",
     "zh": "放慢",
     "tag": "動詞",
-    "note": "字根 lent（慢）"
+    "note": "字根 lent（慢）",
+    "level": "A1"
   },
   {
     "id": "v-respirer",
     "fr": "respirer",
     "zh": "呼吸",
-    "tag": "動詞"
+    "tag": "動詞",
+    "level": "A1"
   },
   {
     "id": "v-se-reposer",
     "fr": "se reposer",
     "zh": "休息",
-    "tag": "動詞"
+    "tag": "動詞",
+    "level": "A1"
   },
   {
     "id": "v-se-lever",
     "fr": "se lever",
     "zh": "起床",
     "tag": "動詞",
-    "note": "je me lève"
+    "note": "je me lève",
+    "level": "A1"
   },
   {
     "id": "v-se-sentir",
     "fr": "se sentir",
     "zh": "覺得（身體、心情）",
     "tag": "動詞",
-    "note": "Je me sens bien."
+    "note": "Je me sens bien.",
+    "level": "A1"
   },
   {
     "id": "v-sentir",
     "fr": "sentir",
     "zh": "聞、感覺到",
     "tag": "動詞",
-    "note": "Ça sent bon.（好香）"
+    "note": "Ça sent bon.（好香）",
+    "level": "A1"
   },
   {
     "id": "v-avoir-envie-de",
     "fr": "avoir envie de",
     "zh": "想要…",
     "tag": "動詞",
-    "note": "比 je veux 委婉"
+    "note": "比 je veux 委婉",
+    "level": "A1"
   },
   {
     "id": "v-avoir-besoin-de",
     "fr": "avoir besoin de",
     "zh": "需要…",
-    "tag": "動詞"
+    "tag": "動詞",
+    "level": "A1"
   },
   {
     "id": "v-content-contente",
     "fr": "content / contente",
     "zh": "開心的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-fatigue-e",
     "fr": "fatigué(e)",
     "zh": "累的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-doux-douce",
     "fr": "doux / douce",
     "zh": "溫柔的、甜的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-grand-grande",
     "fr": "grand / grande",
     "zh": "大的、高的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-petit-petite",
     "fr": "petit / petite",
     "zh": "小的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-beau-belle",
     "fr": "beau / belle",
     "zh": "美的、帥的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-bon-bonne",
     "fr": "bon / bonne",
     "zh": "好的、好吃的",
     "tag": "形容詞",
-    "note": "比較級是 meilleur"
+    "note": "比較級是 meilleur",
+    "level": "A1"
   },
   {
     "id": "v-cher-chere",
     "fr": "cher / chère",
     "zh": "貴的、親愛的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-facile",
     "fr": "facile",
     "zh": "簡單的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-difficile",
     "fr": "difficile",
     "zh": "難的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-important-e",
     "fr": "important(e)",
     "zh": "重要的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-productif-productive",
     "fr": "productif / productive",
     "zh": "有生產力的",
     "tag": "形容詞",
-    "note": "-if 變陰性是 -ive"
+    "note": "-if 變陰性是 -ive",
+    "level": "A1"
   },
   {
     "id": "v-heureux-heureuse",
     "fr": "heureux / heureuse",
     "zh": "幸福的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-malade",
     "fr": "malade",
     "zh": "生病的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-libre",
     "fr": "libre",
     "zh": "有空的、自由的",
     "tag": "形容詞",
-    "note": "Tu es libre ce soir ?"
+    "note": "Tu es libre ce soir ?",
+    "level": "A1"
   },
   {
     "id": "v-occupe-e",
     "fr": "occupé(e)",
     "zh": "忙的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-pret-prete",
     "fr": "prêt / prête",
     "zh": "準備好的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-nouveau-nouvelle",
     "fr": "nouveau / nouvelle",
     "zh": "新的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-vieux-vieille",
     "fr": "vieux / vieille",
     "zh": "老的、舊的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-jeune",
     "fr": "jeune",
     "zh": "年輕的",
-    "tag": "形容詞"
+    "tag": "形容詞",
+    "level": "A1"
   },
   {
     "id": "v-lundi",
     "fr": "lundi",
     "zh": "星期一",
     "tag": "時間",
-    "note": "Lune（月亮）"
+    "note": "Lune（月亮）",
+    "level": "A1"
   },
   {
     "id": "v-mardi",
     "fr": "mardi",
     "zh": "星期二",
     "tag": "時間",
-    "note": "Mars（火星）"
+    "note": "Mars（火星）",
+    "level": "A1"
   },
   {
     "id": "v-mercredi",
     "fr": "mercredi",
     "zh": "星期三",
     "tag": "時間",
-    "note": "Mercure（水星）"
+    "note": "Mercure（水星）",
+    "level": "A1"
   },
   {
     "id": "v-jeudi",
     "fr": "jeudi",
     "zh": "星期四",
     "tag": "時間",
-    "note": "Jupiter（木星）"
+    "note": "Jupiter（木星）",
+    "level": "A1"
   },
   {
     "id": "v-vendredi",
     "fr": "vendredi",
     "zh": "星期五",
     "tag": "時間",
-    "note": "Vénus（金星）"
+    "note": "Vénus（金星）",
+    "level": "A1"
   },
   {
     "id": "v-samedi",
     "fr": "samedi",
     "zh": "星期六",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-dimanche",
     "fr": "dimanche",
     "zh": "星期日",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-aujourd-hui",
     "fr": "aujourd'hui",
     "zh": "今天",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-demain",
     "fr": "demain",
     "zh": "明天",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-hier",
     "fr": "hier",
     "zh": "昨天",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-matin",
     "fr": "le matin",
     "zh": "早上",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-apres-midi-m",
     "fr": "l'après-midi (m.)",
     "zh": "下午",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-soir",
     "fr": "le soir",
     "zh": "晚上",
     "tag": "時間",
-    "note": "ce soir = 今晚"
+    "note": "ce soir = 今晚",
+    "level": "A1"
   },
   {
     "id": "v-semaine",
     "fr": "la semaine",
     "zh": "星期、週",
     "tag": "時間",
-    "note": "la semaine prochaine = 下週"
+    "note": "la semaine prochaine = 下週",
+    "level": "A1"
   },
   {
     "id": "v-mois",
     "fr": "le mois",
     "zh": "月",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-an-l-annee",
     "fr": "l'an / l'année",
     "zh": "年",
     "tag": "時間",
-    "note": "J'ai 31 ans."
+    "note": "J'ai 31 ans.",
+    "level": "A1"
   },
   {
     "id": "v-temps",
     "fr": "le temps",
     "zh": "時間、天氣",
     "tag": "時間",
-    "note": "p 和 s 都不唸，只唸鼻音「燙」"
+    "note": "p 和 s 都不唸，只唸鼻音「燙」",
+    "level": "A1"
   },
   {
     "id": "v-toujours",
     "fr": "toujours",
     "zh": "總是",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-souvent",
     "fr": "souvent",
     "zh": "常常",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-parfois",
     "fr": "parfois",
     "zh": "有時候",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-ne-jamais",
     "fr": "ne … jamais",
     "zh": "從不",
     "tag": "時間",
-    "note": "Je ne mange jamais de viande."
+    "note": "Je ne mange jamais de viande.",
+    "level": "A1"
   },
   {
     "id": "v-maintenant",
     "fr": "maintenant",
     "zh": "現在",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-bientot",
     "fr": "bientôt",
     "zh": "很快",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-tard",
     "fr": "tard",
     "zh": "晚",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-tot",
     "fr": "tôt",
     "zh": "早",
-    "tag": "時間"
+    "tag": "時間",
+    "level": "A1"
   },
   {
     "id": "v-maison",
     "fr": "la maison",
     "zh": "房子、家",
     "tag": "生活",
-    "note": "-son 結尾是陰性"
+    "note": "-son 結尾是陰性",
+    "level": "A1"
   },
   {
     "id": "v-appartement-m",
     "fr": "l'appartement (m.)",
     "zh": "公寓",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-gare",
     "fr": "la gare",
     "zh": "火車站",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-train",
     "fr": "le train",
     "zh": "火車",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-metro",
     "fr": "le métro",
     "zh": "地鐵",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-voiture",
     "fr": "la voiture",
     "zh": "汽車",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-magasin",
     "fr": "le magasin",
     "zh": "商店",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-boulangerie",
     "fr": "la boulangerie",
     "zh": "麵包店",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-marche",
     "fr": "le marché",
     "zh": "市場",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-pharmacie",
     "fr": "la pharmacie",
     "zh": "藥局",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-banque",
     "fr": "la banque",
     "zh": "銀行",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-ecole-f",
     "fr": "l'école (f.)",
     "zh": "學校",
     "tag": "生活",
-    "note": "à l'école"
+    "note": "à l'école",
+    "level": "A1"
   },
   {
     "id": "v-rue",
     "fr": "la rue",
     "zh": "街道",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-ville",
     "fr": "la ville",
     "zh": "城市",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-rendez-vous",
     "fr": "le rendez-vous",
     "zh": "約會、預約",
     "tag": "生活",
-    "note": "prendre rendez-vous = 預約"
+    "note": "prendre rendez-vous = 預約",
+    "level": "A1"
   },
   {
     "id": "v-billet",
     "fr": "le billet",
     "zh": "票、鈔票",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-lumiere",
     "fr": "la lumière",
     "zh": "光、燈",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-cle",
     "fr": "la clé",
     "zh": "鑰匙",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-loyer",
     "fr": "le loyer",
     "zh": "房租",
-    "tag": "生活"
+    "tag": "生活",
+    "level": "A1"
   },
   {
     "id": "v-cafe",
     "fr": "le café",
     "zh": "咖啡",
     "tag": "食物",
-    "note": "-é 結尾但是陽性"
+    "note": "-é 結尾但是陽性",
+    "level": "A1"
   },
   {
     "id": "v-the",
     "fr": "le thé",
     "zh": "茶",
-    "tag": "食物"
+    "tag": "食物",
+    "level": "A1"
   },
   {
     "id": "v-eau-f",
     "fr": "l'eau (f.)",
     "zh": "水",
     "tag": "食物",
-    "note": "de l'eau"
+    "note": "de l'eau",
+    "level": "A1"
   },
   {
     "id": "v-pain",
     "fr": "le pain",
     "zh": "麵包",
     "tag": "食物",
-    "note": "du pain"
+    "note": "du pain",
+    "level": "A1"
   },
   {
     "id": "v-fromage",
     "fr": "le fromage",
     "zh": "起司",
     "tag": "食物",
-    "note": "-age 結尾多半陽性"
+    "note": "-age 結尾多半陽性",
+    "level": "A1"
   },
   {
     "id": "v-viande",
     "fr": "la viande",
     "zh": "肉",
-    "tag": "食物"
+    "tag": "食物",
+    "level": "A1"
   },
   {
     "id": "v-poisson",
     "fr": "le poisson",
     "zh": "魚",
     "tag": "食物",
-    "note": "注意：poison（毒藥）只有一個 s"
+    "note": "注意：poison（毒藥）只有一個 s",
+    "level": "A1"
   },
   {
     "id": "v-legumes-m",
     "fr": "les légumes (m.)",
     "zh": "蔬菜",
-    "tag": "食物"
+    "tag": "食物",
+    "level": "A1"
   },
   {
     "id": "v-fruit",
     "fr": "le fruit",
     "zh": "水果",
-    "tag": "食物"
+    "tag": "食物",
+    "level": "A1"
   },
   {
     "id": "v-pomme",
     "fr": "la pomme",
     "zh": "蘋果",
-    "tag": "食物"
+    "tag": "食物",
+    "level": "A1"
   },
   {
     "id": "v-vin",
     "fr": "le vin",
     "zh": "紅酒、酒",
-    "tag": "食物"
+    "tag": "食物",
+    "level": "A1"
   },
   {
     "id": "v-petit-dejeuner",
     "fr": "le petit-déjeuner",
     "zh": "早餐",
-    "tag": "食物"
+    "tag": "食物",
+    "level": "A1"
   },
   {
     "id": "v-dejeuner",
     "fr": "le déjeuner",
     "zh": "午餐",
-    "tag": "食物"
+    "tag": "食物",
+    "level": "A1"
   },
   {
     "id": "v-diner",
     "fr": "le dîner",
     "zh": "晚餐",
-    "tag": "食物"
+    "tag": "食物",
+    "level": "A1"
   },
   {
     "id": "v-addition-f",
     "fr": "l'addition (f.)",
     "zh": "帳單（餐廳）",
     "tag": "食物",
-    "note": "L'addition, s'il vous plaît."
+    "note": "L'addition, s'il vous plaît.",
+    "level": "A1"
   },
   {
     "id": "v-avoir-faim",
     "fr": "avoir faim",
     "zh": "餓",
     "tag": "食物",
-    "note": "J'ai faim."
+    "note": "J'ai faim.",
+    "level": "A1"
   },
   {
     "id": "v-avoir-soif",
     "fr": "avoir soif",
     "zh": "渴",
     "tag": "食物",
-    "note": "J'ai soif."
+    "note": "J'ai soif.",
+    "level": "A1"
   },
   {
     "id": "v-quand",
     "fr": "quand",
     "zh": "何時、當…的時候",
     "tag": "常用字",
-    "note": "d 不唸"
+    "note": "d 不唸",
+    "level": "A1"
   },
   {
     "id": "v-comment",
     "fr": "comment",
     "zh": "如何",
     "tag": "常用字",
-    "note": "Comment allez-vous ?"
+    "note": "Comment allez-vous ?",
+    "level": "A1"
   },
   {
     "id": "v-pourquoi",
     "fr": "pourquoi",
     "zh": "為什麼",
     "tag": "常用字",
-    "note": "回答用 parce que"
+    "note": "回答用 parce que",
+    "level": "A1"
   },
   {
     "id": "v-parce-que",
     "fr": "parce que",
     "zh": "因為",
-    "tag": "常用字"
+    "tag": "常用字",
+    "level": "A1"
   },
   {
     "id": "v-combien",
     "fr": "combien",
     "zh": "多少",
     "tag": "常用字",
-    "note": "C'est combien ?"
+    "note": "C'est combien ?",
+    "level": "A1"
   },
   {
     "id": "v-ou",
     "fr": "où",
     "zh": "哪裡",
     "tag": "常用字",
-    "note": "有重音的 où 是「哪裡」，ou 是「或」"
+    "note": "有重音的 où 是「哪裡」，ou 是「或」",
+    "level": "A1"
   },
   {
     "id": "v-vraiment",
     "fr": "vraiment",
     "zh": "真的",
     "tag": "常用字",
-    "note": "J'ai vraiment faim."
+    "note": "J'ai vraiment faim.",
+    "level": "A1"
   },
   {
     "id": "v-beaucoup",
     "fr": "beaucoup",
     "zh": "很多、非常",
     "tag": "常用字",
-    "note": "放在動詞後面"
+    "note": "放在動詞後面",
+    "level": "A1"
   },
   {
     "id": "v-peu",
     "fr": "un peu",
     "zh": "一點點",
-    "tag": "常用字"
+    "tag": "常用字",
+    "level": "A1"
   },
   {
     "id": "v-tres",
     "fr": "très",
     "zh": "很",
     "tag": "常用字",
-    "note": "接形容詞：très bon"
+    "note": "接形容詞：très bon",
+    "level": "A1"
   },
   {
     "id": "v-aussi",
     "fr": "aussi",
     "zh": "也",
-    "tag": "常用字"
+    "tag": "常用字",
+    "level": "A1"
   },
   {
     "id": "v-avec",
     "fr": "avec",
     "zh": "和…一起",
     "tag": "常用字",
-    "note": "avec moi / avec lui"
+    "note": "avec moi / avec lui",
+    "level": "A1"
   },
   {
     "id": "v-sans",
     "fr": "sans",
     "zh": "沒有…",
     "tag": "常用字",
-    "note": "sans sucre"
+    "note": "sans sucre",
+    "level": "A1"
   },
   {
     "id": "v-chez",
     "fr": "chez",
     "zh": "在…家",
     "tag": "常用字",
-    "note": "chez moi = 在我家"
+    "note": "chez moi = 在我家",
+    "level": "A1"
   },
   {
     "id": "v-ici",
     "fr": "ici",
     "zh": "這裡",
-    "tag": "常用字"
+    "tag": "常用字",
+    "level": "A1"
   },
   {
     "id": "v-bas",
     "fr": "là-bas",
     "zh": "那裡",
-    "tag": "常用字"
+    "tag": "常用字",
+    "level": "A1"
   },
   {
     "id": "v-mais",
     "fr": "mais",
     "zh": "但是",
-    "tag": "常用字"
+    "tag": "常用字",
+    "level": "A1"
   },
   {
     "id": "v-donc",
     "fr": "donc",
     "zh": "所以",
-    "tag": "常用字"
+    "tag": "常用字",
+    "level": "A1"
   },
   {
     "id": "v-ensuite",
     "fr": "ensuite",
     "zh": "然後",
-    "tag": "常用字"
+    "tag": "常用字",
+    "level": "A1"
   },
   {
     "id": "v-il-y-a",
     "fr": "il y a",
     "zh": "有…、…之前",
     "tag": "常用字",
-    "note": "Il y a un chat. / il y a 3 jours"
+    "note": "Il y a un chat. / il y a 3 jours",
+    "level": "A1"
   },
   {
     "id": "v-anecdote",
     "fr": "une anecdote",
     "zh": "趣事、軼事",
-    "tag": "常用字"
+    "tag": "常用字",
+    "level": "A1"
   },
   {
     "id": "v-sensation",
     "fr": "une sensation",
     "zh": "感覺",
-    "tag": "常用字"
+    "tag": "常用字",
+    "level": "A1"
   },
   {
     "id": "v-envie-f",
     "fr": "l'envie (f.)",
     "zh": "渴望",
     "tag": "常用字",
-    "note": "avoir envie de…"
+    "note": "avoir envie de…",
+    "level": "A1"
+  },
+  {
+    "id": "v-poste",
+    "fr": "le poste",
+    "zh": "職位",
+    "tag": "工作",
+    "level": "A2",
+    "note": "un poste de comptable"
+  },
+  {
+    "id": "v-emploi-m",
+    "fr": "l'emploi (m.)",
+    "zh": "工作、職業",
+    "tag": "工作",
+    "level": "A2",
+    "note": "chercher un emploi"
+  },
+  {
+    "id": "v-chomage",
+    "fr": "le chômage",
+    "zh": "失業",
+    "tag": "工作",
+    "level": "A2",
+    "note": "être au chômage = 失業中"
+  },
+  {
+    "id": "v-entretien-d-embauche-m",
+    "fr": "l'entretien d'embauche (m.)",
+    "zh": "面試",
+    "tag": "工作",
+    "level": "A2",
+    "note": "passer un entretien"
+  },
+  {
+    "id": "v-cv",
+    "fr": "le CV",
+    "zh": "履歷",
+    "tag": "工作",
+    "level": "A2",
+    "note": "唸 Cé-Vé"
+  },
+  {
+    "id": "v-lettre-de-motivation",
+    "fr": "la lettre de motivation",
+    "zh": "求職信",
+    "tag": "工作",
+    "level": "A2"
+  },
+  {
+    "id": "v-embaucher",
+    "fr": "embaucher",
+    "zh": "雇用",
+    "tag": "工作",
+    "level": "B1",
+    "note": "反義：licencier 解僱"
+  },
+  {
+    "id": "v-licencier",
+    "fr": "licencier",
+    "zh": "解僱",
+    "tag": "工作",
+    "level": "B1"
+  },
+  {
+    "id": "v-demissionner",
+    "fr": "démissionner",
+    "zh": "辭職",
+    "tag": "工作",
+    "level": "B1",
+    "note": "la démission"
+  },
+  {
+    "id": "v-contrat",
+    "fr": "le contrat",
+    "zh": "合約",
+    "tag": "工作",
+    "level": "A2",
+    "note": "un CDI（正職）/ un CDD（約聘）"
+  },
+  {
+    "id": "v-patron-la-patronne",
+    "fr": "le patron / la patronne",
+    "zh": "老闆",
+    "tag": "工作",
+    "level": "A2"
+  },
+  {
+    "id": "v-employeur-m",
+    "fr": "l'employeur (m.)",
+    "zh": "雇主",
+    "tag": "工作",
+    "level": "B1"
+  },
+  {
+    "id": "v-la-salarie-e",
+    "fr": "le / la salarié(e)",
+    "zh": "受薪員工",
+    "tag": "工作",
+    "level": "B1"
+  },
+  {
+    "id": "v-reunion",
+    "fr": "la réunion",
+    "zh": "會議",
+    "tag": "工作",
+    "level": "A2",
+    "note": "être en réunion"
+  },
+  {
+    "id": "v-conges-m",
+    "fr": "les congés (m.)",
+    "zh": "休假",
+    "tag": "工作",
+    "level": "A2",
+    "note": "les congés payés = 帶薪假"
+  },
+  {
+    "id": "v-horaires-m",
+    "fr": "les horaires (m.)",
+    "zh": "工作時間、時刻表",
+    "tag": "工作",
+    "level": "A2",
+    "note": "des horaires flexibles"
+  },
+  {
+    "id": "v-a-temps-partiel",
+    "fr": "à temps partiel",
+    "zh": "兼職",
+    "tag": "工作",
+    "level": "A2",
+    "note": "反義：à temps plein 全職"
+  },
+  {
+    "id": "v-experience-f",
+    "fr": "l'expérience (f.)",
+    "zh": "經驗",
+    "tag": "工作",
+    "level": "A2",
+    "note": "j'ai trois ans d'expérience"
+  },
+  {
+    "id": "v-competence",
+    "fr": "la compétence",
+    "zh": "能力、技能",
+    "tag": "工作",
+    "level": "B1"
+  },
+  {
+    "id": "v-stage",
+    "fr": "le stage",
+    "zh": "實習",
+    "tag": "工作",
+    "level": "A2",
+    "note": "faire un stage"
+  },
+  {
+    "id": "v-formation",
+    "fr": "la formation",
+    "zh": "培訓、學歷",
+    "tag": "工作",
+    "level": "B1",
+    "note": "une formation en informatique"
+  },
+  {
+    "id": "v-gagner-sa-vie",
+    "fr": "gagner sa vie",
+    "zh": "謀生",
+    "tag": "工作",
+    "level": "B1"
+  },
+  {
+    "id": "v-teletravail",
+    "fr": "le télétravail",
+    "zh": "遠距工作",
+    "tag": "工作",
+    "level": "B1",
+    "note": "travailler à distance"
+  },
+  {
+    "id": "v-retraite",
+    "fr": "la retraite",
+    "zh": "退休",
+    "tag": "工作",
+    "level": "A2",
+    "note": "être à la retraite"
+  },
+  {
+    "id": "v-logement",
+    "fr": "le logement",
+    "zh": "住處",
+    "tag": "住房",
+    "level": "A2"
+  },
+  {
+    "id": "v-la-locataire",
+    "fr": "le / la locataire",
+    "zh": "房客",
+    "tag": "住房",
+    "level": "B1"
+  },
+  {
+    "id": "v-la-proprietaire",
+    "fr": "le / la propriétaire",
+    "zh": "房東、屋主",
+    "tag": "住房",
+    "level": "A2"
+  },
+  {
+    "id": "v-louer",
+    "fr": "louer",
+    "zh": "租",
+    "tag": "住房",
+    "level": "A2",
+    "note": "à louer = 出租"
+  },
+  {
+    "id": "v-bail",
+    "fr": "le bail",
+    "zh": "租約",
+    "tag": "住房",
+    "level": "B1",
+    "note": "複數 les baux"
+  },
+  {
+    "id": "v-charges-f",
+    "fr": "les charges (f.)",
+    "zh": "管理費、水電雜費",
+    "tag": "住房",
+    "level": "B1",
+    "note": "charges comprises = 含雜費"
+  },
+  {
+    "id": "v-caution",
+    "fr": "la caution",
+    "zh": "押金",
+    "tag": "住房",
+    "level": "B1"
+  },
+  {
+    "id": "v-demenager",
+    "fr": "déménager",
+    "zh": "搬家",
+    "tag": "住房",
+    "level": "A2",
+    "note": "le déménagement"
+  },
+  {
+    "id": "v-emmenager",
+    "fr": "emménager",
+    "zh": "搬進去",
+    "tag": "住房",
+    "level": "B1"
+  },
+  {
+    "id": "v-meuble-e",
+    "fr": "meublé(e)",
+    "zh": "附家具的",
+    "tag": "住房",
+    "level": "A2",
+    "note": "un studio meublé"
+  },
+  {
+    "id": "v-quartier",
+    "fr": "le quartier",
+    "zh": "街區",
+    "tag": "住房",
+    "level": "A2",
+    "note": "un quartier calme"
+  },
+  {
+    "id": "v-voisin-la-voisine",
+    "fr": "le voisin / la voisine",
+    "zh": "鄰居",
+    "tag": "住房",
+    "level": "A2"
+  },
+  {
+    "id": "v-immeuble-m",
+    "fr": "l'immeuble (m.)",
+    "zh": "公寓大樓",
+    "tag": "住房",
+    "level": "A2"
+  },
+  {
+    "id": "v-etage-m",
+    "fr": "l'étage (m.)",
+    "zh": "樓層",
+    "tag": "住房",
+    "level": "A2",
+    "note": "au troisième étage"
+  },
+  {
+    "id": "v-ascenseur-m",
+    "fr": "l'ascenseur (m.)",
+    "zh": "電梯",
+    "tag": "住房",
+    "level": "A2"
+  },
+  {
+    "id": "v-chauffage",
+    "fr": "le chauffage",
+    "zh": "暖氣",
+    "tag": "住房",
+    "level": "A2",
+    "note": "加拿大租屋常問 chauffage compris ?"
+  },
+  {
+    "id": "v-colocation",
+    "fr": "la colocation",
+    "zh": "合租",
+    "tag": "住房",
+    "level": "B1",
+    "note": "un / une colocataire 室友"
+  },
+  {
+    "id": "v-travaux-m",
+    "fr": "les travaux (m.)",
+    "zh": "施工、整修",
+    "tag": "住房",
+    "level": "A2"
+  },
+  {
+    "id": "v-piece",
+    "fr": "la pièce",
+    "zh": "房間（泛指）",
+    "tag": "住房",
+    "level": "A2",
+    "note": "un trois-pièces = 三房"
+  },
+  {
+    "id": "v-chambre",
+    "fr": "la chambre",
+    "zh": "臥室",
+    "tag": "住房",
+    "level": "A2"
+  },
+  {
+    "id": "v-rendez-vous-medical",
+    "fr": "le rendez-vous médical",
+    "zh": "看診預約",
+    "tag": "健康",
+    "level": "A2"
+  },
+  {
+    "id": "v-ordonnance-f",
+    "fr": "l'ordonnance (f.)",
+    "zh": "處方箋",
+    "tag": "健康",
+    "level": "B1"
+  },
+  {
+    "id": "v-medicament",
+    "fr": "le médicament",
+    "zh": "藥",
+    "tag": "健康",
+    "level": "A2"
+  },
+  {
+    "id": "v-avoir-mal-a",
+    "fr": "avoir mal à…",
+    "zh": "…痛",
+    "tag": "健康",
+    "level": "A2",
+    "note": "J'ai mal à la tête / au ventre."
+  },
+  {
+    "id": "v-fievre",
+    "fr": "la fièvre",
+    "zh": "發燒",
+    "tag": "健康",
+    "level": "A2",
+    "note": "avoir de la fièvre"
+  },
+  {
+    "id": "v-tousser",
+    "fr": "tousser",
+    "zh": "咳嗽",
+    "tag": "健康",
+    "level": "A2",
+    "note": "la toux"
+  },
+  {
+    "id": "v-rhume",
+    "fr": "le rhume",
+    "zh": "感冒",
+    "tag": "健康",
+    "level": "A2",
+    "note": "attraper un rhume"
+  },
+  {
+    "id": "v-grippe",
+    "fr": "la grippe",
+    "zh": "流感",
+    "tag": "健康",
+    "level": "A2"
+  },
+  {
+    "id": "v-se-blesser",
+    "fr": "se blesser",
+    "zh": "受傷",
+    "tag": "健康",
+    "level": "B1",
+    "note": "une blessure"
+  },
+  {
+    "id": "v-guerir",
+    "fr": "guérir",
+    "zh": "痊癒、治好",
+    "tag": "健康",
+    "level": "B1"
+  },
+  {
+    "id": "v-urgences-f",
+    "fr": "les urgences (f.)",
+    "zh": "急診",
+    "tag": "健康",
+    "level": "A2",
+    "note": "aller aux urgences"
+  },
+  {
+    "id": "v-assurance-maladie-f",
+    "fr": "l'assurance maladie (f.)",
+    "zh": "健康保險",
+    "tag": "健康",
+    "level": "B1"
+  },
+  {
+    "id": "v-en-forme",
+    "fr": "en forme",
+    "zh": "身體狀況好",
+    "tag": "健康",
+    "level": "A2",
+    "note": "Je suis en forme."
+  },
+  {
+    "id": "v-stress",
+    "fr": "le stress",
+    "zh": "壓力",
+    "tag": "健康",
+    "level": "A2",
+    "note": "être stressé(e)"
+  },
+  {
+    "id": "v-dormir-mal",
+    "fr": "dormir mal",
+    "zh": "睡不好",
+    "tag": "健康",
+    "level": "A2"
+  },
+  {
+    "id": "v-sommeil",
+    "fr": "le sommeil",
+    "zh": "睡眠",
+    "tag": "健康",
+    "level": "B1"
+  },
+  {
+    "id": "v-faire-du-sport",
+    "fr": "faire du sport",
+    "zh": "運動",
+    "tag": "健康",
+    "level": "A2"
+  },
+  {
+    "id": "v-equilibre-e",
+    "fr": "équilibré(e)",
+    "zh": "均衡的",
+    "tag": "健康",
+    "level": "B1",
+    "note": "une alimentation équilibrée"
+  },
+  {
+    "id": "v-formulaire",
+    "fr": "le formulaire",
+    "zh": "表格",
+    "tag": "行政手續",
+    "level": "A2",
+    "note": "remplir un formulaire = 填表"
+  },
+  {
+    "id": "v-remplir",
+    "fr": "remplir",
+    "zh": "填寫",
+    "tag": "行政手續",
+    "level": "A2"
+  },
+  {
+    "id": "v-demande",
+    "fr": "la demande",
+    "zh": "申請",
+    "tag": "行政手續",
+    "level": "A2",
+    "note": "faire une demande de visa"
+  },
+  {
+    "id": "v-dossier",
+    "fr": "le dossier",
+    "zh": "文件、檔案",
+    "tag": "行政手續",
+    "level": "B1",
+    "note": "un dossier complet"
+  },
+  {
+    "id": "v-piece-d-identite",
+    "fr": "la pièce d'identité",
+    "zh": "身分證件",
+    "tag": "行政手續",
+    "level": "A2"
+  },
+  {
+    "id": "v-passeport",
+    "fr": "le passeport",
+    "zh": "護照",
+    "tag": "行政手續",
+    "level": "A2"
+  },
+  {
+    "id": "v-titre-de-sejour",
+    "fr": "le titre de séjour",
+    "zh": "居留證",
+    "tag": "行政手續",
+    "level": "B1"
+  },
+  {
+    "id": "v-permis-de-travail",
+    "fr": "le permis de travail",
+    "zh": "工作簽證",
+    "tag": "行政手續",
+    "level": "B1"
+  },
+  {
+    "id": "v-residence-permanente",
+    "fr": "la résidence permanente",
+    "zh": "永久居留（PR）",
+    "tag": "行政手續",
+    "level": "B1"
+  },
+  {
+    "id": "v-justificatif-de-domicile",
+    "fr": "le justificatif de domicile",
+    "zh": "地址證明",
+    "tag": "行政手續",
+    "level": "B1"
+  },
+  {
+    "id": "v-signature",
+    "fr": "la signature",
+    "zh": "簽名",
+    "tag": "行政手續",
+    "level": "A2",
+    "note": "signer = 簽"
+  },
+  {
+    "id": "v-delai",
+    "fr": "le délai",
+    "zh": "期限、等待時間",
+    "tag": "行政手續",
+    "level": "B1",
+    "note": "dans un délai de 30 jours"
+  },
+  {
+    "id": "v-date-limite",
+    "fr": "la date limite",
+    "zh": "截止日期",
+    "tag": "行政手續",
+    "level": "A2"
+  },
+  {
+    "id": "v-joindre",
+    "fr": "joindre",
+    "zh": "附上",
+    "tag": "行政手續",
+    "level": "B1",
+    "note": "Veuillez joindre une photo."
+  },
+  {
+    "id": "v-guichet",
+    "fr": "le guichet",
+    "zh": "櫃台、窗口",
+    "tag": "行政手續",
+    "level": "B1"
+  },
+  {
+    "id": "v-prendre-rendez-vous",
+    "fr": "prendre rendez-vous",
+    "zh": "預約",
+    "tag": "行政手續",
+    "level": "A2"
+  },
+  {
+    "id": "v-compte-bancaire",
+    "fr": "le compte bancaire",
+    "zh": "銀行帳戶",
+    "tag": "行政手續",
+    "level": "A2",
+    "note": "ouvrir un compte"
+  },
+  {
+    "id": "v-impots-m",
+    "fr": "les impôts (m.)",
+    "zh": "稅",
+    "tag": "行政手續",
+    "level": "B1",
+    "note": "payer ses impôts"
+  },
+  {
+    "id": "v-mairie",
+    "fr": "la mairie",
+    "zh": "市政府、區公所",
+    "tag": "行政手續",
+    "level": "A2"
+  },
+  {
+    "id": "v-obligatoire",
+    "fr": "obligatoire",
+    "zh": "必須的",
+    "tag": "行政手續",
+    "level": "A2",
+    "note": "反義：facultatif 可選的"
+  },
+  {
+    "id": "v-aller-simple-m",
+    "fr": "l'aller simple (m.)",
+    "zh": "單程票",
+    "tag": "交通旅行",
+    "level": "A2",
+    "note": "l'aller-retour = 來回票"
+  },
+  {
+    "id": "v-quai",
+    "fr": "le quai",
+    "zh": "月台",
+    "tag": "交通旅行",
+    "level": "A2",
+    "note": "Le train part du quai 3."
+  },
+  {
+    "id": "v-correspondance",
+    "fr": "la correspondance",
+    "zh": "轉乘",
+    "tag": "交通旅行",
+    "level": "B1"
+  },
+  {
+    "id": "v-en-retard",
+    "fr": "en retard",
+    "zh": "誤點、遲到",
+    "tag": "交通旅行",
+    "level": "A2",
+    "note": "反義：en avance 提早"
+  },
+  {
+    "id": "v-annule-e",
+    "fr": "annulé(e)",
+    "zh": "取消的",
+    "tag": "交通旅行",
+    "level": "A2",
+    "note": "Le vol est annulé."
+  },
+  {
+    "id": "v-vol",
+    "fr": "le vol",
+    "zh": "班機",
+    "tag": "交通旅行",
+    "level": "A2",
+    "note": "注意：voler 也是「偷」"
+  },
+  {
+    "id": "v-embouteillage-m",
+    "fr": "l'embouteillage (m.)",
+    "zh": "塞車",
+    "tag": "交通旅行",
+    "level": "B1"
+  },
+  {
+    "id": "v-transports-en-commun-m",
+    "fr": "les transports en commun (m.)",
+    "zh": "大眾運輸",
+    "tag": "交通旅行",
+    "level": "A2"
+  },
+  {
+    "id": "v-trajet",
+    "fr": "le trajet",
+    "zh": "路程",
+    "tag": "交通旅行",
+    "level": "A2",
+    "note": "un trajet de 20 minutes"
+  },
+  {
+    "id": "v-se-deplacer",
+    "fr": "se déplacer",
+    "zh": "移動、通勤",
+    "tag": "交通旅行",
+    "level": "B1"
+  },
+  {
+    "id": "v-a-pied",
+    "fr": "à pied",
+    "zh": "走路",
+    "tag": "交通旅行",
+    "level": "A2",
+    "note": "à vélo、en voiture、en bus"
+  },
+  {
+    "id": "v-sejour",
+    "fr": "le séjour",
+    "zh": "停留、旅居",
+    "tag": "交通旅行",
+    "level": "A2",
+    "note": "un séjour de deux semaines"
+  },
+  {
+    "id": "v-reserver",
+    "fr": "réserver",
+    "zh": "預訂",
+    "tag": "交通旅行",
+    "level": "A2",
+    "note": "la réservation"
+  },
+  {
+    "id": "v-hebergement-m",
+    "fr": "l'hébergement (m.)",
+    "zh": "住宿",
+    "tag": "交通旅行",
+    "level": "B1"
+  },
+  {
+    "id": "v-bagages-m",
+    "fr": "les bagages (m.)",
+    "zh": "行李",
+    "tag": "交通旅行",
+    "level": "A2"
+  },
+  {
+    "id": "v-la-touriste",
+    "fr": "le / la touriste",
+    "zh": "觀光客",
+    "tag": "交通旅行",
+    "level": "A2"
+  },
+  {
+    "id": "v-soldes-m",
+    "fr": "les soldes (m.)",
+    "zh": "打折季",
+    "tag": "購物",
+    "level": "A2",
+    "note": "en solde = 特價中"
+  },
+  {
+    "id": "v-reduction",
+    "fr": "la réduction",
+    "zh": "折扣",
+    "tag": "購物",
+    "level": "A2",
+    "note": "une réduction de 20 %"
+  },
+  {
+    "id": "v-rembourser",
+    "fr": "rembourser",
+    "zh": "退款",
+    "tag": "購物",
+    "level": "B1",
+    "note": "le remboursement"
+  },
+  {
+    "id": "v-echanger",
+    "fr": "échanger",
+    "zh": "換貨",
+    "tag": "購物",
+    "level": "A2"
+  },
+  {
+    "id": "v-recu-le-ticket-de-caisse",
+    "fr": "le reçu / le ticket de caisse",
+    "zh": "收據",
+    "tag": "購物",
+    "level": "A2"
+  },
+  {
+    "id": "v-payer-par-carte",
+    "fr": "payer par carte",
+    "zh": "刷卡付款",
+    "tag": "購物",
+    "level": "A2",
+    "note": "payer en espèces = 付現"
+  },
+  {
+    "id": "v-livraison",
+    "fr": "la livraison",
+    "zh": "送貨",
+    "tag": "購物",
+    "level": "A2",
+    "note": "livraison gratuite"
+  },
+  {
+    "id": "v-commander",
+    "fr": "commander",
+    "zh": "訂購、點餐",
+    "tag": "購物",
+    "level": "A2",
+    "note": "la commande"
+  },
+  {
+    "id": "v-taille",
+    "fr": "la taille",
+    "zh": "尺寸",
+    "tag": "購物",
+    "level": "A2",
+    "note": "鞋子尺寸用 la pointure"
+  },
+  {
+    "id": "v-essayer",
+    "fr": "essayer",
+    "zh": "試穿、嘗試",
+    "tag": "購物",
+    "level": "A2",
+    "note": "la cabine d'essayage 試衣間"
+  },
+  {
+    "id": "v-bon-marche",
+    "fr": "bon marché",
+    "zh": "便宜的",
+    "tag": "購物",
+    "level": "A2",
+    "note": "不變化：des chaussures bon marché"
+  },
+  {
+    "id": "v-gratuit-e",
+    "fr": "gratuit(e)",
+    "zh": "免費的",
+    "tag": "購物",
+    "level": "A2"
+  },
+  {
+    "id": "v-qualite",
+    "fr": "la qualité",
+    "zh": "品質",
+    "tag": "購物",
+    "level": "B1",
+    "note": "un bon rapport qualité-prix = CP 值高"
+  },
+  {
+    "id": "v-depenser",
+    "fr": "dépenser",
+    "zh": "花錢",
+    "tag": "購物",
+    "level": "A2",
+    "note": "les dépenses = 開銷"
+  },
+  {
+    "id": "v-economiser",
+    "fr": "économiser",
+    "zh": "存錢、節省",
+    "tag": "購物",
+    "level": "B1"
+  },
+  {
+    "id": "v-apprendre-par-coeur",
+    "fr": "apprendre par cœur",
+    "zh": "背起來",
+    "tag": "學習",
+    "level": "A2"
+  },
+  {
+    "id": "v-reviser",
+    "fr": "réviser",
+    "zh": "複習",
+    "tag": "學習",
+    "level": "A2",
+    "note": "les révisions"
+  },
+  {
+    "id": "v-examen-m",
+    "fr": "l'examen (m.)",
+    "zh": "考試",
+    "tag": "學習",
+    "level": "A2",
+    "note": "passer un examen = 參加考試（不一定過）"
+  },
+  {
+    "id": "v-reussir",
+    "fr": "réussir",
+    "zh": "成功、考過",
+    "tag": "學習",
+    "level": "A2",
+    "note": "réussir un examen = 考過"
+  },
+  {
+    "id": "v-echouer",
+    "fr": "échouer",
+    "zh": "失敗、沒考過",
+    "tag": "學習",
+    "level": "B1"
+  },
+  {
+    "id": "v-niveau",
+    "fr": "le niveau",
+    "zh": "程度",
+    "tag": "學習",
+    "level": "A2",
+    "note": "Quel est ton niveau ?"
+  },
+  {
+    "id": "v-diplome",
+    "fr": "le diplôme",
+    "zh": "學位、文憑",
+    "tag": "學習",
+    "level": "A2"
+  },
+  {
+    "id": "v-s-inscrire",
+    "fr": "s'inscrire",
+    "zh": "報名、註冊",
+    "tag": "學習",
+    "level": "A2",
+    "note": "l'inscription"
+  },
+  {
+    "id": "v-cours",
+    "fr": "le cours",
+    "zh": "課",
+    "tag": "學習",
+    "level": "A2",
+    "note": "suivre un cours"
+  },
+  {
+    "id": "v-note",
+    "fr": "la note",
+    "zh": "成績、筆記",
+    "tag": "學習",
+    "level": "A2",
+    "note": "prendre des notes = 做筆記"
+  },
+  {
+    "id": "v-vocabulaire",
+    "fr": "le vocabulaire",
+    "zh": "詞彙",
+    "tag": "學習",
+    "level": "A2"
+  },
+  {
+    "id": "v-prononciation",
+    "fr": "la prononciation",
+    "zh": "發音",
+    "tag": "學習",
+    "level": "A2"
+  },
+  {
+    "id": "v-progresser",
+    "fr": "progresser",
+    "zh": "進步",
+    "tag": "學習",
+    "level": "B1",
+    "note": "faire des progrès"
+  },
+  {
+    "id": "v-se-tromper",
+    "fr": "se tromper",
+    "zh": "弄錯",
+    "tag": "學習",
+    "level": "B1",
+    "note": "Je me suis trompée."
+  },
+  {
+    "id": "v-erreur-f",
+    "fr": "l'erreur (f.)",
+    "zh": "錯誤",
+    "tag": "學習",
+    "level": "A2"
+  },
+  {
+    "id": "v-bourse",
+    "fr": "la bourse",
+    "zh": "獎學金",
+    "tag": "學習",
+    "level": "B1"
+  },
+  {
+    "id": "v-environnement-m",
+    "fr": "l'environnement (m.)",
+    "zh": "環境",
+    "tag": "環境社會",
+    "level": "A2"
+  },
+  {
+    "id": "v-pollution",
+    "fr": "la pollution",
+    "zh": "污染",
+    "tag": "環境社會",
+    "level": "A2"
+  },
+  {
+    "id": "v-rechauffement-climatique",
+    "fr": "le réchauffement climatique",
+    "zh": "全球暖化",
+    "tag": "環境社會",
+    "level": "B1"
+  },
+  {
+    "id": "v-recycler",
+    "fr": "recycler",
+    "zh": "回收",
+    "tag": "環境社會",
+    "level": "A2",
+    "note": "le recyclage"
+  },
+  {
+    "id": "v-dechets-m",
+    "fr": "les déchets (m.)",
+    "zh": "垃圾、廢棄物",
+    "tag": "環境社會",
+    "level": "B1",
+    "note": "trier ses déchets = 垃圾分類"
+  },
+  {
+    "id": "v-gaspiller",
+    "fr": "gaspiller",
+    "zh": "浪費",
+    "tag": "環境社會",
+    "level": "B1",
+    "note": "le gaspillage alimentaire"
+  },
+  {
+    "id": "v-energie-f",
+    "fr": "l'énergie (f.)",
+    "zh": "能源",
+    "tag": "環境社會",
+    "level": "B1",
+    "note": "les énergies renouvelables"
+  },
+  {
+    "id": "v-proteger",
+    "fr": "protéger",
+    "zh": "保護",
+    "tag": "環境社會",
+    "level": "A2"
+  },
+  {
+    "id": "v-nature",
+    "fr": "la nature",
+    "zh": "大自然",
+    "tag": "環境社會",
+    "level": "A2"
+  },
+  {
+    "id": "v-societe",
+    "fr": "la société",
+    "zh": "社會、公司",
+    "tag": "環境社會",
+    "level": "B1",
+    "note": "兩個意思都很常見"
+  },
+  {
+    "id": "v-citoyen-la-citoyenne",
+    "fr": "le citoyen / la citoyenne",
+    "zh": "公民",
+    "tag": "環境社會",
+    "level": "B1"
+  },
+  {
+    "id": "v-association-f",
+    "fr": "l'association (f.)",
+    "zh": "協會、社團",
+    "tag": "環境社會",
+    "level": "B1"
+  },
+  {
+    "id": "v-benevole",
+    "fr": "le bénévole",
+    "zh": "志工",
+    "tag": "環境社會",
+    "level": "B1",
+    "note": "faire du bénévolat"
+  },
+  {
+    "id": "v-egalite-f",
+    "fr": "l'égalité (f.)",
+    "zh": "平等",
+    "tag": "環境社會",
+    "level": "B1"
+  },
+  {
+    "id": "v-loi",
+    "fr": "la loi",
+    "zh": "法律",
+    "tag": "環境社會",
+    "level": "B1"
+  },
+  {
+    "id": "v-manifestation",
+    "fr": "la manifestation",
+    "zh": "示威遊行、活動",
+    "tag": "環境社會",
+    "level": "B1"
+  },
+  {
+    "id": "v-greve",
+    "fr": "la grève",
+    "zh": "罷工",
+    "tag": "環境社會",
+    "level": "B1",
+    "note": "être en grève"
+  },
+  {
+    "id": "v-sondage",
+    "fr": "le sondage",
+    "zh": "民調",
+    "tag": "環境社會",
+    "level": "B1"
+  },
+  {
+    "id": "v-actualites-f",
+    "fr": "les actualités (f.)",
+    "zh": "新聞",
+    "tag": "媒體科技",
+    "level": "A2",
+    "note": "口語常說 les infos"
+  },
+  {
+    "id": "v-journal",
+    "fr": "le journal",
+    "zh": "報紙、新聞節目",
+    "tag": "媒體科技",
+    "level": "A2",
+    "note": "le journal télévisé"
+  },
+  {
+    "id": "v-article-m",
+    "fr": "l'article (m.)",
+    "zh": "文章",
+    "tag": "媒體科技",
+    "level": "A2"
+  },
+  {
+    "id": "v-reseaux-sociaux-m",
+    "fr": "les réseaux sociaux (m.)",
+    "zh": "社群媒體",
+    "tag": "媒體科技",
+    "level": "A2"
+  },
+  {
+    "id": "v-telecharger",
+    "fr": "télécharger",
+    "zh": "下載",
+    "tag": "媒體科技",
+    "level": "A2"
+  },
+  {
+    "id": "v-mot-de-passe",
+    "fr": "le mot de passe",
+    "zh": "密碼",
+    "tag": "媒體科技",
+    "level": "A2"
+  },
+  {
+    "id": "v-ecran-m",
+    "fr": "l'écran (m.)",
+    "zh": "螢幕",
+    "tag": "媒體科技",
+    "level": "A2",
+    "note": "le temps d'écran"
+  },
+  {
+    "id": "v-portable",
+    "fr": "le portable",
+    "zh": "手機、筆電",
+    "tag": "媒體科技",
+    "level": "A2"
+  },
+  {
+    "id": "v-en-ligne",
+    "fr": "en ligne",
+    "zh": "線上",
+    "tag": "媒體科技",
+    "level": "A2",
+    "note": "acheter en ligne"
+  },
+  {
+    "id": "v-publicite",
+    "fr": "la publicité",
+    "zh": "廣告",
+    "tag": "媒體科技",
+    "level": "A2",
+    "note": "口語 la pub"
+  },
+  {
+    "id": "v-emission-f",
+    "fr": "l'émission (f.)",
+    "zh": "節目",
+    "tag": "媒體科技",
+    "level": "B1"
+  },
+  {
+    "id": "v-s-abonner",
+    "fr": "s'abonner",
+    "zh": "訂閱",
+    "tag": "媒體科技",
+    "level": "B1",
+    "note": "l'abonnement"
+  },
+  {
+    "id": "v-donnees-f",
+    "fr": "les données (f.)",
+    "zh": "資料、數據",
+    "tag": "媒體科技",
+    "level": "B1"
+  },
+  {
+    "id": "v-gentil-gentille",
+    "fr": "gentil / gentille",
+    "zh": "好心的、親切的",
+    "tag": "個性情緒",
+    "level": "A2"
+  },
+  {
+    "id": "v-timide",
+    "fr": "timide",
+    "zh": "害羞的",
+    "tag": "個性情緒",
+    "level": "A2"
+  },
+  {
+    "id": "v-drole",
+    "fr": "drôle",
+    "zh": "好笑的、奇怪的",
+    "tag": "個性情緒",
+    "level": "A2"
+  },
+  {
+    "id": "v-serieux-serieuse",
+    "fr": "sérieux / sérieuse",
+    "zh": "認真的",
+    "tag": "個性情緒",
+    "level": "A2"
+  },
+  {
+    "id": "v-paresseux-paresseuse",
+    "fr": "paresseux / paresseuse",
+    "zh": "懶惰的",
+    "tag": "個性情緒",
+    "level": "B1"
+  },
+  {
+    "id": "v-travailleur-travailleuse",
+    "fr": "travailleur / travailleuse",
+    "zh": "勤奮的",
+    "tag": "個性情緒",
+    "level": "B1"
+  },
+  {
+    "id": "v-bavard-e",
+    "fr": "bavard(e)",
+    "zh": "愛講話的",
+    "tag": "個性情緒",
+    "level": "B1"
+  },
+  {
+    "id": "v-genereux-genereuse",
+    "fr": "généreux / généreuse",
+    "zh": "大方的",
+    "tag": "個性情緒",
+    "level": "A2"
+  },
+  {
+    "id": "v-inquiet-inquiete",
+    "fr": "inquiet / inquiète",
+    "zh": "擔心的",
+    "tag": "個性情緒",
+    "level": "A2",
+    "note": "s'inquiéter = 擔心"
+  },
+  {
+    "id": "v-decu-e",
+    "fr": "déçu(e)",
+    "zh": "失望的",
+    "tag": "個性情緒",
+    "level": "B1",
+    "note": "la déception"
+  },
+  {
+    "id": "v-fier-fiere",
+    "fr": "fier / fière",
+    "zh": "驕傲的",
+    "tag": "個性情緒",
+    "level": "B1"
+  },
+  {
+    "id": "v-jaloux-jalouse",
+    "fr": "jaloux / jalouse",
+    "zh": "忌妒的",
+    "tag": "個性情緒",
+    "level": "B1"
+  },
+  {
+    "id": "v-emu-e",
+    "fr": "ému(e)",
+    "zh": "感動的",
+    "tag": "個性情緒",
+    "level": "B1"
+  },
+  {
+    "id": "v-en-colere",
+    "fr": "en colère",
+    "zh": "生氣的",
+    "tag": "個性情緒",
+    "level": "A2"
+  },
+  {
+    "id": "v-avoir-peur-de",
+    "fr": "avoir peur de",
+    "zh": "害怕",
+    "tag": "個性情緒",
+    "level": "A2"
+  },
+  {
+    "id": "v-avoir-honte",
+    "fr": "avoir honte",
+    "zh": "感到丟臉",
+    "tag": "個性情緒",
+    "level": "B1"
+  },
+  {
+    "id": "v-s-ennuyer",
+    "fr": "s'ennuyer",
+    "zh": "無聊",
+    "tag": "個性情緒",
+    "level": "B1",
+    "note": "Je m'ennuie."
+  },
+  {
+    "id": "v-se-debrouiller",
+    "fr": "se débrouiller",
+    "zh": "自己想辦法、應付得來",
+    "tag": "個性情緒",
+    "level": "B1",
+    "note": "Je me débrouille en français."
+  },
+  {
+    "id": "v-a-mon-avis",
+    "fr": "à mon avis",
+    "zh": "我認為",
+    "tag": "表達意見",
+    "level": "A2",
+    "note": "寫作、口說開頭很好用"
+  },
+  {
+    "id": "v-je-pense-que",
+    "fr": "je pense que",
+    "zh": "我覺得",
+    "tag": "表達意見",
+    "level": "A2"
+  },
+  {
+    "id": "v-je-trouve-que",
+    "fr": "je trouve que",
+    "zh": "我覺得",
+    "tag": "表達意見",
+    "level": "A2"
+  },
+  {
+    "id": "v-etre-d-accord",
+    "fr": "être d'accord",
+    "zh": "同意",
+    "tag": "表達意見",
+    "level": "A2",
+    "note": "Je ne suis pas d'accord."
+  },
+  {
+    "id": "v-d-un-cote-de-l-autre",
+    "fr": "d'un côté… de l'autre",
+    "zh": "一方面…另一方面",
+    "tag": "表達意見",
+    "level": "B1"
+  },
+  {
+    "id": "v-par-contre",
+    "fr": "par contre",
+    "zh": "相反地、但是",
+    "tag": "表達意見",
+    "level": "A2"
+  },
+  {
+    "id": "v-cependant",
+    "fr": "cependant",
+    "zh": "然而",
+    "tag": "表達意見",
+    "level": "B1",
+    "note": "比 mais 正式"
+  },
+  {
+    "id": "v-pourtant",
+    "fr": "pourtant",
+    "zh": "可是、儘管如此",
+    "tag": "表達意見",
+    "level": "B1"
+  },
+  {
+    "id": "v-alors",
+    "fr": "alors",
+    "zh": "那麼、所以",
+    "tag": "表達意見",
+    "level": "A2"
+  },
+  {
+    "id": "v-c-est-pourquoi",
+    "fr": "c'est pourquoi",
+    "zh": "這就是為什麼",
+    "tag": "表達意見",
+    "level": "B1"
+  },
+  {
+    "id": "v-grace-a",
+    "fr": "grâce à",
+    "zh": "多虧了",
+    "tag": "表達意見",
+    "level": "B1",
+    "note": "正面原因"
+  },
+  {
+    "id": "v-a-cause-de",
+    "fr": "à cause de",
+    "zh": "因為（負面）",
+    "tag": "表達意見",
+    "level": "B1",
+    "note": "à cause de la pluie"
+  },
+  {
+    "id": "v-d-abord",
+    "fr": "d'abord",
+    "zh": "首先",
+    "tag": "表達意見",
+    "level": "A2",
+    "note": "ensuite、puis、enfin"
+  },
+  {
+    "id": "v-enfin",
+    "fr": "enfin",
+    "zh": "最後、終於",
+    "tag": "表達意見",
+    "level": "A2"
+  },
+  {
+    "id": "v-en-plus",
+    "fr": "en plus",
+    "zh": "此外",
+    "tag": "表達意見",
+    "level": "A2"
+  },
+  {
+    "id": "v-par-exemple",
+    "fr": "par exemple",
+    "zh": "例如",
+    "tag": "表達意見",
+    "level": "A2"
+  },
+  {
+    "id": "v-il-faut",
+    "fr": "il faut",
+    "zh": "必須",
+    "tag": "表達意見",
+    "level": "A2",
+    "note": "+ 原形動詞"
+  },
+  {
+    "id": "v-pour-et-le-contre",
+    "fr": "le pour et le contre",
+    "zh": "優缺點",
+    "tag": "表達意見",
+    "level": "B1"
+  },
+  {
+    "id": "v-avantage-l-inconvenient-m",
+    "fr": "l'avantage / l'inconvénient (m.)",
+    "zh": "優點 / 缺點",
+    "tag": "表達意見",
+    "level": "B1"
+  },
+  {
+    "id": "v-en-conclusion",
+    "fr": "en conclusion",
+    "zh": "總之",
+    "tag": "表達意見",
+    "level": "B1",
+    "note": "寫作結尾"
+  },
+  {
+    "id": "v-bien-que",
+    "fr": "bien que",
+    "zh": "雖然",
+    "tag": "表達意見",
+    "level": "B1",
+    "note": "後面接虛擬式"
+  },
+  {
+    "id": "v-se-souvenir-de",
+    "fr": "se souvenir de",
+    "zh": "記得",
+    "tag": "進階動詞",
+    "level": "B1",
+    "note": "Je me souviens de toi."
+  },
+  {
+    "id": "v-oublier",
+    "fr": "oublier",
+    "zh": "忘記",
+    "tag": "進階動詞",
+    "level": "A2"
+  },
+  {
+    "id": "v-se-rendre-compte",
+    "fr": "se rendre compte",
+    "zh": "意識到",
+    "tag": "進階動詞",
+    "level": "B1"
+  },
+  {
+    "id": "v-se-plaindre",
+    "fr": "se plaindre",
+    "zh": "抱怨",
+    "tag": "進階動詞",
+    "level": "B1"
+  },
+  {
+    "id": "v-se-passer",
+    "fr": "se passer",
+    "zh": "發生",
+    "tag": "進階動詞",
+    "level": "A2",
+    "note": "Qu'est-ce qui se passe ?"
+  },
+  {
+    "id": "v-se-depecher",
+    "fr": "se dépêcher",
+    "zh": "趕快",
+    "tag": "進階動詞",
+    "level": "A2",
+    "note": "Dépêche-toi !"
+  },
+  {
+    "id": "v-s-occuper-de",
+    "fr": "s'occuper de",
+    "zh": "照顧、負責",
+    "tag": "進階動詞",
+    "level": "B1"
+  },
+  {
+    "id": "v-s-habituer-a",
+    "fr": "s'habituer à",
+    "zh": "習慣",
+    "tag": "進階動詞",
+    "level": "B1",
+    "note": "Je m'habitue au froid."
+  },
+  {
+    "id": "v-profiter-de",
+    "fr": "profiter de",
+    "zh": "利用、好好享受",
+    "tag": "進階動詞",
+    "level": "B1",
+    "note": "profiter du soleil"
+  },
+  {
+    "id": "v-manquer",
+    "fr": "manquer",
+    "zh": "缺少、想念",
+    "tag": "進階動詞",
+    "level": "B1",
+    "note": "Tu me manques. = 我想你（主詞是被想的人）"
+  },
+  {
+    "id": "v-reussir-a",
+    "fr": "réussir à",
+    "zh": "成功做到",
+    "tag": "進階動詞",
+    "level": "A2"
+  },
+  {
+    "id": "v-essayer-de",
+    "fr": "essayer de",
+    "zh": "試著",
+    "tag": "進階動詞",
+    "level": "A2"
+  },
+  {
+    "id": "v-arreter-de",
+    "fr": "arrêter de",
+    "zh": "停止",
+    "tag": "進階動詞",
+    "level": "A2",
+    "note": "arrêter de fumer"
+  },
+  {
+    "id": "v-commencer-a",
+    "fr": "commencer à",
+    "zh": "開始",
+    "tag": "進階動詞",
+    "level": "A2"
+  },
+  {
+    "id": "v-decider-de",
+    "fr": "décider de",
+    "zh": "決定",
+    "tag": "進階動詞",
+    "level": "A2"
+  },
+  {
+    "id": "v-permettre",
+    "fr": "permettre",
+    "zh": "允許、讓…能夠",
+    "tag": "進階動詞",
+    "level": "B1",
+    "note": "Internet permet de…"
+  },
+  {
+    "id": "v-proposer",
+    "fr": "proposer",
+    "zh": "提議",
+    "tag": "進階動詞",
+    "level": "A2"
+  },
+  {
+    "id": "v-prevoir",
+    "fr": "prévoir",
+    "zh": "預計、預報",
+    "tag": "進階動詞",
+    "level": "B1"
+  },
+  {
+    "id": "v-expliquer",
+    "fr": "expliquer",
+    "zh": "解釋",
+    "tag": "進階動詞",
+    "level": "A2"
+  },
+  {
+    "id": "v-conseiller",
+    "fr": "conseiller",
+    "zh": "建議",
+    "tag": "進階動詞",
+    "level": "A2",
+    "note": "le conseil = 建議"
+  },
+  {
+    "id": "v-emprunter",
+    "fr": "emprunter",
+    "zh": "借（入）",
+    "tag": "進階動詞",
+    "level": "B1",
+    "note": "prêter = 借（出）"
+  },
+  {
+    "id": "v-preter",
+    "fr": "prêter",
+    "zh": "借（出）",
+    "tag": "進階動詞",
+    "level": "B1"
+  },
+  {
+    "id": "v-rendre",
+    "fr": "rendre",
+    "zh": "歸還、使變得",
+    "tag": "進階動詞",
+    "level": "B1",
+    "note": "rendre visite à qqn = 拜訪某人"
+  },
+  {
+    "id": "v-tenir",
+    "fr": "tenir",
+    "zh": "拿著、遵守",
+    "tag": "進階動詞",
+    "level": "B1",
+    "note": "tenir une promesse"
+  },
+  {
+    "id": "v-valoir-la-peine",
+    "fr": "valoir la peine",
+    "zh": "值得",
+    "tag": "進階動詞",
+    "level": "B1",
+    "note": "Ça vaut la peine."
+  },
+  {
+    "id": "v-se-mettre-d-accord",
+    "fr": "se mettre d'accord",
+    "zh": "達成共識",
+    "tag": "進階動詞",
+    "level": "B1"
   }
 ]

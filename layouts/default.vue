@@ -22,7 +22,11 @@ const tabs = [
   { to: '/progress', label: '進度' },
 ]
 const isActive = (to: string) => (to === '/' ? route.path === '/' : route.path.startsWith(to))
-const showTabs = computed(() => !route.path.startsWith('/practice') && !route.path.startsWith('/notes/edit'))
+// 頁面可以設 focus-mode 暫時收起下方選單（例如單字卡複習中）
+const focusMode = useState<boolean>('focus-mode', () => false)
+const showTabs = computed(
+  () => !focusMode.value && !route.path.startsWith('/practice') && !route.path.startsWith('/notes/edit'),
+)
 </script>
 
 <template>

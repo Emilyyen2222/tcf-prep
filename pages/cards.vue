@@ -1,16 +1,20 @@
 <script setup lang="ts">
 import type { Card } from '~/types'
-import { MAX_BOX, allCards, buildCardSession, cardTags, dueCards, newCards, nextProgress } from '~/composables/useCards'
+import { LEVELS } from '~/types'
+import { BUILTIN_CARDS, MAX_BOX, allCards, buildCardSession, cardTags, dueCards, masteredProgress, newCards, nextProgress } from '~/composables/useCards'
 
 const { cards: userCards, progress, setProgress, removeCard } = useNotebook()
 const { supported, speak } = useSpeech()
 
+const level = useLevel('cards')
+const BUILTIN_LEVELS = new Set(BUILTIN_CARDS.map((c) => c.level))
+const levelChoices = LEVELS.filter((l) => BUILTIN_LEVELS.has(l))
 const tag = ref<string | null>(null)
 const reverse = ref(false)
 const tags = computed(() => cardTags(userCards.value))
 const pool = computed(() => allCards(userCards.value).filter((c) => !tag.value || c.tag === tag.value))
 const dueCount = computed(() => dueCards(pool.value, progress.value).length)
-const newCount = computed(() => newCards(pool.value, progress.value).length)
+const newCount = computed(() => newCards(pool.value, progress.value, level.value).length)
 const masteredCount = computed(() => pool.value.filter((c) => (progress.value[c.id]?.box ?? 0) >= MAX_BOX - 1).length)
 
 // 複習中
@@ -20,11 +24,16 @@ const flipped = ref(false)
 const knewCount = ref(0)
 const missCount = ref(0)
 const inSession = computed(() => queue.value.length > 0)
+
+// 複習中收起下方選單，免得擋到按鈕
+const focusMode = useState<boolean>('focus-mode', () => false)
+watch(inSession, (v) => (focusMode.value = v), { immediate: true })
+onBeforeUnmount(() => (focusMode.value = false))
 const current = computed(() => queue.value[index.value])
 const finished = computed(() => inSession.value && index.value >= queue.value.length)
 
 function start() {
-  queue.value = buildCardSession(pool.value, progress.value)
+  queue.value = buildCardSession(pool.value, progress.value, level.value)
   index.value = 0
   flipped.value = false
   knewCount.value = 0
@@ -53,6 +62,19 @@ async function answer(knew: boolean) {
     queue.value = [...queue.value, card] // 不會的這輪最後再出一次
   }
   await setProgress(nextProgress(card.id, progress.value[card.id], knew))
+  advance()
+}
+
+/** 已經會了的字：直接標成很熟，這輪也不再出現 */
+async function tooEasy() {
+  const card = current.value
+  knewCount.value++
+  queue.value = queue.value.filter((c, i) => i <= index.value || c.id !== card.id)
+  await setProgress(masteredProgress(card.id))
+  advance()
+}
+
+function advance() {
   index.value++
   flipped.value = false
   if (!reverse.value) sayCurrent()
@@ -100,7 +122,10 @@ useHead({ title: '單字卡 · TCF Prep' })
         class="flex min-h-72 w-full flex-col items-center justify-center gap-3 rounded-2xl border border-brand-border bg-white p-6 text-center shadow-sm"
         @click="flipped ? null : flip()"
       >
-        <span class="rounded-full bg-brand-soft px-3 py-0.5 text-caption font-bold text-brand-accent">{{ current.tag }}</span>
+        <span class="flex gap-1.5">
+          <span class="rounded-full bg-brand-soft px-3 py-0.5 text-caption font-bold text-brand-accent">{{ current.tag }}</span>
+          <span v-if="current.level" class="rounded-full border border-brand-border px-3 py-0.5 text-caption font-bold text-brand-muted">{{ current.level }}</span>
+        </span>
         <p v-if="!reverse || flipped" class="text-h2 font-bold" lang="fr">{{ current.fr }}</p>
         <p v-if="reverse || flipped" :class="reverse && !flipped ? 'text-h2 font-bold' : 'text-h3 text-brand-ink'">{{ current.zh }}</p>
         <p v-if="flipped && current.note" class="text-body text-brand-muted">{{ current.note }}</p>
@@ -122,6 +147,9 @@ useHead({ title: '單字卡 · TCF Prep' })
         </button>
         <button type="button" class="h-14 rounded-xl border-2 border-green-200 bg-green-50 text-body-lg font-bold text-brand-green" @click="answer(true)">
           會
+        </button>
+        <button type="button" class="col-span-2 h-10 text-small font-bold text-brand-muted underline" @click="tooEasy">
+          太簡單，以後不用再出現
         </button>
       </div>
       <button
@@ -145,7 +173,7 @@ useHead({ title: '單字卡 · TCF Prep' })
         :key="t ?? 'all'"
         type="button"
         class="h-9 shrink-0 rounded-full border-2 px-4 text-small font-bold"
-        :class="tag === t ? 'border-brand-accent bg-brand-primary text-brand-on-primary' : 'border-brand-border bg-white text-brand-muted'"
+        :class="tag === t ? 'border-brand-primary bg-brand-primary text-brand-on-primary' : 'border-brand-border bg-white text-brand-muted'"
         @click="tag = t"
       >
         {{ t ?? '全部' }}
@@ -175,6 +203,24 @@ useHead({ title: '單字卡 · TCF Prep' })
       >
         {{ dueCount || newCount ? `開始（${dueCount + Math.min(newCount, 10)} 張）` : '今天都複習完了 🎉' }}
       </button>
+      <div class="mt-4 flex items-center gap-3 border-t border-brand-border pt-4">
+        <span class="shrink-0 text-body font-bold">單字程度</span>
+        <div class="flex flex-1 gap-1 rounded-xl border border-brand-border bg-white p-1" role="radiogroup" aria-label="單字程度">
+          <button
+            v-for="l in levelChoices"
+            :key="l"
+            type="button"
+            role="radio"
+            :aria-checked="level === l"
+            class="flex-1 rounded-lg py-1.5 text-body font-bold"
+            :class="level === l ? 'bg-brand-primary text-brand-on-primary' : 'text-brand-muted'"
+            @click="level = l"
+          >
+            {{ l }}
+          </button>
+        </div>
+      </div>
+      <p class="mt-2 text-caption text-brand-muted">新單字先從這個程度開始。已經會的字，翻面後按「太簡單」就不會再出現。</p>
       <label class="mt-3 flex items-center gap-2 text-body text-brand-muted">
         <input v-model="reverse" type="checkbox" class="h-5 w-5 accent-brand-accent" />
         看中文想法文（比較難）

@@ -45,6 +45,7 @@ for (const v of vocab) {
   if (vocabIds.has(v.id)) errors.push(`vocab.json ${v.id}: id 重複`)
   vocabIds.add(v.id)
   if (!v.fr || !v.zh) errors.push(`vocab.json ${v.id}: 缺少 fr / zh`)
+  if (!['A1', 'A2', 'B1', 'B2'].includes(v.level)) errors.push(`vocab.json ${v.id}: level 不正確`)
 }
 
 console.log(`筆記 ${notes.length} 篇，單字 ${vocab.length} 個`)

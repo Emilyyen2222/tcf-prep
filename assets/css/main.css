@@ -25,6 +25,18 @@ textarea {
   font-size: 16px;
 }
 
+/* iOS Safari 的日期欄位有內建最小寬度，放在兩欄格線裡會撐破、蓋到隔壁欄，
+   拿掉原生外觀並允許縮小；iOS 也預設把日期置中，改回靠左跟其他欄位對齊 */
+input[type='date'] {
+  -webkit-appearance: none;
+  appearance: none;
+  min-width: 0;
+  text-align: left;
+}
+input[type='date']::-webkit-date-and-time-value {
+  text-align: left;
+}
+
 /* 文法筆記內文（utils/renderNote.ts 產生的 HTML） */
 .note-body {
   @apply space-y-3 text-body text-brand-ink;

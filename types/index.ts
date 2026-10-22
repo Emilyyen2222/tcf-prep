@@ -73,6 +73,8 @@ export interface Card {
   zh: string
   note?: string | null
   tag?: string
+  /** 內建單字才有；自己加的沒有等級 */
+  level?: Level
 }
 
 export interface UserCard extends Card {

@@ -1,4 +1,5 @@
-import type { Card, CardProgress, UserCard } from '~/types'
+import type { Card, CardProgress, Level, UserCard } from '~/types'
+import { LEVELS } from '~/types'
 import vocab from '~/data/vocab.json'
 import { localDay } from '~/composables/useBank'
 
@@ -27,6 +28,11 @@ function addDays(days: number) {
   return localDay(d)
 }
 
+/** 按「太簡單」：直接放到最熟的盒子，很久以後才會再出現 */
+export function masteredProgress(cardId: string): CardProgress {
+  return { card_id: cardId, box: MAX_BOX, due_on: addDays(INTERVAL_DAYS[MAX_BOX]), reviewed_at: new Date().toISOString() }
+}
+
 export function nextProgress(cardId: string, prev: CardProgress | undefined, knew: boolean): CardProgress {
   const box = knew ? Math.min((prev?.box ?? 0) + 1, MAX_BOX) : 0
   return { card_id: cardId, box, due_on: addDays(knew ? INTERVAL_DAYS[box] : 0), reviewed_at: new Date().toISOString() }
@@ -40,11 +46,21 @@ export function dueCards(cards: Card[], progress: Record<string, CardProgress>) 
     .sort((a, b) => progress[a.id].due_on.localeCompare(progress[b.id].due_on))
 }
 
-export function newCards(cards: Card[], progress: Record<string, CardProgress>) {
-  return cards.filter((c) => !progress[c.id])
+/**
+ * 還沒學過的卡。順序：自己加的 → 選的程度 → 更難的 → 更簡單的。
+ * 簡單的排最後，是因為覺得太簡單時會把程度往上調。
+ */
+export function newCards(cards: Card[], progress: Record<string, CardProgress>, level: Level) {
+  const target = LEVELS.indexOf(level)
+  const rank = (c: Card) => {
+    if (!c.level) return -1
+    const d = LEVELS.indexOf(c.level) - target
+    return d >= 0 ? d : 10 - d
+  }
+  return cards.filter((c) => !progress[c.id]).sort((a, b) => rank(a) - rank(b))
 }
 
 /** 一輪複習：先到期的舊卡，再補最多 NEW_PER_SESSION 張新卡 */
-export function buildCardSession(cards: Card[], progress: Record<string, CardProgress>) {
-  return [...dueCards(cards, progress), ...newCards(cards, progress).slice(0, NEW_PER_SESSION)]
+export function buildCardSession(cards: Card[], progress: Record<string, CardProgress>, level: Level) {
+  return [...dueCards(cards, progress), ...newCards(cards, progress, level).slice(0, NEW_PER_SESSION)]
 }

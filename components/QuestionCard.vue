@@ -94,7 +94,7 @@ const letters = ['A', 'B', 'C', 'D', 'E']
           <button
             type="button"
             class="h-12 rounded-xl border-2 px-4 text-body font-medium transition"
-            :class="slow ? 'border-brand-accent bg-brand-primary text-brand-on-primary' : 'border-brand-border bg-white text-brand-muted'"
+            :class="slow ? 'border-brand-primary bg-brand-primary text-brand-on-primary' : 'border-brand-border bg-white text-brand-muted'"
             @click="slow = !slow"
           >
             慢速
