@@ -43,5 +43,8 @@ Emily 個人用的 TCF Canada 法文練習網站。目標：每天打開就練�
 - 型別檢查：`npx nuxt typecheck`
 
 ## 現況
-- 第一版已完成，本機 `npm run dev` 可以跑，有一個 initial commit，remote 是 `github.com/Emilyyen2222/tcf-prep`
-- Supabase 專案 `tcf-prep` 已建立，`.env` 和 migration 可能還沒設定，先問她。migration 有兩個：0001（作答、模擬考）、0002（筆記、單字卡）
+- 正式網址：https://tcf-prep-emily.vercel.app（Vercel，push 到 GitHub main 就自動部署）。GitHub repo 是 `Emilyyen2222/tcf-prep`，本機推送用 EmilyChen0320（已加成 collaborator）
+- Supabase 專案 `tcf-prep`（ogcxbyyfwzqpyhkkpjuc）已接好，0001、0002 migration 都跑過；本機 `.env` 和 Vercel 環境變數都設好了（兩個值在 Vercel 是 Config 類型，Secret 類型存不了）
+- 登入用 email + 密碼。不用 magic link：iPhone 主畫面 App 和 Safari 的登入狀態分開，點信裡的連結只會登入 Safari；免費方案沒設 SMTP 也不能改信件內容加驗證碼。Emily 2026-10-22 在手機建好帳號並登入
+- Emily 把網站加到 iPhone 主畫面使用。更新網站後要請她把 App 從多工畫面滑掉再打開，才會載入新版
+- 檢查畫面用 Playwright（裝在 Claude 的暫存資料夾，瀏覽器在 ~/Library/Caches/ms-playwright），iPhone 相關問題用 webkit + devices['iPhone 14'] 測
