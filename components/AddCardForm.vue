@@ -18,7 +18,7 @@ async function save() {
 }
 
 const inputClass =
-  'h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 text-brand-brown outline-none focus:border-brand-orange'
+  'h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 text-brand-ink outline-none focus:border-brand-accent'
 </script>
 
 <template>
@@ -29,7 +29,7 @@ const inputClass =
     <div class="flex items-center gap-3">
       <button
         type="submit"
-        class="h-12 rounded-xl bg-brand-orange px-6 text-body font-bold text-white transition active:bg-brand-orange-dark disabled:opacity-50"
+        class="h-12 rounded-xl bg-brand-primary px-6 text-body font-bold text-brand-on-primary transition active:bg-brand-primary-dark disabled:opacity-50"
         :disabled="!fr.trim() || !zh.trim()"
       >
         加入單字卡

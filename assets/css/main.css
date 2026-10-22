@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 與 emily_gm 一致：拉丁字母走 Poppins，中文 fallback 到 Huninn（粉圓體）。
+/* 拉丁字母走 Fredoka，中文 fallback 到 Huninn（粉圓體）。
    html 與 body 都要設，Preflight 會在 html 上寫一份 font-family。 */
 html,
 body {
-  font-family: 'Poppins', 'Huninn', sans-serif;
+  font-family: 'Fredoka', 'Huninn', sans-serif;
 }
 
 /* 手機版防呆：鎖死橫向捲動 */
@@ -27,7 +27,7 @@ textarea {
 
 /* 文法筆記內文（utils/renderNote.ts 產生的 HTML） */
 .note-body {
-  @apply space-y-3 text-body text-brand-brown;
+  @apply space-y-3 text-body text-brand-ink;
 }
 .note-body h3 {
   @apply pt-2 text-h3 font-bold;
@@ -36,13 +36,13 @@ textarea {
   @apply pt-1 text-body-lg font-bold;
 }
 .note-body strong {
-  @apply font-bold text-brand-orange-dark;
+  @apply font-bold text-brand-accent;
 }
 .note-body ul {
   @apply list-disc space-y-1 pl-5;
 }
 .note-body aside {
-  @apply rounded-xl border-2 border-brand-gold bg-brand-cream p-3;
+  @apply rounded-xl border-2 border-brand-peach bg-brand-bg p-3;
 }
 .note-body .note-table {
   @apply overflow-x-auto rounded-xl border border-brand-border;
@@ -51,7 +51,7 @@ textarea {
   @apply w-full border-collapse text-small;
 }
 .note-body th {
-  @apply bg-brand-hover px-2.5 py-2 text-left align-bottom font-bold;
+  @apply bg-brand-soft px-2.5 py-2 text-left align-bottom font-bold;
   word-break: keep-all; /* 中文表頭不要拆成一字一行 */
 }
 .note-body td {

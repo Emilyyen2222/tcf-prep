@@ -26,21 +26,21 @@ const showTabs = computed(() => !route.path.startsWith('/practice') && !route.pa
 </script>
 
 <template>
-  <div class="min-h-screen bg-brand-cream text-brand-brown" :class="showTabs ? 'pb-28' : 'pb-10'">
+  <div class="min-h-screen bg-brand-bg text-brand-ink" :class="showTabs ? 'pb-28' : 'pb-10'">
     <header
-      class="sticky top-0 z-10 border-b border-brand-border bg-brand-cream/95 backdrop-blur"
+      class="sticky top-0 z-10 border-b border-brand-border bg-brand-bg/95 backdrop-blur"
       style="padding-top: env(safe-area-inset-top)"
     >
       <div class="mx-auto flex max-w-lg items-center justify-between px-4 py-3">
         <NuxtLink to="/" class="flex items-center gap-2">
-          <span class="grid h-8 w-8 place-items-center rounded-lg bg-brand-orange text-small font-bold text-white">Fr</span>
+          <img src="/favicon.svg" alt="" class="h-8 w-8" />
           <span class="text-h3 font-bold">TCF Prep</span>
         </NuxtLink>
         <template v-if="$supabase">
           <NuxtLink v-if="mode === 'cloud'" to="/login" class="text-caption font-bold text-brand-green">● 已同步</NuxtLink>
-          <NuxtLink v-else to="/login" class="text-body font-medium text-brand-orange underline">登入同步</NuxtLink>
+          <NuxtLink v-else to="/login" class="text-body font-medium text-brand-accent underline">登入同步</NuxtLink>
         </template>
-        <span v-else class="text-caption font-bold text-brand-brown-light" title="尚未設定 Supabase，紀錄存在這個瀏覽器">
+        <span v-else class="text-caption font-bold text-brand-muted" title="尚未設定 Supabase，紀錄存在這個瀏覽器">
           ● 本機紀錄
         </span>
       </div>
@@ -56,7 +56,7 @@ const showTabs = computed(() => !route.path.startsWith('/practice') && !route.pa
 
     <nav
       v-if="showTabs"
-      class="fixed inset-x-0 bottom-0 border-t border-brand-border bg-brand-cream/95 px-4 pt-3 backdrop-blur"
+      class="fixed inset-x-0 bottom-0 border-t border-brand-border bg-brand-bg/95 px-4 pt-3 backdrop-blur"
       style="padding-bottom: calc(0.75rem + env(safe-area-inset-bottom))"
       aria-label="主選單"
     >
@@ -66,7 +66,7 @@ const showTabs = computed(() => !route.path.startsWith('/practice') && !route.pa
           :key="t.to"
           :to="t.to"
           class="flex-1 rounded-xl py-2.5 text-center text-body font-medium transition"
-          :class="isActive(t.to) ? 'bg-brand-orange text-white' : 'text-brand-brown-light'"
+          :class="isActive(t.to) ? 'bg-brand-primary text-brand-on-primary' : 'text-brand-muted'"
         >
           {{ t.label }}
         </NuxtLink>

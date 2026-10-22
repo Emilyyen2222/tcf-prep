@@ -72,21 +72,21 @@ useHead({ title: '單字卡 · TCF Prep' })
   <!-- 複習中 -->
   <div v-if="inSession" class="space-y-4">
     <div class="flex items-center gap-3">
-      <button type="button" class="grid h-9 w-9 place-items-center rounded-full text-h3 text-brand-brown-light" aria-label="結束複習" @click="stopSession">✕</button>
+      <button type="button" class="grid h-9 w-9 place-items-center rounded-full text-h3 text-brand-muted" aria-label="結束複習" @click="stopSession">✕</button>
       <div class="h-2 flex-1 overflow-hidden rounded-full bg-brand-panel">
-        <div class="h-full rounded-full bg-brand-orange transition-all" :style="{ width: `${(Math.min(index, queue.length) / queue.length) * 100}%` }" />
+        <div class="h-full rounded-full bg-brand-primary transition-all" :style="{ width: `${(Math.min(index, queue.length) / queue.length) * 100}%` }" />
       </div>
-      <span class="text-caption text-brand-brown-light">{{ Math.min(index + 1, queue.length) }} / {{ queue.length }}</span>
+      <span class="text-caption text-brand-muted">{{ Math.min(index + 1, queue.length) }} / {{ queue.length }}</span>
     </div>
 
     <div v-if="finished" class="space-y-4 rounded-2xl border border-brand-border bg-white p-6 text-center shadow-sm">
       <p class="text-h2 font-bold">這輪完成了！</p>
-      <p class="text-body text-brand-brown-light">會 {{ knewCount }} 次 · 不會 {{ missCount }} 次</p>
-      <p class="text-body text-brand-brown-light">答「會」的卡會隔幾天再出現，越熟隔越久。</p>
+      <p class="text-body text-brand-muted">會 {{ knewCount }} 次 · 不會 {{ missCount }} 次</p>
+      <p class="text-body text-brand-muted">答「會」的卡會隔幾天再出現，越熟隔越久。</p>
       <button
         v-if="newCount"
         type="button"
-        class="h-12 w-full rounded-xl bg-brand-orange text-body font-bold text-white transition active:bg-brand-orange-dark"
+        class="h-12 w-full rounded-xl bg-brand-primary text-body font-bold text-brand-on-primary transition active:bg-brand-primary-dark"
         @click="start"
       >
         再學 {{ Math.min(newCount, 10) }} 張新卡
@@ -100,11 +100,11 @@ useHead({ title: '單字卡 · TCF Prep' })
         class="flex min-h-72 w-full flex-col items-center justify-center gap-3 rounded-2xl border border-brand-border bg-white p-6 text-center shadow-sm"
         @click="flipped ? null : flip()"
       >
-        <span class="rounded-full bg-brand-hover px-3 py-0.5 text-caption font-bold text-brand-orange">{{ current.tag }}</span>
+        <span class="rounded-full bg-brand-soft px-3 py-0.5 text-caption font-bold text-brand-accent">{{ current.tag }}</span>
         <p v-if="!reverse || flipped" class="text-h2 font-bold" lang="fr">{{ current.fr }}</p>
-        <p v-if="reverse || flipped" :class="reverse && !flipped ? 'text-h2 font-bold' : 'text-h3 text-brand-brown'">{{ current.zh }}</p>
-        <p v-if="flipped && current.note" class="text-body text-brand-brown-light">{{ current.note }}</p>
-        <p v-if="!flipped" class="mt-4 text-caption text-brand-brown-light">想一下，再點卡片看答案</p>
+        <p v-if="reverse || flipped" :class="reverse && !flipped ? 'text-h2 font-bold' : 'text-h3 text-brand-ink'">{{ current.zh }}</p>
+        <p v-if="flipped && current.note" class="text-body text-brand-muted">{{ current.note }}</p>
+        <p v-if="!flipped" class="mt-4 text-caption text-brand-muted">想一下，再點卡片看答案</p>
       </button>
 
       <button
@@ -127,7 +127,7 @@ useHead({ title: '單字卡 · TCF Prep' })
       <button
         v-else
         type="button"
-        class="h-14 w-full rounded-xl bg-brand-brown text-body-lg font-bold text-white transition active:bg-brand-brown-hover"
+        class="h-14 w-full rounded-xl bg-brand-ink text-body-lg font-bold text-white transition active:bg-brand-ink-hover"
         @click="flip"
       >
         看答案
@@ -145,7 +145,7 @@ useHead({ title: '單字卡 · TCF Prep' })
         :key="t ?? 'all'"
         type="button"
         class="h-9 shrink-0 rounded-full border-2 px-4 text-small font-bold"
-        :class="tag === t ? 'border-brand-orange bg-brand-orange text-white' : 'border-brand-border bg-white text-brand-brown-light'"
+        :class="tag === t ? 'border-brand-accent bg-brand-primary text-brand-on-primary' : 'border-brand-border bg-white text-brand-muted'"
         @click="tag = t"
       >
         {{ t ?? '全部' }}
@@ -155,28 +155,28 @@ useHead({ title: '單字卡 · TCF Prep' })
     <section class="rounded-2xl border border-brand-border bg-white p-4 shadow-sm">
       <div class="grid grid-cols-3 gap-2 text-center">
         <div>
-          <p class="text-h2 font-bold text-brand-orange">{{ dueCount }}</p>
-          <p class="text-caption text-brand-brown-light">要複習</p>
+          <p class="text-h2 font-bold text-brand-accent">{{ dueCount }}</p>
+          <p class="text-caption text-brand-muted">要複習</p>
         </div>
         <div>
           <p class="text-h2 font-bold">{{ newCount }}</p>
-          <p class="text-caption text-brand-brown-light">還沒學</p>
+          <p class="text-caption text-brand-muted">還沒學</p>
         </div>
         <div>
           <p class="text-h2 font-bold text-brand-green">{{ masteredCount }}</p>
-          <p class="text-caption text-brand-brown-light">很熟了</p>
+          <p class="text-caption text-brand-muted">很熟了</p>
         </div>
       </div>
       <button
         type="button"
-        class="mt-4 h-12 w-full rounded-xl bg-brand-orange text-body font-bold text-white transition active:bg-brand-orange-dark disabled:opacity-50"
+        class="mt-4 h-12 w-full rounded-xl bg-brand-primary text-body font-bold text-brand-on-primary transition active:bg-brand-primary-dark disabled:opacity-50"
         :disabled="!dueCount && !newCount"
         @click="start"
       >
         {{ dueCount || newCount ? `開始（${dueCount + Math.min(newCount, 10)} 張）` : '今天都複習完了 🎉' }}
       </button>
-      <label class="mt-3 flex items-center gap-2 text-body text-brand-brown-light">
-        <input v-model="reverse" type="checkbox" class="h-5 w-5 accent-brand-orange" />
+      <label class="mt-3 flex items-center gap-2 text-body text-brand-muted">
+        <input v-model="reverse" type="checkbox" class="h-5 w-5 accent-brand-accent" />
         看中文想法文（比較難）
       </label>
     </section>
@@ -184,7 +184,7 @@ useHead({ title: '單字卡 · TCF Prep' })
     <section class="rounded-2xl border border-brand-border bg-white p-4">
       <button type="button" class="flex w-full items-center justify-between text-left" :aria-expanded="showAdd" @click="showAdd = !showAdd">
         <span class="text-h3 font-bold">＋ 新增單字</span>
-        <span class="text-brand-brown-light">{{ showAdd ? '−' : '+' }}</span>
+        <span class="text-brand-muted">{{ showAdd ? '−' : '+' }}</span>
       </button>
       <AddCardForm v-if="showAdd" class="mt-3" />
     </section>
@@ -192,13 +192,13 @@ useHead({ title: '單字卡 · TCF Prep' })
     <section v-if="userCards.length" class="rounded-2xl border border-brand-border bg-white p-4">
       <button type="button" class="flex w-full items-center justify-between text-left" :aria-expanded="showMine" @click="showMine = !showMine">
         <span class="text-h3 font-bold">我加的單字（{{ userCards.length }}）</span>
-        <span class="text-brand-brown-light">{{ showMine ? '−' : '+' }}</span>
+        <span class="text-brand-muted">{{ showMine ? '−' : '+' }}</span>
       </button>
       <ul v-if="showMine" class="mt-3 divide-y divide-brand-border">
         <li v-for="c in userCards" :key="c.id" class="flex items-start justify-between gap-3 py-2.5">
           <div>
             <p class="text-body font-bold" lang="fr">{{ c.fr }}</p>
-            <p class="text-small text-brand-brown-light">{{ c.zh }}<template v-if="c.note"> · {{ c.note }}</template></p>
+            <p class="text-small text-brand-muted">{{ c.zh }}<template v-if="c.note"> · {{ c.note }}</template></p>
           </div>
           <button type="button" class="shrink-0 text-small text-red-600 underline" @click="remove(c)">刪除</button>
         </li>

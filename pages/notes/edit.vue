@@ -43,10 +43,10 @@ useHead({ title: () => `${id.value ? '編輯' : '寫'}筆記 · TCF Prep` })
 <template>
   <form class="space-y-4" @submit.prevent="save">
     <div class="flex items-center justify-between">
-      <NuxtLink :to="id ? `/notes/${id}` : '/notes'" class="text-body text-brand-brown-light">取消</NuxtLink>
+      <NuxtLink :to="id ? `/notes/${id}` : '/notes'" class="text-body text-brand-muted">取消</NuxtLink>
       <button
         type="submit"
-        class="h-10 rounded-xl bg-brand-orange px-5 text-body font-bold text-white transition active:bg-brand-orange-dark disabled:opacity-50"
+        class="h-10 rounded-xl bg-brand-primary px-5 text-body font-bold text-brand-on-primary transition active:bg-brand-primary-dark disabled:opacity-50"
         :disabled="!title.trim() || saving"
       >
         儲存
@@ -58,7 +58,7 @@ useHead({ title: () => `${id.value ? '編輯' : '寫'}筆記 · TCF Prep` })
       type="text"
       required
       placeholder="標題，例如 Unit 14：se 動詞的過去式"
-      class="h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 font-bold text-brand-brown outline-none focus:border-brand-orange"
+      class="h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 font-bold text-brand-ink outline-none focus:border-brand-accent"
     />
 
     <div class="flex gap-1 rounded-xl border border-brand-border bg-white p-1">
@@ -67,7 +67,7 @@ useHead({ title: () => `${id.value ? '編輯' : '寫'}筆記 · TCF Prep` })
         :key="label"
         type="button"
         class="flex-1 rounded-lg py-2 text-body font-medium"
-        :class="preview === v ? 'bg-brand-orange text-white' : 'text-brand-brown-light'"
+        :class="preview === v ? 'bg-brand-primary text-brand-on-primary' : 'text-brand-muted'"
         @click="preview = v"
       >
         {{ label }}
@@ -79,11 +79,11 @@ useHead({ title: () => `${id.value ? '編輯' : '寫'}筆記 · TCF Prep` })
       v-model="body"
       rows="16"
       :placeholder="placeholder"
-      class="w-full rounded-xl border-2 border-brand-border bg-white p-3 text-brand-brown outline-none focus:border-brand-orange"
+      class="w-full rounded-xl border-2 border-brand-border bg-white p-3 text-brand-ink outline-none focus:border-brand-accent"
     />
     <div v-else class="min-h-48 rounded-xl border border-brand-border bg-white p-4">
       <NoteBody v-if="body.trim()" :body="body" />
-      <p v-else class="text-body text-brand-brown-light">還沒有內容。</p>
+      <p v-else class="text-body text-brand-muted">還沒有內容。</p>
     </div>
   </form>
 </template>

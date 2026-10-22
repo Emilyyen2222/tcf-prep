@@ -1,29 +1,34 @@
 import type { Config } from 'tailwindcss'
 
 /**
- * 色票、字級、字體沿用 emily_gm / SugarTopia 的同一套設計語言，
- * hex 值直接搬過來不重新調色，讓幾個 side project 視覺上是一家人。
+ * 「草莓牛奶」配色（2026-10 Emily 從配色提案裡選的）。
+ * 顏色一律從這裡挑，名稱照用途取（primary、ink…），之後換配色只要改這裡的色碼。
  */
 export default <Partial<Config>>{
   theme: {
     extend: {
       colors: {
         brand: {
-          orange: '#F9A726', // 主色：按鈕、強調色
-          'orange-dark': '#E89615', // 按鈕 hover / active
-          gold: '#FCDC94', // 米金色，漸層與淺色強調
-          brown: '#3A2513', // 主要文字顏色
-          'brown-light': '#6F5B49', // 次要／說明文字
-          'brown-hover': '#5A3B22', // 深色按鈕 hover
-          cream: '#FFF8EF', // 頁面淺色背景
-          border: '#EAD7BD', // 淺色邊框
-          panel: '#F1E3C8', // 面板邊框
-          hover: '#FEF6E4', // 選取／hover 底色
-          avatar: '#FCE3A8',
-          green: '#5A8F29', // 正向指標（答對、達標）
+          primary: '#F3A3B8', // 主要按鈕、選取中的分頁（淡草莓粉）
+          'primary-dark': '#E88CA5', // 主要按鈕按下去
+          'on-primary': '#5A1F33', // 主要按鈕上的字（淡粉底配白字太淡，改用深莓果色）
+          accent: '#BF3F64', // 連結、強調文字、輸入框焦點（要在淺色底上讀得清楚，所以比 primary 深）
+          ink: '#5A3540', // 主要文字、深色按鈕
+          'ink-hover': '#482A33', // 深色按鈕按下去
+          muted: '#7D5A64', // 次要／說明文字
+          bg: '#FFF8F6', // 頁面背景（草莓牛奶的奶白）
+          soft: '#FFEFF2', // 淺粉底：統計方塊、選取底色
+          peach: '#FBDCCB', // 閱讀文章、聽力、筆記提醒框的邊框
+          border: '#F3DCE2', // 淺色邊框
+          panel: '#F8E4E9', // 進度條底、面板邊框
+          green: '#2F7D55', // 正向指標（答對、達標）
         },
       },
-      // 8 級字級，與 emily_gm 一致：文字大小一律從這裡挑
+      boxShadow: {
+        // 卡片用淡粉色的柔和陰影，取代灰色陰影
+        sm: '0 6px 18px rgba(232, 140, 165, 0.16)',
+      },
+      // 8 級字級：文字大小一律從這裡挑
       fontSize: {
         caption: ['12px', { lineHeight: '1.5', letterSpacing: '0.04em' }],
         small: ['13px', { lineHeight: '1.5' }],
@@ -35,7 +40,8 @@ export default <Partial<Config>>{
         display: ['clamp(26px, 3vw, 28px)', { lineHeight: '1.3', letterSpacing: '-0.005em' }],
       },
       fontFamily: {
-        sans: ['Poppins', 'Huninn', 'sans-serif'],
+        // 拉丁字母用圓圓的 Fredoka，中文用粉圓體 Huninn
+        sans: ['Fredoka', 'Huninn', 'sans-serif'],
       },
     },
   },

@@ -37,14 +37,14 @@ useHead({ title: '登入 · TCF Prep' })
 
     <div v-if="!sb" class="rounded-2xl border border-brand-border bg-white p-4">
       <p class="text-body">還沒有設定 Supabase，目前紀錄存在這個瀏覽器裡。</p>
-      <p class="mt-2 text-caption text-brand-brown-light">
+      <p class="mt-2 text-caption text-brand-muted">
         在專案根目錄建立 .env，填入 NUXT_PUBLIC_SUPABASE_URL 和 NUXT_PUBLIC_SUPABASE_ANON_KEY 後重開 dev server。詳見 README。
       </p>
     </div>
 
     <div v-else-if="session" class="rounded-2xl border border-brand-border bg-white p-4">
       <p class="text-body">已登入：<b>{{ session.user.email }}</b></p>
-      <p class="mt-1 text-caption text-brand-brown-light">作答紀錄會同步到雲端，手機和電腦都看得到。</p>
+      <p class="mt-1 text-caption text-brand-muted">作答紀錄會同步到雲端，手機和電腦都看得到。</p>
       <button
         type="button"
         class="mt-4 h-12 w-full rounded-xl border-2 border-brand-border bg-white text-body font-bold"
@@ -55,23 +55,23 @@ useHead({ title: '登入 · TCF Prep' })
     </div>
 
     <form v-else class="rounded-2xl border border-brand-border bg-white p-4" @submit.prevent="send">
-      <p class="text-body text-brand-brown-light">
+      <p class="text-body text-brand-muted">
         輸入 email，會收到一封登入連結信，點了就登入，不用密碼。這台瀏覽器已經做過的題目，登入後會自動搬到雲端。
       </p>
       <label class="mt-4 block">
-        <span class="mb-1 block text-caption text-brand-brown-light">Email</span>
+        <span class="mb-1 block text-caption text-brand-muted">Email</span>
         <input
           v-model="email"
           type="email"
           autocomplete="email"
           required
           placeholder="you@example.com"
-          class="h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 focus:border-brand-orange focus:outline-none"
+          class="h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 focus:border-brand-accent focus:outline-none"
         />
       </label>
       <button
         type="submit"
-        class="mt-4 h-12 w-full rounded-xl bg-brand-orange text-body font-bold text-white transition active:bg-brand-orange-dark disabled:opacity-50"
+        class="mt-4 h-12 w-full rounded-xl bg-brand-primary text-body font-bold text-brand-on-primary transition active:bg-brand-primary-dark disabled:opacity-50"
         :disabled="busy || sent"
       >
         {{ sent ? '已寄出，請去信箱收信' : busy ? '寄送中…' : '寄送登入連結' }}

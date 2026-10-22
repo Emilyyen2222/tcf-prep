@@ -27,14 +27,22 @@ export default defineNuxtConfig({
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
         { name: 'format-detection', content: 'telephone=no' },
-        { name: 'theme-color', content: '#FFF8EF' },
+        { name: 'theme-color', content: '#FFF8F6' },
+        // 加到 iPhone 主畫面：名稱、全螢幕打開（不顯示 Safari 網址列）
+        { name: 'apple-mobile-web-app-title', content: 'TCF Prep' },
+        { name: 'apple-mobile-web-app-capable', content: 'yes' },
+        { name: 'mobile-web-app-capable', content: 'yes' },
+        { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
       ],
       link: [
         { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
+        // 主畫面 icon（草莓牛奶馬卡龍）。改了 icon 要刪掉主畫面捷徑再加一次才會更新
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/manifest.webmanifest' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap' },
-        // Huninn（粉圓體）：中文字體，與 emily_gm / SugarTopia 同一套
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap' },
+        // Huninn（粉圓體）：中文字體
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Huninn&display=swap' },
       ],
     },

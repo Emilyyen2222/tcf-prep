@@ -49,7 +49,7 @@ function pick(i: number) {
 }
 
 function optClass(i: number) {
-  if (!answered.value) return 'border-brand-border bg-white active:bg-brand-hover'
+  if (!answered.value) return 'border-brand-border bg-white active:bg-brand-soft'
   if (i === props.question.answer) return 'border-brand-green bg-green-50'
   if (i === chosen.value) return 'border-red-300 bg-red-50'
   return 'border-brand-border bg-white opacity-50'
@@ -57,7 +57,7 @@ function optClass(i: number) {
 function letterClass(i: number) {
   if (answered.value && i === props.question.answer) return 'bg-brand-green text-white'
   if (answered.value && i === chosen.value) return 'bg-red-500 text-white'
-  return 'bg-brand-hover text-brand-orange'
+  return 'bg-brand-soft text-brand-accent'
 }
 const letters = ['A', 'B', 'C', 'D', 'E']
 </script>
@@ -65,28 +65,28 @@ const letters = ['A', 'B', 'C', 'D', 'E']
 <template>
   <article class="space-y-4 rounded-2xl border border-brand-border bg-white p-4 shadow-sm">
     <div class="flex flex-wrap items-center gap-2">
-      <span class="rounded-full bg-brand-hover px-3 py-0.5 text-caption font-bold text-brand-orange">
+      <span class="rounded-full bg-brand-soft px-3 py-0.5 text-caption font-bold text-brand-accent">
         {{ SKILL_LABEL[question.skill] }}
       </span>
-      <span class="rounded-full border border-brand-border px-3 py-0.5 text-caption font-bold text-brand-brown-light">
+      <span class="rounded-full border border-brand-border px-3 py-0.5 text-caption font-bold text-brand-muted">
         {{ question.level }}
       </span>
-      <span class="text-caption text-brand-brown-light">{{ question.topic }}</span>
+      <span class="text-caption text-brand-muted">{{ question.topic }}</span>
     </div>
 
     <div
       v-if="question.passage"
-      class="whitespace-pre-line rounded-xl border-2 border-brand-gold bg-brand-cream p-4 text-body-lg"
+      class="whitespace-pre-line rounded-xl border-2 border-brand-peach bg-brand-bg p-4 text-body-lg"
     >
       {{ question.passage }}
     </div>
 
-    <div v-if="question.audio" class="rounded-xl border-2 border-brand-gold bg-brand-cream p-4">
+    <div v-if="question.audio" class="rounded-xl border-2 border-brand-peach bg-brand-bg p-4">
       <template v-if="supported">
         <div class="flex items-center gap-3">
           <button
             type="button"
-            class="h-12 flex-1 rounded-xl bg-brand-orange text-body font-bold text-white transition active:bg-brand-orange-dark"
+            class="h-12 flex-1 rounded-xl bg-brand-primary text-body font-bold text-brand-on-primary transition active:bg-brand-primary-dark"
             @click="speaking ? stop() : play()"
           >
             {{ speaking ? '■ 停止' : plays ? '↻ 再聽一次' : '▶ 播放音檔' }}
@@ -94,15 +94,15 @@ const letters = ['A', 'B', 'C', 'D', 'E']
           <button
             type="button"
             class="h-12 rounded-xl border-2 px-4 text-body font-medium transition"
-            :class="slow ? 'border-brand-orange bg-brand-orange text-white' : 'border-brand-border bg-white text-brand-brown-light'"
+            :class="slow ? 'border-brand-accent bg-brand-primary text-brand-on-primary' : 'border-brand-border bg-white text-brand-muted'"
             @click="slow = !slow"
           >
             慢速
           </button>
         </div>
-        <p class="mt-2 text-caption text-brand-brown-light">已播放 {{ plays }} 次 · 正式考試每段只放一次</p>
+        <p class="mt-2 text-caption text-brand-muted">已播放 {{ plays }} 次 · 正式考試每段只放一次</p>
       </template>
-      <p v-else class="text-body text-brand-brown-light">這個瀏覽器不支援語音朗讀，請改用 Safari 或 Chrome。</p>
+      <p v-else class="text-body text-brand-muted">這個瀏覽器不支援語音朗讀，請改用 Safari 或 Chrome。</p>
     </div>
 
     <p class="text-body-lg font-bold">{{ question.prompt }}</p>
@@ -132,10 +132,10 @@ const letters = ['A', 'B', 'C', 'D', 'E']
       <p class="text-body font-bold" :class="isCorrect ? 'text-brand-green' : 'text-red-700'">
         {{ isCorrect ? '答對了！' : '答錯了，已收進錯題本' }}
       </p>
-      <p class="mt-1 text-body text-brand-brown">{{ question.explanation }}</p>
+      <p class="mt-1 text-body text-brand-ink">{{ question.explanation }}</p>
       <div v-if="question.audio" class="mt-3 border-t border-brand-border pt-3">
-        <p class="text-caption font-bold text-brand-brown-light">聽力文字稿</p>
-        <p class="mt-1 text-body text-brand-brown">{{ question.audio }}</p>
+        <p class="text-caption font-bold text-brand-muted">聽力文字稿</p>
+        <p class="mt-1 text-body text-brand-ink">{{ question.audio }}</p>
       </div>
       <div class="mt-3 flex flex-wrap gap-2 border-t border-brand-border pt-3">
         <button
@@ -162,7 +162,7 @@ const letters = ['A', 'B', 'C', 'D', 'E']
     </div>
 
     <div v-if="answered && showNote && note" class="rounded-xl border-2 border-brand-border bg-white p-4">
-      <p class="mb-2 text-caption font-bold text-brand-brown-light">文法筆記 · {{ note.level }}</p>
+      <p class="mb-2 text-caption font-bold text-brand-muted">文法筆記 · {{ note.level }}</p>
       <NoteBody :body="note.body" />
     </div>
   </article>

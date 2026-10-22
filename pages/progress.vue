@@ -50,7 +50,7 @@ async function save() {
 }
 
 const sortedMocks = computed(() => [...mocks.value].sort((a, b) => b.taken_on.localeCompare(a.taken_on)))
-const inputClass = 'h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 text-brand-brown focus:border-brand-orange focus:outline-none'
+const inputClass = 'h-12 w-full rounded-xl border-2 border-brand-border bg-white px-3 text-brand-ink focus:border-brand-accent focus:outline-none'
 
 useHead({ title: '進度 · TCF Prep' })
 </script>
@@ -61,17 +61,17 @@ useHead({ title: '進度 · TCF Prep' })
 
     <section class="rounded-2xl border border-brand-border bg-white p-4 shadow-sm">
       <div class="grid grid-cols-3 gap-2">
-        <div class="rounded-xl bg-brand-hover p-3">
-          <p class="text-h2 font-bold text-brand-orange">{{ streak(attempts) }}</p>
-          <p class="text-caption text-brand-brown-light">連續天數</p>
+        <div class="rounded-xl bg-brand-soft p-3">
+          <p class="text-h2 font-bold text-brand-accent">{{ streak(attempts) }}</p>
+          <p class="text-caption text-brand-muted">連續天數</p>
         </div>
-        <div class="rounded-xl bg-brand-hover p-3">
+        <div class="rounded-xl bg-brand-soft p-3">
           <p class="text-h2 font-bold">{{ totalDays }}</p>
-          <p class="text-caption text-brand-brown-light">練習天數</p>
+          <p class="text-caption text-brand-muted">練習天數</p>
         </div>
-        <div class="rounded-xl bg-brand-hover p-3">
+        <div class="rounded-xl bg-brand-soft p-3">
           <p class="text-h2 font-bold">{{ attempts.length }}</p>
-          <p class="text-caption text-brand-brown-light">累積作答</p>
+          <p class="text-caption text-brand-muted">累積作答</p>
         </div>
       </div>
 
@@ -80,10 +80,10 @@ useHead({ title: '進度 · TCF Prep' })
         <div v-for="d in days" :key="d.day" class="flex h-full flex-col items-center justify-end gap-1" :title="`${d.day}：${d.count} 題`">
           <div
             class="w-full rounded-t"
-            :class="d.count ? 'bg-brand-orange' : 'bg-brand-panel'"
+            :class="d.count ? 'bg-brand-primary' : 'bg-brand-panel'"
             :style="{ height: d.count ? `${(d.count / maxDay) * 100}%` : '3px' }"
           />
-          <span class="text-[10px] text-brand-brown-light">{{ Number(d.day.slice(8)) }}</span>
+          <span class="text-[10px] text-brand-muted">{{ Number(d.day.slice(8)) }}</span>
         </div>
       </div>
     </section>
@@ -94,7 +94,7 @@ useHead({ title: '進度 · TCF Prep' })
         <div v-for="s in skills" :key="s">
           <div class="mb-1 flex justify-between text-body">
             <span>{{ SKILL_LABEL[s] }}</span>
-            <span class="text-brand-brown-light">
+            <span class="text-brand-muted">
               {{ acc[s].total ? `${Math.round((acc[s].correct / acc[s].total) * 100)}%` : '—' }}
               <span class="text-caption">（{{ acc[s].correct }}/{{ acc[s].total }}）</span>
             </span>
@@ -111,44 +111,44 @@ useHead({ title: '進度 · TCF Prep' })
 
     <section id="mock" class="rounded-2xl border border-brand-border bg-white p-4 shadow-sm">
       <h2 class="text-h3 font-bold">官方模擬考紀錄</h2>
-      <p class="mt-0.5 text-caption text-brand-brown-light">
-        在 <a href="https://apprendre.tv5monde.com/fr/tcf/simulation-du-tcf" target="_blank" rel="noopener" class="text-brand-orange underline">TV5MONDE</a>
+      <p class="mt-0.5 text-caption text-brand-muted">
+        在 <a href="https://apprendre.tv5monde.com/fr/tcf/simulation-du-tcf" target="_blank" rel="noopener" class="text-brand-accent underline">TV5MONDE</a>
         或其他模擬考做完後，把分數記在這裡。
       </p>
 
       <form class="mt-4 grid grid-cols-2 gap-3" @submit.prevent="save">
         <label class="block">
-          <span class="mb-1 block text-caption text-brand-brown-light">日期</span>
+          <span class="mb-1 block text-caption text-brand-muted">日期</span>
           <input v-model="form.taken_on" type="date" required :class="inputClass" />
         </label>
         <label class="block">
-          <span class="mb-1 block text-caption text-brand-brown-light">項目</span>
+          <span class="mb-1 block text-caption text-brand-muted">項目</span>
           <select v-model="form.section" :class="inputClass">
             <option v-for="(l, k) in SECTION_LABEL" :key="k" :value="k">{{ l }}</option>
           </select>
         </label>
         <label class="block">
-          <span class="mb-1 block text-caption text-brand-brown-light">分數</span>
+          <span class="mb-1 block text-caption text-brand-muted">分數</span>
           <input v-model="form.score" type="number" step="any" inputmode="decimal" required placeholder="例如 412" :class="inputClass" />
         </label>
         <label class="block">
-          <span class="mb-1 block text-caption text-brand-brown-light">來源</span>
+          <span class="mb-1 block text-caption text-brand-muted">來源</span>
           <input v-model="form.source" type="text" :class="inputClass" />
         </label>
         <label class="col-span-2 block">
-          <span class="mb-1 block text-caption text-brand-brown-light">備註（選填）</span>
+          <span class="mb-1 block text-caption text-brand-muted">備註（選填）</span>
           <input v-model="form.note" type="text" placeholder="例如：聽力後半段跟不上" :class="inputClass" />
         </label>
         <button
           type="submit"
-          class="col-span-2 h-12 rounded-xl bg-brand-orange text-body font-bold text-white transition active:bg-brand-orange-dark disabled:opacity-50"
+          class="col-span-2 h-12 rounded-xl bg-brand-primary text-body font-bold text-brand-on-primary transition active:bg-brand-primary-dark disabled:opacity-50"
           :disabled="saving || form.score === ''"
         >
           記錄
         </button>
       </form>
 
-      <div v-if="NCLC7[form.section]" class="mt-3 rounded-xl border-2 border-brand-gold bg-brand-cream p-3 text-small">
+      <div v-if="NCLC7[form.section]" class="mt-3 rounded-xl border-2 border-brand-peach bg-brand-bg p-3 text-small">
         移民目標 NCLC 7：TCF Canada {{ SECTION_LABEL[form.section] }} 至少 <b>{{ NCLC7[form.section] }}</b>
       </div>
 
@@ -156,13 +156,13 @@ useHead({ title: '進度 · TCF Prep' })
         <li v-for="m in sortedMocks" :key="m.id" class="flex items-start justify-between gap-2 py-3">
           <div>
             <p class="text-body font-bold">{{ SECTION_LABEL[m.section] }} · {{ m.score }}</p>
-            <p class="text-caption text-brand-brown-light">{{ m.taken_on }} · {{ m.source }}</p>
-            <p v-if="m.note" class="mt-0.5 text-caption text-brand-brown-light">{{ m.note }}</p>
+            <p class="text-caption text-brand-muted">{{ m.taken_on }} · {{ m.source }}</p>
+            <p v-if="m.note" class="mt-0.5 text-caption text-brand-muted">{{ m.note }}</p>
           </div>
-          <button type="button" class="px-2 text-brand-brown-light" aria-label="刪除這筆紀錄" @click="removeMock(m.id)">✕</button>
+          <button type="button" class="px-2 text-brand-muted" aria-label="刪除這筆紀錄" @click="removeMock(m.id)">✕</button>
         </li>
       </ul>
-      <p v-else class="mt-3 text-caption text-brand-brown-light">還沒有紀錄。</p>
+      <p v-else class="mt-3 text-caption text-brand-muted">還沒有紀錄。</p>
     </section>
   </div>
 </template>
