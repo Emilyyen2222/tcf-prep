@@ -40,8 +40,8 @@ export default <Partial<Config>>{
         display: ['clamp(26px, 3vw, 28px)', { lineHeight: '1.3', letterSpacing: '-0.005em' }],
       },
       fontFamily: {
-        // 拉丁字母用圓圓的 Fredoka，中文用粉圓體 Huninn
-        sans: ['Fredoka', 'Huninn', 'sans-serif'],
+        // 拉丁字母用 Poppins，中文用粉圓體 Huninn
+        sans: ['Poppins', 'Huninn', 'sans-serif'],
       },
     },
   },

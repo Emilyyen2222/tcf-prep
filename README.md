@@ -3,7 +3,7 @@
 個人用的 TCF Canada 法文練習網站。每天打開做 10 題，錯題自動收集，搭配 TV5MONDE 官方模擬考追蹤真實程度。
 
 - **Nuxt 3**（SPA，`ssr: false`）+ **Tailwind CSS** + **Supabase**（登入、作答紀錄同步）
-- 視覺是「草莓牛奶」配色：`brand-*` 色票照用途命名（primary、ink、muted…）、8 級字級、Fredoka + Huninn 字體，全部在 `tailwind.config.ts`
+- 視覺是「草莓牛奶」配色：`brand-*` 色票照用途命名（primary、ink、muted…）、8 級字級、Poppins + Huninn 字體，全部在 `tailwind.config.ts`
 - 沒設定 Supabase 也能跑：紀錄會存在瀏覽器的 localStorage，登入後自動搬上雲端
 - 題庫是依 TCF 題型自行撰寫的原創題，放在 `data/questions/*.json`
 

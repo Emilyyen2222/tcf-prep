@@ -41,7 +41,7 @@ export default defineNuxtConfig({
         { rel: 'manifest', href: '/manifest.webmanifest' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap' },
         // Huninn（粉圓體）：中文字體
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Huninn&display=swap' },
       ],
