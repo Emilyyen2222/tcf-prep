@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 與 emily_gm 一致：拉丁字母走 Poppins，中文 fallback 到 Huninn（粉圓體）。
+   html 與 body 都要設，Preflight 會在 html 上寫一份 font-family。 */
+html,
+body {
+  font-family: 'Poppins', 'Huninn', sans-serif;
+}
+
+/* 手機版防呆：鎖死橫向捲動 */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* iOS 輸入框小於 16px 會自動放大畫面，維持 16px 是刻意的 */
+input[type='number'],
+input[type='text'],
+input[type='email'],
+input[type='date'],
+select,
+textarea {
+  font-size: 16px;
+}

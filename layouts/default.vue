@@ -1,0 +1,70 @@
+<script setup lang="ts">
+const { mode, load, error } = useStore()
+const session = useState<any>('sb-session')
+const { $supabase } = useNuxtApp()
+const route = useRoute()
+
+watch(
+  () => session.value?.user?.id ?? null,
+  () => load(),
+  { immediate: true },
+)
+
+const tabs = [
+  { to: '/', label: '首頁' },
+  { to: '/wrong', label: '錯題本' },
+  { to: '/progress', label: '進度' },
+]
+const isActive = (to: string) => (to === '/' ? route.path === '/' : route.path.startsWith(to))
+const showTabs = computed(() => !route.path.startsWith('/practice'))
+</script>
+
+<template>
+  <div class="min-h-screen bg-brand-cream text-brand-brown" :class="showTabs ? 'pb-28' : 'pb-10'">
+    <header
+      class="sticky top-0 z-10 border-b border-brand-border bg-brand-cream/95 backdrop-blur"
+      style="padding-top: env(safe-area-inset-top)"
+    >
+      <div class="mx-auto flex max-w-lg items-center justify-between px-4 py-3">
+        <NuxtLink to="/" class="flex items-center gap-2">
+          <span class="grid h-8 w-8 place-items-center rounded-lg bg-brand-orange text-small font-bold text-white">Fr</span>
+          <span class="text-h3 font-bold">TCF Prep</span>
+        </NuxtLink>
+        <template v-if="$supabase">
+          <NuxtLink v-if="mode === 'cloud'" to="/login" class="text-caption font-bold text-brand-green">● 已同步</NuxtLink>
+          <NuxtLink v-else to="/login" class="text-body font-medium text-brand-orange underline">登入同步</NuxtLink>
+        </template>
+        <span v-else class="text-caption font-bold text-brand-brown-light" title="尚未設定 Supabase，紀錄存在這個瀏覽器">
+          ● 本機紀錄
+        </span>
+      </div>
+    </header>
+
+    <div v-if="error" class="mx-auto max-w-lg px-4 pt-4">
+      <div class="rounded-2xl border-2 border-red-200 bg-red-50 p-4 text-body text-red-700">資料同步出錯：{{ error }}</div>
+    </div>
+
+    <main class="mx-auto max-w-lg px-4 pt-6">
+      <slot />
+    </main>
+
+    <nav
+      v-if="showTabs"
+      class="fixed inset-x-0 bottom-0 border-t border-brand-border bg-brand-cream/95 px-4 pt-3 backdrop-blur"
+      style="padding-bottom: calc(0.75rem + env(safe-area-inset-bottom))"
+      aria-label="主選單"
+    >
+      <div class="mx-auto flex max-w-lg gap-1 rounded-2xl border border-brand-border bg-white p-1">
+        <NuxtLink
+          v-for="t in tabs"
+          :key="t.to"
+          :to="t.to"
+          class="flex-1 rounded-xl py-2.5 text-center text-body font-medium transition"
+          :class="isActive(t.to) ? 'bg-brand-orange text-white' : 'text-brand-brown-light'"
+        >
+          {{ t.label }}
+        </NuxtLink>
+      </div>
+    </nav>
+  </div>
+</template>

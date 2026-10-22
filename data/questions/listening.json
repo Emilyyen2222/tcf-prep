@@ -1,0 +1,134 @@
+[
+  {
+    "id": "co-a2-001",
+    "skill": "listening",
+    "level": "A2",
+    "topic": "車站廣播",
+    "audio": "Mesdames et messieurs, le train à destination de Lyon, prévu à quatorze heures vingt, partira avec un retard d'environ vingt minutes. Merci de votre compréhension.",
+    "prompt": "À quelle heure le train va-t-il partir, environ ?",
+    "options": ["14 h 00", "14 h 20", "14 h 40", "15 h 20"],
+    "answer": 2,
+    "explanation": "原定 14:20（prévu à quatorze heures vingt），延誤約 20 分鐘（un retard d'environ vingt minutes），所以大約 14:40 出發。聽力常考這種要自己算一下的時間題。"
+  },
+  {
+    "id": "co-a2-002",
+    "skill": "listening",
+    "level": "A2",
+    "topic": "電話留言",
+    "audio": "Bonjour, c'est le cabinet du docteur Martin. Votre rendez-vous de jeudi est déplacé à vendredi, à la même heure. Si cela ne vous convient pas, merci de rappeler le secrétariat.",
+    "prompt": "Qu'est-ce qui change pour le rendez-vous ?",
+    "options": ["Le jour.", "L'heure.", "Le médecin.", "L'adresse du cabinet."],
+    "answer": 0,
+    "explanation": "déplacé à vendredi, à la même heure = 改到星期五，時間不變。所以只有日期改了。"
+  },
+  {
+    "id": "co-a2-003",
+    "skill": "listening",
+    "level": "A2",
+    "topic": "購物對話",
+    "audio": "Bonjour, je cherche ce pull en taille M, s'il vous plaît. … Désolée, il ne nous reste que du S et du L. Mais je peux vous le commander, il arrive en trois jours.",
+    "prompt": "Que propose la vendeuse ?",
+    "options": ["D'essayer la taille S.", "De commander le pull en taille M.", "De faire une réduction.", "De revenir la semaine prochaine."],
+    "answer": 1,
+    "explanation": "il ne nous reste que du S et du L = 只剩 S 和 L；je peux vous le commander = 可以幫你訂貨，三天後到。"
+  },
+  {
+    "id": "co-a2-004",
+    "skill": "listening",
+    "level": "A2",
+    "topic": "問路",
+    "audio": "Pour aller à la poste, c'est simple : vous continuez tout droit jusqu'au feu, puis vous tournez à gauche. La poste est juste en face de la pharmacie.",
+    "prompt": "Où se trouve la poste ?",
+    "options": ["À côté du feu.", "Derrière la pharmacie.", "En face de la pharmacie.", "Sur la droite, après le feu."],
+    "answer": 2,
+    "explanation": "en face de = 在……對面。路線是直走到紅綠燈（le feu）再左轉，不是右轉。"
+  },
+  {
+    "id": "co-a2-005",
+    "skill": "listening",
+    "level": "A2",
+    "topic": "週末天氣",
+    "audio": "Ce week-end, il fera beau samedi, avec vingt-deux degrés l'après-midi. Dimanche, en revanche, la pluie arrivera dès le matin et durera toute la journée.",
+    "prompt": "Quel est le meilleur moment pour un pique-nique ?",
+    "options": ["Samedi après-midi.", "Dimanche matin.", "Dimanche après-midi.", "Aucun moment du week-end."],
+    "answer": 0,
+    "explanation": "週六天氣好、下午 22 度；週日 en revanche（相反地）從早上就下雨，而且下一整天。"
+  },
+  {
+    "id": "co-a2-006",
+    "skill": "listening",
+    "level": "A2",
+    "topic": "邀請",
+    "audio": "Salut, c'est Camille ! Tu es libre vendredi soir ? On fait un dîner chez moi vers vingt heures. Apporte juste une boisson, je m'occupe du reste !",
+    "prompt": "Qu'est-ce que la personne doit apporter ?",
+    "options": ["Un dessert.", "Une boisson.", "Le plat principal.", "Rien du tout."],
+    "answer": 1,
+    "explanation": "Apporte juste une boisson = 只要帶飲料；je m'occupe du reste = 其他的我來處理。"
+  },
+  {
+    "id": "co-b1-001",
+    "skill": "listening",
+    "level": "B1",
+    "topic": "訪談：換工作",
+    "audio": "Pourquoi avez-vous quitté votre poste à Paris ? … Honnêtement, ce n'était pas le salaire. C'était surtout le temps passé dans les transports : presque trois heures par jour. Ici, à Nantes, je vais au bureau à vélo.",
+    "prompt": "Pourquoi cette personne a-t-elle changé de travail ?",
+    "options": ["Son salaire était trop bas.", "Elle passait trop de temps dans les transports.", "Elle voulait apprendre à faire du vélo.", "Elle ne s'entendait pas avec ses collègues."],
+    "answer": 1,
+    "explanation": "ce n'était pas le salaire（不是因為薪水）先排除干擾選項，接著 c'était surtout le temps passé dans les transports（主要是通勤時間），每天快三小時。"
+  },
+  {
+    "id": "co-b1-002",
+    "skill": "listening",
+    "level": "B1",
+    "topic": "新聞",
+    "audio": "La ville de Montréal a annoncé l'ouverture de dix nouvelles pistes cyclables d'ici l'été. Selon la mairie, le nombre de cyclistes a augmenté de quinze pour cent en un an.",
+    "prompt": "Pourquoi la ville crée-t-elle de nouvelles pistes cyclables ?",
+    "options": ["Parce que le vélo est devenu obligatoire.", "Parce qu'il y a eu beaucoup d'accidents.", "Parce que de plus en plus de gens font du vélo.", "Parce que les transports en commun sont en grève."],
+    "answer": 2,
+    "explanation": "le nombre de cyclistes a augmenté de quinze pour cent = 騎自行車的人增加了 15%。題目問原因，答案要從數據推出來。"
+  },
+  {
+    "id": "co-b1-003",
+    "skill": "listening",
+    "level": "B1",
+    "topic": "表達意見",
+    "audio": "Tu as vu le film hier soir ? … Oui. Les acteurs étaient excellents, mais franchement, l'histoire était beaucoup trop longue. J'ai failli m'endormir.",
+    "prompt": "Quel est l'avis de cette personne sur le film ?",
+    "options": ["Elle a tout aimé.", "Elle a trouvé les acteurs mauvais.", "Elle a aimé les acteurs, mais l'histoire était trop longue.", "Elle s'est endormie au début du film."],
+    "answer": 2,
+    "explanation": "mais 前後是正反兩面：演員很棒，但故事太長。j'ai failli m'endormir = 我差點睡著（failli + 原形 = 差點），所以她沒有真的睡著。"
+  },
+  {
+    "id": "co-b1-004",
+    "skill": "listening",
+    "level": "B1",
+    "topic": "考場規定",
+    "audio": "Avant de commencer l'examen, éteignez vos téléphones et rangez-les dans votre sac. Vous pouvez garder une bouteille d'eau sur la table, mais aucun document n'est autorisé.",
+    "prompt": "Qu'est-ce qui est autorisé sur la table ?",
+    "options": ["Un téléphone éteint.", "Un dictionnaire.", "Une bouteille d'eau.", "Des notes personnelles."],
+    "answer": 2,
+    "explanation": "Vous pouvez garder une bouteille d'eau sur la table = 桌上可以放水瓶。手機要關機收進包包，aucun document = 不能有任何資料。"
+  },
+  {
+    "id": "co-b1-005",
+    "skill": "listening",
+    "level": "B1",
+    "topic": "工作電話",
+    "audio": "Bonjour Madame Leroy, je vous appelle au sujet de votre candidature. Nous aimerions vous rencontrer pour un entretien la semaine prochaine. Pourriez-vous me rappeler pour fixer une date ? Merci et bonne journée.",
+    "prompt": "Que doit faire Madame Leroy ?",
+    "options": ["Envoyer son CV.", "Rappeler pour fixer la date d'un entretien.", "Se présenter au bureau demain.", "Confirmer sa démission."],
+    "answer": 1,
+    "explanation": "Pourriez-vous me rappeler pour fixer une date ? = 能否回電訂個日期？candidature 是應徵，entretien 是面試。"
+  },
+  {
+    "id": "co-b1-006",
+    "skill": "listening",
+    "level": "B1",
+    "topic": "租屋心得",
+    "audio": "Alors, ce nouvel appartement, ça te plaît ? … Il est lumineux et bien situé. Le seul problème, c'est que les murs sont si fins que j'entends tout ce que disent mes voisins.",
+    "prompt": "Quel problème la personne mentionne-t-elle ?",
+    "options": ["Le bruit des voisins.", "Le manque de lumière.", "Le quartier est mal situé.", "Le loyer est trop cher."],
+    "answer": 0,
+    "explanation": "les murs sont si fins que j'entends tout = 牆太薄，鄰居說什麼都聽得到，也就是隔音問題。lumineux（明亮）、bien situé（地點好）都是優點。"
+  }
+]

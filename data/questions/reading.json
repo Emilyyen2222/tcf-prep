@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ce-a2-001",
+    "skill": "reading",
+    "level": "A2",
+    "topic": "公告",
+    "passage": "PISCINE MUNICIPALE\nFermeture exceptionnelle du 3 au 9 mars pour travaux de nettoyage.\nRéouverture le lundi 10 mars à 7 h.\nMerci de votre compréhension.",
+    "prompt": "Que se passe-t-il le 10 mars ?",
+    "options": ["Les travaux commencent.", "La piscine ouvre à nouveau.", "La piscine ferme à 7 h.", "Les cours de natation sont annulés."],
+    "answer": 1,
+    "explanation": "Réouverture = 重新開放。3 月 3 日到 9 日是關閉期間（fermeture），10 日早上 7 點重新開放。"
+  },
+  {
+    "id": "ce-a2-002",
+    "skill": "reading",
+    "level": "A2",
+    "topic": "簡訊",
+    "passage": "Salut Léa ! Je suis en retard, le métro est bloqué entre deux stations. Commence à manger sans moi, j'arrive dans 30 minutes. Bises, Hugo",
+    "prompt": "Pourquoi Hugo écrit-il ce message ?",
+    "options": ["Pour annuler le dîner.", "Pour inviter Léa au restaurant.", "Pour prévenir qu'il arrivera en retard.", "Pour demander où se trouve le métro."],
+    "answer": 2,
+    "explanation": "Je suis en retard（我遲到了）、j'arrive dans 30 minutes（30 分鐘後到）。他沒有取消，只是請 Léa 先開動（commence à manger sans moi）。"
+  },
+  {
+    "id": "ce-a2-003",
+    "skill": "reading",
+    "level": "A2",
+    "topic": "租屋廣告",
+    "passage": "À LOUER – Studio meublé de 25 m², 2e étage sans ascenseur, à 5 minutes à pied du métro. 750 € par mois, charges comprises. Idéal pour étudiant. Tél. : 06 12 34 56 78",
+    "prompt": "Quel inconvénient ce logement présente-t-il ?",
+    "options": ["Il est loin du métro.", "Les charges ne sont pas comprises.", "Il n'a pas de meubles.", "Il n'y a pas d'ascenseur."],
+    "answer": 3,
+    "explanation": "sans ascenseur = 沒有電梯。其他選項都跟廣告相反：離地鐵 5 分鐘、charges comprises（含管理雜費）、meublé（附家具）。"
+  },
+  {
+    "id": "ce-a2-004",
+    "skill": "reading",
+    "level": "A2",
+    "topic": "營業時間",
+    "passage": "Madame, Monsieur,\nSuite à votre demande, nous vous informons que nos bureaux sont ouverts du lundi au vendredi de 9 h à 17 h, sauf le mercredi après-midi. Le samedi, nous recevons uniquement sur rendez-vous.\nCordialement,\nLe service client",
+    "prompt": "Vous voulez passer sans rendez-vous. Quand pouvez-vous y aller ?",
+    "options": ["Le mercredi à 15 h.", "Le jeudi à 15 h.", "Le samedi à 10 h.", "Le lundi à 18 h."],
+    "answer": 1,
+    "explanation": "週一到週五 9–17 點開放，但週三下午（sauf le mercredi après-midi）不開；週六只接受預約（uniquement sur rendez-vous）；週一 18 點已經超過 17 點。所以只剩週四 15 點。"
+  },
+  {
+    "id": "ce-a2-005",
+    "skill": "reading",
+    "level": "A2",
+    "topic": "餐廳菜單",
+    "passage": "MENU DU JOUR – 15 €\nEntrée + plat OU plat + dessert\nBoisson non comprise\nServi uniquement le midi, du mardi au samedi",
+    "prompt": "Quelle phrase est vraie ?",
+    "options": ["La boisson est incluse dans le prix.", "On peut prendre une entrée, un plat et un dessert.", "On ne peut pas commander ce menu le soir.", "Le menu est servi tous les jours."],
+    "answer": 2,
+    "explanation": "uniquement le midi = 只有中午供應，所以晚上不能點。boisson non comprise = 不含飲料；OU 表示二選一，不是三道都有；營業日是週二到週六。"
+  },
+  {
+    "id": "ce-a2-006",
+    "skill": "reading",
+    "level": "A2",
+    "topic": "天氣預報",
+    "passage": "Demain, la matinée sera ensoleillée dans tout le pays. Des orages sont toutefois attendus en fin d'après-midi dans le Sud. Les températures seront en légère hausse.",
+    "prompt": "Que va-t-il se passer dans le Sud en fin de journée ?",
+    "options": ["Il va faire très froid.", "Il risque d'y avoir des orages.", "Il va neiger.", "Il fera soleil toute la journée."],
+    "answer": 1,
+    "explanation": "des orages sont attendus en fin d'après-midi dans le Sud = 南部傍晚預計有雷雨。en hausse 是「上升」，所以也不會很冷。"
+  },
+  {
+    "id": "ce-b1-001",
+    "skill": "reading",
+    "level": "B1",
+    "topic": "社會議題：遠距工作",
+    "passage": "De plus en plus de salariés choisissent de travailler à distance au moins deux jours par semaine. Selon une enquête récente, ils apprécient surtout le temps gagné sur les trajets. En revanche, beaucoup d'entre eux disent souffrir d'un manque de contact avec leurs collègues.",
+    "prompt": "Selon le texte, quel est le principal inconvénient du télétravail ?",
+    "options": ["La perte de temps dans les transports.", "La baisse du salaire.", "L'isolement par rapport aux collègues.", "Le manque de matériel informatique."],
+    "answer": 2,
+    "explanation": "En revanche（相反地）帶出缺點：manque de contact avec leurs collègues = 缺少與同事的接觸，也就是孤立感。省下通勤時間（temps gagné sur les trajets）是優點。"
+  },
+  {
+    "id": "ce-b1-002",
+    "skill": "reading",
+    "level": "B1",
+    "topic": "讀者來信",
+    "passage": "Je ne comprends pas pourquoi la mairie veut supprimer le marché du dimanche. C'est un lieu de rencontre pour tout le quartier, surtout pour les personnes âgées. Bien sûr, il y a du bruit tôt le matin, mais on pourrait simplement le faire commencer une heure plus tard.",
+    "prompt": "Que propose l'auteur de ce texte ?",
+    "options": ["Déplacer le marché dans un autre quartier.", "Organiser le marché le samedi.", "Retarder l'heure de début du marché.", "Réserver le marché aux personnes âgées."],
+    "answer": 2,
+    "explanation": "on pourrait le faire commencer une heure plus tard = 可以讓市集晚一小時開始。作者反對取消市集，用「延後開始時間」來解決清晨噪音問題。"
+  },
+  {
+    "id": "ce-b1-003",
+    "skill": "reading",
+    "level": "B1",
+    "topic": "公共服務",
+    "passage": "Depuis septembre, la bibliothèque du quartier propose un service de « prêt d'objets » : perceuses, appareils à raclette ou jeux de société peuvent être empruntés gratuitement pendant une semaine. L'objectif est de limiter les achats d'objets qu'on n'utilise que rarement.",
+    "prompt": "Quel est le but de ce nouveau service ?",
+    "options": ["Éviter que les gens achètent des objets peu utilisés.", "Vendre des objets d'occasion.", "Attirer davantage d'enfants à la bibliothèque.", "Financer la rénovation de la bibliothèque."],
+    "answer": 0,
+    "explanation": "L'objectif est de limiter les achats d'objets qu'on n'utilise que rarement = 目的是減少購買很少用到的東西。ne … que rarement = 只是偶爾、很少。服務是免費借用（gratuitement），不是販售。"
+  },
+  {
+    "id": "ce-b1-004",
+    "skill": "reading",
+    "level": "B1",
+    "topic": "客訴信",
+    "passage": "Madame, Monsieur,\nJ'ai commandé un manteau sur votre site le 2 novembre. Le colis est arrivé avec dix jours de retard et la taille ne correspond pas à celle que j'avais choisie. Je souhaiterais donc être remboursée intégralement plutôt que de recevoir un échange.",
+    "prompt": "Que demande la cliente ?",
+    "options": ["Un échange contre la bonne taille.", "Une réduction sur sa prochaine commande.", "Une nouvelle livraison plus rapide.", "Le remboursement total de sa commande."],
+    "answer": 3,
+    "explanation": "remboursée intégralement = 全額退款；plutôt que de recevoir un échange = 而不是換貨。考試常用 plutôt que 來排除干擾選項。"
+  },
+  {
+    "id": "ce-b1-005",
+    "skill": "reading",
+    "level": "B1",
+    "topic": "健康科普",
+    "passage": "Pendant longtemps, on a pensé que boire huit verres d'eau par jour était indispensable. Aujourd'hui, les chercheurs nuancent ce conseil : une partie importante de l'eau dont nous avons besoin provient déjà de l'alimentation, notamment des fruits, des légumes et des soupes.",
+    "prompt": "Que dit ce texte ?",
+    "options": ["Il faut boire plus de huit verres d'eau par jour.", "La règle des huit verres est remise en question.", "Les fruits et légumes nous déshydratent.", "Les chercheurs conseillent de remplacer l'eau par de la soupe."],
+    "answer": 1,
+    "explanation": "nuancer un conseil = 修正、不再那麼絕對地看待一個建議，對應 remettre en question（重新檢討）。文中說部分水分已經從食物中攝取。"
+  },
+  {
+    "id": "ce-b1-006",
+    "skill": "reading",
+    "level": "B1",
+    "topic": "鄰居告示",
+    "passage": "Chers voisins,\nNous organisons une fête pour les 30 ans de Julie samedi soir. Nous ferons attention, mais il est possible qu'il y ait un peu de bruit jusqu'à minuit. Nous nous excusons d'avance pour la gêne occasionnée. Vous êtes bien sûr les bienvenus !\nPaul et Julie, 3e étage",
+    "prompt": "Quel est l'objectif principal de ce message ?",
+    "options": ["Se plaindre du bruit des voisins.", "Prévenir les voisins d'un possible dérangement.", "Annuler une fête d'anniversaire.", "Demander de l'aide pour organiser une fête."],
+    "answer": 1,
+    "explanation": "nous nous excusons d'avance pour la gêne occasionnée = 先為可能造成的打擾道歉。主要目的是事先告知鄰居。最後一句雖然邀請鄰居，但不是主要目的。"
+  }
+]

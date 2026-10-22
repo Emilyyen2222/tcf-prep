@@ -1,0 +1,222 @@
+[
+  {
+    "id": "gr-a2-001",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "passé composé + être",
+    "prompt": "Hier, ma sœur ___ au cinéma avec ses amies.",
+    "options": ["a allé", "est allé", "est allée", "allait"],
+    "answer": 2,
+    "explanation": "aller 的複合過去式用 être 當助動詞，過去分詞要跟主詞配合。主詞 ma sœur 是陰性單數，所以是 est allée。allait 是未完成過去式，用來描述背景或習慣，不適合「昨天去了」這種完成的動作。"
+  },
+  {
+    "id": "gr-a2-002",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "直接受詞代名詞",
+    "prompt": "Tu connais Marie ? — Oui, je ___ connais très bien.",
+    "options": ["lui", "la", "le", "en"],
+    "answer": 1,
+    "explanation": "connaître quelqu'un 後面直接接受詞（沒有 à），Marie 是陰性單數，直接受詞代名詞用 la。lui 是間接受詞（à + 人）。"
+  },
+  {
+    "id": "gr-a2-003",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "間接受詞代名詞",
+    "prompt": "J'ai téléphoné à mes parents et je ___ ai dit que j'arrivais demain.",
+    "options": ["les", "lui", "y", "leur"],
+    "answer": 3,
+    "explanation": "dire quelque chose à quelqu'un，「à + 人」要用間接受詞代名詞。mes parents 是複數，所以用 leur。注意 leur 當代名詞時不加 s。"
+  },
+  {
+    "id": "gr-a2-004",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "部分冠詞",
+    "prompt": "Le matin, je bois ___ café et je mange ___ pain avec du beurre.",
+    "options": ["du … du", "le … le", "de … de", "un … un"],
+    "answer": 0,
+    "explanation": "吃、喝「一些」不可數的東西用部分冠詞。café 和 pain 都是陽性，所以都是 du。le café 是指「咖啡這種東西」，常用在 aimer 之後，例如 J'aime le café。"
+  },
+  {
+    "id": "gr-a2-005",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "否定句的冠詞",
+    "prompt": "Désolé, il n'y a plus ___ lait dans le frigo.",
+    "options": ["du", "de", "le", "des"],
+    "answer": 1,
+    "explanation": "否定句中，不定冠詞 un/une/des 和部分冠詞 du/de la 都會變成 de（母音前 d'）。所以是 il n'y a plus de lait。"
+  },
+  {
+    "id": "gr-a2-006",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "近未來式",
+    "prompt": "Regarde ces nuages, il ___ pleuvoir. Prends ton parapluie !",
+    "options": ["vient de", "va", "est en train de", "a"],
+    "answer": 1,
+    "explanation": "aller + 原形動詞 = 近未來式，表示「快要、即將」。vient de pleuvoir 是「剛剛下過雨」，est en train de 是「正在」，都跟「帶傘」的語意不合。"
+  },
+  {
+    "id": "gr-a2-007",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "國家與城市的介系詞",
+    "prompt": "L'été prochain, je vais ___ Canada, plus précisément ___ Montréal.",
+    "options": ["en … à", "au … en", "au … à", "à … au"],
+    "answer": 2,
+    "explanation": "陽性國家用 au（le Canada → au Canada），陰性國家用 en（en France），城市用 à（à Montréal）。"
+  },
+  {
+    "id": "gr-a2-008",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "未完成過去式",
+    "prompt": "Quand j'étais petite, je ___ souvent chez ma grand-mère le dimanche.",
+    "options": ["suis allée", "allais", "irai", "vais"],
+    "answer": 1,
+    "explanation": "描述過去的習慣（souvent、le dimanche）要用未完成過去式 imparfait：j'allais。複合過去式 suis allée 用在一次性、已完成的動作。"
+  },
+  {
+    "id": "gr-a2-009",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "比較級",
+    "prompt": "Ce café est ___ que celui d'à côté, et en plus il est moins cher.",
+    "options": ["plus bon", "mieux", "le meilleur", "meilleur"],
+    "answer": 3,
+    "explanation": "bon 的比較級是不規則的 meilleur，不能說 plus bon。mieux 是 bien（副詞）的比較級，用來修飾動詞，例如 il chante mieux。"
+  },
+  {
+    "id": "gr-a2-010",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "代名詞 y",
+    "prompt": "Tu vas à la boulangerie ? — Oui, j'___ vais tout de suite.",
+    "options": ["en", "y", "le", "lui"],
+    "answer": 1,
+    "explanation": "y 代替「à + 地點」，à la boulangerie → y。en 代替「de + 地點」或數量，例如 j'en viens（我剛從那裡回來）。"
+  },
+  {
+    "id": "gr-a2-011",
+    "skill": "grammar",
+    "level": "A2",
+    "topic": "日常單字",
+    "prompt": "Bonjour, je voudrais ___ une table pour deux personnes ce soir, vers 20 heures.",
+    "options": ["louer", "commander", "réserver", "garder"],
+    "answer": 2,
+    "explanation": "在餐廳訂位用 réserver une table。commander 是點餐或訂購商品，louer 是租（房子、車子）。"
+  },
+  {
+    "id": "gr-b1-001",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "虛擬式 subjonctif",
+    "prompt": "Il faut que tu ___ tes devoirs avant de sortir.",
+    "options": ["fais", "fasses", "feras", "faisais"],
+    "answer": 1,
+    "explanation": "il faut que 後面要接虛擬式。faire 的虛擬式是不規則的：que je fasse, que tu fasses, qu'il fasse…"
+  },
+  {
+    "id": "gr-b1-002",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "條件式（與現在事實相反的假設）",
+    "prompt": "Si j'avais plus de temps, j'___ le français tous les jours.",
+    "options": ["étudierai", "étudiais", "étudierais", "ai étudié"],
+    "answer": 2,
+    "explanation": "si + 未完成過去式（avais），主要子句用條件式現在時（étudierais）。這是「如果……就會……」，但現實上沒有。si + 現在式才接簡單未來式（étudierai）。"
+  },
+  {
+    "id": "gr-b1-003",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "關係代名詞 dont",
+    "prompt": "C'est le livre ___ je t'ai parlé hier.",
+    "options": ["que", "dont", "qui", "où"],
+    "answer": 1,
+    "explanation": "parler de quelque chose，動詞後面接 de，所以關係代名詞用 dont（= de + 先行詞）。que 用在直接受詞，qui 用在主詞。"
+  },
+  {
+    "id": "gr-b1-004",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "關係代名詞 où（時間）",
+    "prompt": "Je me souviens très bien du jour ___ nous sommes arrivés au Québec.",
+    "options": ["que", "dont", "où", "lequel"],
+    "answer": 2,
+    "explanation": "où 除了表示地點，也能接在表示時間的名詞後面：le jour où、le moment où、l'année où。中文會想用 quand，但法文這裡要用 où。"
+  },
+  {
+    "id": "gr-b1-005",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "愈過去式 plus-que-parfait",
+    "prompt": "Quand je suis arrivée à la gare, le train ___ déjà ___.",
+    "options": ["a … parti", "est … parti", "avait … parti", "était … parti"],
+    "answer": 3,
+    "explanation": "火車離開發生在「我抵達」之前，是過去的過去，要用愈過去式：助動詞的未完成過去式 + 過去分詞。partir 用 être，所以是 était parti。"
+  },
+  {
+    "id": "gr-b1-006",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "副動詞 gérondif",
+    "prompt": "Elle écoute des podcasts ___ le petit-déjeuner.",
+    "options": ["préparant", "en préparant", "en préparer", "pour préparant"],
+    "answer": 1,
+    "explanation": "en + 現在分詞（-ant）= 副動詞，表示「一邊……一邊……」，兩個動作同一個主詞。"
+  },
+  {
+    "id": "gr-b1-007",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "連接詞（因果）",
+    "prompt": "Il a beaucoup travaillé pendant des mois ; ___, il a réussi son examen.",
+    "options": ["pourtant", "par conséquent", "cependant", "bien que"],
+    "answer": 1,
+    "explanation": "前後是因果關係，用 par conséquent（因此）。pourtant、cependant 是「然而」，表示轉折；bien que 是「雖然」，而且要接子句加虛擬式。"
+  },
+  {
+    "id": "gr-b1-008",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "讓步 bien que + subjonctif",
+    "prompt": "___ il pleuve, nous ferons quand même la randonnée.",
+    "options": ["Parce qu'", "Puisqu'", "Bien qu'", "Dès qu'"],
+    "answer": 2,
+    "explanation": "後面的 pleuve 是虛擬式，而且語意是「雖然下雨，還是要去」，所以用 bien que。parce que、puisque 表原因，dès que 是「一……就……」，都接直陳式。"
+  },
+  {
+    "id": "gr-b1-009",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "過去分詞配合（avoir + 前置直接受詞）",
+    "prompt": "Les photos que j'ai ___ pendant le voyage sont magnifiques.",
+    "options": ["pris", "prise", "prises", "prenées"],
+    "answer": 2,
+    "explanation": "助動詞是 avoir 時，如果直接受詞出現在動詞前面（這裡是 que 代替的 les photos），過去分詞要跟它配合。les photos 是陰性複數，所以是 prises。"
+  },
+  {
+    "id": "gr-b1-010",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "間接引語",
+    "prompt": "Il m'a dit : « Je viendrai demain. » → Il m'a dit qu'il ___ le lendemain.",
+    "options": ["viendra", "viendrait", "venait", "vient"],
+    "answer": 1,
+    "explanation": "主要動詞是過去時（a dit）時，原句的簡單未來式在間接引語中要改成條件式現在時（viendrait），demain 也改成 le lendemain。"
+  },
+  {
+    "id": "gr-b1-011",
+    "skill": "grammar",
+    "level": "B1",
+    "topic": "職場單字",
+    "prompt": "Pour postuler, envoyez votre CV accompagné d'une lettre de ___ expliquant pourquoi ce poste vous intéresse.",
+    "options": ["démission", "réclamation", "motivation", "location"],
+    "answer": 2,
+    "explanation": "lettre de motivation 是求職動機信。lettre de démission 是辭職信，lettre de réclamation 是客訴信。"
+  }
+]
