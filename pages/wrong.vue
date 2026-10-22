@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { SKILL_LABEL } from '~/types'
 import { latestByQuestion, wrongQuestions } from '~/composables/useBank'
+import { getGrammarNote } from '~/composables/useNotes'
 
 const { attempts } = useStore()
 const list = computed(() => wrongQuestions(attempts.value))
@@ -50,6 +51,13 @@ useHead({ title: '錯題本 · TCF Prep' })
           </p>
         </div>
         <p class="text-body text-brand-brown-light">{{ q.explanation }}</p>
+        <NuxtLink
+          v-if="q.note && getGrammarNote(q.note)"
+          :to="`/notes/${q.note}`"
+          class="inline-block text-body font-bold text-brand-orange underline"
+        >
+          📘 看筆記：{{ getGrammarNote(q.note)!.title }}
+        </NuxtLink>
       </div>
     </article>
   </div>

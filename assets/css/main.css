@@ -24,3 +24,36 @@ select,
 textarea {
   font-size: 16px;
 }
+
+/* 文法筆記內文（utils/renderNote.ts 產生的 HTML） */
+.note-body {
+  @apply space-y-3 text-body text-brand-brown;
+}
+.note-body h3 {
+  @apply pt-2 text-h3 font-bold;
+}
+.note-body h4 {
+  @apply pt-1 text-body-lg font-bold;
+}
+.note-body strong {
+  @apply font-bold text-brand-orange-dark;
+}
+.note-body ul {
+  @apply list-disc space-y-1 pl-5;
+}
+.note-body aside {
+  @apply rounded-xl border-2 border-brand-gold bg-brand-cream p-3;
+}
+.note-body .note-table {
+  @apply overflow-x-auto rounded-xl border border-brand-border;
+}
+.note-body table {
+  @apply w-full border-collapse text-small;
+}
+.note-body th {
+  @apply bg-brand-hover px-2.5 py-2 text-left align-bottom font-bold;
+  word-break: keep-all; /* 中文表頭不要拆成一字一行 */
+}
+.note-body td {
+  @apply border-t border-brand-border px-2.5 py-2 align-top;
+}

@@ -1,4 +1,5 @@
-import type { Attempt, Question, Skill } from '~/types'
+import type { Attempt, Level, Question, Skill } from '~/types'
+import { LEVELS } from '~/types'
 import grammar from '~/data/questions/grammar.json'
 import reading from '~/data/questions/reading.json'
 import listening from '~/data/questions/listening.json'
@@ -92,20 +93,26 @@ export function dailyCounts(attempts: Attempt[], days = 14) {
 }
 
 /**
- * 每日練習：10 題，大約 4 文法 / 3 閱讀 / 3 聽力。
- * 先放最多 3 題錯題複習，其餘優先沒做過的題，再來是最久沒碰的題。
+ * 出題排序：先出不超過自己程度的題，同一層裡沒做過的排最前面，再來是最久沒碰的。
+ * 超過程度的題只有在題目不夠時才會補上，而且先補高一級的。
  */
-export function buildDailySet(attempts: Attempt[], size = 10): Question[] {
+function ranker(attempts: Attempt[], level: Level) {
   const latest = latestByQuestion(attempts)
+  const max = LEVELS.indexOf(level)
+  return (q: Question) => String(Math.max(0, LEVELS.indexOf(q.level) - max)) + (latest.get(q.id)?.created_at ?? '')
+}
+
+/**
+ * 每日練習：10 題，大約 4 文法 / 3 閱讀 / 3 聽力。
+ * 先放最多 3 題錯題複習，其餘依 ranker 的順序挑。
+ */
+export function buildDailySet(attempts: Attempt[], level: Level, size = 10): Question[] {
   const wrong = shuffle(wrongQuestions(attempts)).slice(0, 3)
   const picked = new Set(wrong.map((q) => q.id))
   const quota: Record<Skill, number> = { grammar: 4, reading: 3, listening: 3 }
   for (const q of wrong) quota[q.skill] = Math.max(0, quota[q.skill] - 1)
 
-  const rank = (q: Question) => {
-    const a = latest.get(q.id)
-    return a ? a.created_at : '' // 沒做過的排最前面
-  }
+  const rank = ranker(attempts, level)
 
   const result: Question[] = [...wrong]
   for (const skill of ['grammar', 'reading', 'listening'] as Skill[]) {
@@ -127,9 +134,8 @@ export function buildDailySet(attempts: Attempt[], size = 10): Question[] {
   return result.slice(0, size).sort((a, b) => order[a.skill] - order[b.skill])
 }
 
-export function buildSkillSet(attempts: Attempt[], skill: Skill, size = 10): Question[] {
-  const latest = latestByQuestion(attempts)
-  const rank = (q: Question) => latest.get(q.id)?.created_at ?? ''
+export function buildSkillSet(attempts: Attempt[], skill: Skill, level: Level, size = 10): Question[] {
+  const rank = ranker(attempts, level)
   return shuffle(ALL_QUESTIONS.filter((q) => q.skill === skill))
     .sort((a, b) => rank(a).localeCompare(rank(b)))
     .slice(0, size)

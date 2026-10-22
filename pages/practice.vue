@@ -5,6 +5,7 @@ import { buildDailySet, buildSkillSet, wrongQuestions } from '~/composables/useB
 
 const route = useRoute()
 const { attempts, addAttempt } = useStore()
+const level = useLevel()
 const loadedFor = useState<string | null>('store-loaded-for')
 
 const mode = computed(() => (route.query.mode as string) || 'daily')
@@ -23,8 +24,8 @@ const answeredCurrent = ref(false)
 
 function build() {
   if (mode.value === 'wrong') set.value = wrongQuestions(attempts.value).slice(0, 10)
-  else if (mode.value === 'skill' && skill.value) set.value = buildSkillSet(attempts.value, skill.value)
-  else set.value = buildDailySet(attempts.value)
+  else if (mode.value === 'skill' && skill.value) set.value = buildSkillSet(attempts.value, skill.value, level.value)
+  else set.value = buildDailySet(attempts.value, level.value)
   index.value = 0
   results.value = []
   answeredCurrent.value = false

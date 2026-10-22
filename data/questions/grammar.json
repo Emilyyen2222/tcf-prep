@@ -1,5 +1,302 @@
 [
   {
+    "id": "gr-a1-001",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "Être 變位",
+    "prompt": "Nous ___ taïwanais.",
+    "options": ["sommes", "êtes", "sont", "suis"],
+    "answer": 0,
+    "explanation": "主詞 nous 配 sommes。êtes 是 vous，sont 是 ils / elles，suis 是 je。",
+    "note": "etre-avoir"
+  },
+  {
+    "id": "gr-a1-002",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "年齡用 avoir",
+    "prompt": "Ma sœur ___ 12 ans.",
+    "options": ["est", "a", "as", "ont"],
+    "answer": 1,
+    "explanation": "說年齡用 avoir（有幾年），不用 être。ma sœur 是第三人稱單數，所以是 a。",
+    "note": "etre-avoir"
+  },
+  {
+    "id": "gr-a1-003",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "Avoir 縮寫",
+    "prompt": "___ un frère et une sœur.",
+    "options": ["Je ai", "J'ai", "Je suis", "J'as"],
+    "answer": 1,
+    "explanation": "je 遇到母音開頭的 ai 要縮寫成 j'ai。as 是 tu 的變位。",
+    "note": "etre-avoir"
+  },
+  {
+    "id": "gr-a1-004",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "J'ai faim",
+    "prompt": "Il est midi et je n'ai pas mangé. ___",
+    "options": ["Je suis faim.", "J'ai faim.", "Je fais faim.", "J'ai soif de manger."],
+    "answer": 1,
+    "explanation": "「餓」法文說 avoir faim（有飢餓感），不能用 être。",
+    "note": "etre-avoir"
+  },
+  {
+    "id": "gr-a1-005",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "-er 動詞變位",
+    "prompt": "Vous ___ français ?",
+    "options": ["parle", "parles", "parlez", "parlent"],
+    "answer": 2,
+    "explanation": "vous 的字尾是 -ez：vous parlez。parles 是 tu，parlent 是 ils / elles。",
+    "note": "er-verbs"
+  },
+  {
+    "id": "gr-a1-006",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "-er 動詞變位",
+    "prompt": "Ils ___ à Paris depuis deux ans.",
+    "options": ["habite", "habitons", "habitez", "habitent"],
+    "answer": 3,
+    "explanation": "ils 的字尾是 -ent，而且不發音，聽起來跟 il habite 一樣，所以要看主詞判斷。",
+    "note": "er-verbs"
+  },
+  {
+    "id": "gr-a1-007",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "manger 的 nous",
+    "prompt": "Le dimanche, nous ___ chez mes parents.",
+    "options": ["mangons", "mangeons", "mangez", "mange"],
+    "answer": 1,
+    "explanation": "manger 的 nous 要多一個 e，寫成 mangeons，這樣 g 才會保持軟音（唸「忠」不唸「拱」）。",
+    "note": "er-verbs"
+  },
+  {
+    "id": "gr-a1-008",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "aller 變位",
+    "prompt": "Ce soir, je ___ au cinéma avec Léa.",
+    "options": ["vais", "va", "allez", "vont"],
+    "answer": 0,
+    "explanation": "aller 是不規則動詞：je vais、tu vas、il va、nous allons、vous allez、ils vont。",
+    "note": "irregular-verbs"
+  },
+  {
+    "id": "gr-a1-009",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "faire 變位",
+    "prompt": "Qu'est-ce que vous ___ ce week-end ?",
+    "options": ["faisez", "faites", "font", "fais"],
+    "answer": 1,
+    "explanation": "faire 的 vous 是特例 faites，不是 faisez。font 是 ils，fais 是 je / tu。",
+    "note": "irregular-verbs"
+  },
+  {
+    "id": "gr-a1-010",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "venir 變位",
+    "prompt": "Mes amis ___ de Montréal.",
+    "options": ["vient", "venons", "viennent", "venez"],
+    "answer": 2,
+    "explanation": "venir 的 ils / elles 是 viennent：i 回來、n 要雙寫，而且 n 要唸出來。",
+    "note": "irregular-verbs"
+  },
+  {
+    "id": "gr-a1-011",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "pouvoir + 原形",
+    "prompt": "Tu peux ___ la porte, s'il te plaît ?",
+    "options": ["ferme", "fermer", "fermes", "fermez"],
+    "answer": 1,
+    "explanation": "pouvoir、vouloir、devoir 後面直接接原形動詞：tu peux fermer。",
+    "note": "irregular-verbs"
+  },
+  {
+    "id": "gr-a1-012",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "je voudrais",
+    "prompt": "Au café : « Bonjour, je ___ un thé, s'il vous plaît. »",
+    "options": ["voudrais", "veut", "voulons", "veulent"],
+    "answer": 0,
+    "explanation": "點餐用 je voudrais（我想要），比 je veux 客氣。veut 是 il，voulons 是 nous。",
+    "note": "irregular-verbs"
+  },
+  {
+    "id": "gr-a1-013",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "sortir 變位",
+    "prompt": "Je ___ du bureau à 18 heures.",
+    "options": ["sort", "sors", "sorts", "sortons"],
+    "answer": 1,
+    "explanation": "sortir 單數是 sors、sors、sort。je 是 sors，沒有 t。sorts 這個寫法不存在。",
+    "note": "je-tu-s"
+  },
+  {
+    "id": "gr-a1-014",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "定冠詞",
+    "prompt": "J'aime beaucoup ___ chocolat.",
+    "options": ["un", "du", "le", "de"],
+    "answer": 2,
+    "explanation": "aimer、adorer、détester 後面用定冠詞 le / la / les，表示「這一類東西」。chocolat 是陽性，所以是 le。",
+    "note": "articles"
+  },
+  {
+    "id": "gr-a1-015",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "部分冠詞",
+    "prompt": "Le matin, je bois ___ eau et ___ café.",
+    "options": ["de l' … du", "le … le", "une … un", "des … des"],
+    "answer": 0,
+    "explanation": "喝「一些」用部分冠詞。eau 是母音開頭的陰性，用 de l'；café 是陽性，用 du。",
+    "note": "articles"
+  },
+  {
+    "id": "gr-a1-016",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "否定句的冠詞",
+    "prompt": "Je n'ai pas ___ voiture.",
+    "options": ["une", "la", "de", "des"],
+    "answer": 2,
+    "explanation": "否定句裡 un、une、des 變成 de：J'ai une voiture → Je n'ai pas de voiture。",
+    "note": "articles"
+  },
+  {
+    "id": "gr-a1-017",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "à + le = au",
+    "prompt": "Ce soir, nous allons ___ restaurant.",
+    "options": ["à le", "au", "à la", "en"],
+    "answer": 1,
+    "explanation": "à + le 一定要合併成 au。restaurant 是陽性，所以是 au restaurant。法文沒有 à le 的寫法。",
+    "note": "articles"
+  },
+  {
+    "id": "gr-a1-018",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "陰陽性",
+    "prompt": "C'est ___ maison de mes grands-parents.",
+    "options": ["le", "la", "un", "les"],
+    "answer": 1,
+    "explanation": "-son 結尾的 maison 是陰性，所以用 la。而且「我祖父母的房子」是特定的，用定冠詞。",
+    "note": "gender"
+  },
+  {
+    "id": "gr-a1-019",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "形容詞配合",
+    "prompt": "Ma mère est ___.",
+    "options": ["français", "française", "françaises", "francais"],
+    "answer": 1,
+    "explanation": "ma mère 是陰性單數，形容詞加 e：française。",
+    "note": "gender"
+  },
+  {
+    "id": "gr-a1-020",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "否定句",
+    "prompt": "Je ___ parle ___ espagnol.",
+    "options": ["ne … pas", "n' … pas", "pas … ne", "ne … rien"],
+    "answer": 0,
+    "explanation": "ne 和 pas 夾住動詞：Je ne parle pas espagnol。parle 是子音開頭，所以不縮寫成 n'。",
+    "note": "negation"
+  },
+  {
+    "id": "gr-a1-021",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "疑問詞",
+    "prompt": "— ___ habites-tu ? — À Taipei.",
+    "options": ["Quand", "Où", "Comment", "Combien"],
+    "answer": 1,
+    "explanation": "回答是地點（À Taipei），所以問「哪裡」：où。quand 問時間，comment 問方法，combien 問數量。",
+    "note": "questions"
+  },
+  {
+    "id": "gr-a1-022",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "所有格",
+    "prompt": "Paul aime beaucoup ___ sœur.",
+    "options": ["son", "sa", "ses", "leur"],
+    "answer": 1,
+    "explanation": "所有格看「東西」的性別，不看主人。sœur 是陰性單數，所以用 sa（就算 Paul 是男生）。",
+    "note": "possessives"
+  },
+  {
+    "id": "gr-a1-023",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "所有格",
+    "prompt": "Voici ___ amie Claire.",
+    "options": ["ma", "mon", "mes", "me"],
+    "answer": 1,
+    "explanation": "amie 雖然是陰性，但是母音開頭，為了好唸要用 mon：mon amie。",
+    "note": "possessives"
+  },
+  {
+    "id": "gr-a1-024",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "國家的介系詞",
+    "prompt": "L'année prochaine, je vais habiter ___ Canada.",
+    "options": ["en", "à", "au", "aux"],
+    "answer": 2,
+    "explanation": "Canada 是陽性國家，用 au。陰性國家用 en（en France），城市用 à（à Montréal）。",
+    "note": "places"
+  },
+  {
+    "id": "gr-a1-025",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "國家的介系詞",
+    "prompt": "Elle travaille ___ France, ___ Lyon.",
+    "options": ["en … à", "au … à", "à … en", "en … en"],
+    "answer": 0,
+    "explanation": "France 是陰性國家，用 en；Lyon 是城市，用 à。",
+    "note": "places"
+  },
+  {
+    "id": "gr-a1-026",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "最近未來式",
+    "prompt": "Demain, nous ___ visiter le musée.",
+    "options": ["allons", "venons de", "sommes en train de", "avons"],
+    "answer": 0,
+    "explanation": "demain 是未來，用 aller + 原形：nous allons visiter。venir de 是「剛剛」，être en train de 是「正在」。",
+    "note": "near-time"
+  },
+  {
+    "id": "gr-a1-027",
+    "skill": "grammar",
+    "level": "A1",
+    "topic": "最近過去式",
+    "prompt": "Tu as faim ? — Non, je ___ manger.",
+    "options": ["vais", "viens de", "suis en train de", "vais de"],
+    "answer": 1,
+    "explanation": "不餓是因為「剛吃完」：venir de + 原形。je vais manger 是「我要去吃」，意思相反。",
+    "note": "near-time"
+  },
+  {
     "id": "gr-a2-001",
     "skill": "grammar",
     "level": "A2",
@@ -7,7 +304,8 @@
     "prompt": "Hier, ma sœur ___ au cinéma avec ses amies.",
     "options": ["a allé", "est allé", "est allée", "allait"],
     "answer": 2,
-    "explanation": "aller 的複合過去式用 être 當助動詞，過去分詞要跟主詞配合。主詞 ma sœur 是陰性單數，所以是 est allée。allait 是未完成過去式，用來描述背景或習慣，不適合「昨天去了」這種完成的動作。"
+    "explanation": "aller 的複合過去式用 être 當助動詞，過去分詞要跟主詞配合。主詞 ma sœur 是陰性單數，所以是 est allée。allait 是未完成過去式，用來描述背景或習慣，不適合「昨天去了」這種完成的動作。",
+    "note": "passe-compose"
   },
   {
     "id": "gr-a2-002",
@@ -17,7 +315,8 @@
     "prompt": "Tu connais Marie ? — Oui, je ___ connais très bien.",
     "options": ["lui", "la", "le", "en"],
     "answer": 1,
-    "explanation": "connaître quelqu'un 後面直接接受詞（沒有 à），Marie 是陰性單數，直接受詞代名詞用 la。lui 是間接受詞（à + 人）。"
+    "explanation": "connaître quelqu'un 後面直接接受詞（沒有 à），Marie 是陰性單數，直接受詞代名詞用 la。lui 是間接受詞（à + 人）。",
+    "note": "pronouns"
   },
   {
     "id": "gr-a2-003",
@@ -27,7 +326,8 @@
     "prompt": "J'ai téléphoné à mes parents et je ___ ai dit que j'arrivais demain.",
     "options": ["les", "lui", "y", "leur"],
     "answer": 3,
-    "explanation": "dire quelque chose à quelqu'un，「à + 人」要用間接受詞代名詞。mes parents 是複數，所以用 leur。注意 leur 當代名詞時不加 s。"
+    "explanation": "dire quelque chose à quelqu'un，「à + 人」要用間接受詞代名詞。mes parents 是複數，所以用 leur。注意 leur 當代名詞時不加 s。",
+    "note": "pronouns"
   },
   {
     "id": "gr-a2-004",
@@ -37,7 +337,8 @@
     "prompt": "Le matin, je bois ___ café et je mange ___ pain avec du beurre.",
     "options": ["du … du", "le … le", "de … de", "un … un"],
     "answer": 0,
-    "explanation": "吃、喝「一些」不可數的東西用部分冠詞。café 和 pain 都是陽性，所以都是 du。le café 是指「咖啡這種東西」，常用在 aimer 之後，例如 J'aime le café。"
+    "explanation": "吃、喝「一些」不可數的東西用部分冠詞。café 和 pain 都是陽性，所以都是 du。le café 是指「咖啡這種東西」，常用在 aimer 之後，例如 J'aime le café。",
+    "note": "articles"
   },
   {
     "id": "gr-a2-005",
@@ -47,7 +348,8 @@
     "prompt": "Désolé, il n'y a plus ___ lait dans le frigo.",
     "options": ["du", "de", "le", "des"],
     "answer": 1,
-    "explanation": "否定句中，不定冠詞 un/une/des 和部分冠詞 du/de la 都會變成 de（母音前 d'）。所以是 il n'y a plus de lait。"
+    "explanation": "否定句中，不定冠詞 un/une/des 和部分冠詞 du/de la 都會變成 de（母音前 d'）。所以是 il n'y a plus de lait。",
+    "note": "articles"
   },
   {
     "id": "gr-a2-006",
@@ -57,7 +359,8 @@
     "prompt": "Regarde ces nuages, il ___ pleuvoir. Prends ton parapluie !",
     "options": ["vient de", "va", "est en train de", "a"],
     "answer": 1,
-    "explanation": "aller + 原形動詞 = 近未來式，表示「快要、即將」。vient de pleuvoir 是「剛剛下過雨」，est en train de 是「正在」，都跟「帶傘」的語意不合。"
+    "explanation": "aller + 原形動詞 = 近未來式，表示「快要、即將」。vient de pleuvoir 是「剛剛下過雨」，est en train de 是「正在」，都跟「帶傘」的語意不合。",
+    "note": "near-time"
   },
   {
     "id": "gr-a2-007",
@@ -67,7 +370,8 @@
     "prompt": "L'été prochain, je vais ___ Canada, plus précisément ___ Montréal.",
     "options": ["en … à", "au … en", "au … à", "à … au"],
     "answer": 2,
-    "explanation": "陽性國家用 au（le Canada → au Canada），陰性國家用 en（en France），城市用 à（à Montréal）。"
+    "explanation": "陽性國家用 au（le Canada → au Canada），陰性國家用 en（en France），城市用 à（à Montréal）。",
+    "note": "places"
   },
   {
     "id": "gr-a2-008",
@@ -77,7 +381,8 @@
     "prompt": "Quand j'étais petite, je ___ souvent chez ma grand-mère le dimanche.",
     "options": ["suis allée", "allais", "irai", "vais"],
     "answer": 1,
-    "explanation": "描述過去的習慣（souvent、le dimanche）要用未完成過去式 imparfait：j'allais。複合過去式 suis allée 用在一次性、已完成的動作。"
+    "explanation": "描述過去的習慣（souvent、le dimanche）要用未完成過去式 imparfait：j'allais。複合過去式 suis allée 用在一次性、已完成的動作。",
+    "note": "imparfait"
   },
   {
     "id": "gr-a2-009",
@@ -87,7 +392,8 @@
     "prompt": "Ce café est ___ que celui d'à côté, et en plus il est moins cher.",
     "options": ["plus bon", "mieux", "le meilleur", "meilleur"],
     "answer": 3,
-    "explanation": "bon 的比較級是不規則的 meilleur，不能說 plus bon。mieux 是 bien（副詞）的比較級，用來修飾動詞，例如 il chante mieux。"
+    "explanation": "bon 的比較級是不規則的 meilleur，不能說 plus bon。mieux 是 bien（副詞）的比較級，用來修飾動詞，例如 il chante mieux。",
+    "note": "comparison"
   },
   {
     "id": "gr-a2-010",
@@ -97,7 +403,8 @@
     "prompt": "Tu vas à la boulangerie ? — Oui, j'___ vais tout de suite.",
     "options": ["en", "y", "le", "lui"],
     "answer": 1,
-    "explanation": "y 代替「à + 地點」，à la boulangerie → y。en 代替「de + 地點」或數量，例如 j'en viens（我剛從那裡回來）。"
+    "explanation": "y 代替「à + 地點」，à la boulangerie → y。en 代替「de + 地點」或數量，例如 j'en viens（我剛從那裡回來）。",
+    "note": "pronouns"
   },
   {
     "id": "gr-a2-011",
@@ -197,7 +504,8 @@
     "prompt": "Les photos que j'ai ___ pendant le voyage sont magnifiques.",
     "options": ["pris", "prise", "prises", "prenées"],
     "answer": 2,
-    "explanation": "助動詞是 avoir 時，如果直接受詞出現在動詞前面（這裡是 que 代替的 les photos），過去分詞要跟它配合。les photos 是陰性複數，所以是 prises。"
+    "explanation": "助動詞是 avoir 時，如果直接受詞出現在動詞前面（這裡是 que 代替的 les photos），過去分詞要跟它配合。les photos 是陰性複數，所以是 prises。",
+    "note": "passe-compose"
   },
   {
     "id": "gr-b1-010",

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { Question } from '~/types'
 import { SKILL_LABEL } from '~/types'
+import { getGrammarNote } from '~/composables/useNotes'
 
 const props = defineProps<{ question: Question }>()
 const emit = defineEmits<{ answered: [chosen: number, correct: boolean] }>()
@@ -12,6 +13,9 @@ const order = ref<number[]>([])
 const chosen = ref<number | null>(null)
 const plays = ref(0)
 const slow = ref(false)
+const showNote = ref(false)
+const showAddCard = ref(false)
+const note = computed(() => (props.question.note ? getGrammarNote(props.question.note) : undefined))
 
 function reset() {
   const idx = props.question.options.map((_, i) => i)
@@ -22,6 +26,8 @@ function reset() {
   order.value = idx
   chosen.value = null
   plays.value = 0
+  showNote.value = false
+  showAddCard.value = false
   stop()
 }
 watch(() => props.question.id, reset, { immediate: true })
@@ -131,6 +137,33 @@ const letters = ['A', 'B', 'C', 'D', 'E']
         <p class="text-caption font-bold text-brand-brown-light">聽力文字稿</p>
         <p class="mt-1 text-body text-brand-brown">{{ question.audio }}</p>
       </div>
+      <div class="mt-3 flex flex-wrap gap-2 border-t border-brand-border pt-3">
+        <button
+          v-if="note"
+          type="button"
+          class="min-h-10 rounded-full border-2 border-brand-border bg-white px-4 text-small font-bold"
+          :aria-expanded="showNote"
+          @click="showNote = !showNote"
+        >
+          📘 {{ showNote ? '收起筆記' : `看筆記：${note.title}` }}
+        </button>
+        <button
+          type="button"
+          class="min-h-10 rounded-full border-2 border-brand-border bg-white px-4 text-small font-bold"
+          :aria-expanded="showAddCard"
+          @click="showAddCard = !showAddCard"
+        >
+          ＋ 加單字
+        </button>
+      </div>
+      <div v-if="showAddCard" class="mt-3">
+        <AddCardForm />
+      </div>
+    </div>
+
+    <div v-if="answered && showNote && note" class="rounded-xl border-2 border-brand-border bg-white p-4">
+      <p class="mb-2 text-caption font-bold text-brand-brown-light">文法筆記 · {{ note.level }}</p>
+      <NoteBody :body="note.body" />
     </div>
   </article>
 </template>

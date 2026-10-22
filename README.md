@@ -17,7 +17,7 @@ npm run dev
 
 ## 設定 Supabase（一次就好）
 
-1. Supabase Dashboard → **SQL Editor**，貼上 `supabase/migrations/0001_init.sql` 執行
+1. Supabase Dashboard → **SQL Editor**，依序貼上 `supabase/migrations/` 裡的 `0001_init.sql`、`0002_notes_cards.sql` 執行
 2. **Project Settings → API**，複製 Project URL 和 anon（或 publishable）key 到 `.env`
 3. **Authentication → URL Configuration**
    - Site URL：正式網址（例如 `https://tcf-prep.vercel.app`）
@@ -37,17 +37,30 @@ NUXT_PUBLIC_SUPABASE_ANON_KEY
 
 ```
 pages/
-  index.vue        首頁：今日練習、單項練習、TV5MONDE 入口
+  index.vue        首頁：今日練習、程度設定、單字卡入口、單項練習、TV5MONDE 入口
+  cards.vue        單字卡（Leitner 間隔複習、自己加單字）
+  notes/           文法筆記列表、單篇、自己寫筆記（edit.vue）
   practice.vue     作答流程（?mode=daily | wrong | skill&skill=grammar）
   wrong.vue        錯題本
   progress.vue     進度、正確率、模擬考分數紀錄
   login.vue        magic link 登入 / 登出
 components/
-  QuestionCard.vue 單題卡片（選項隨機排序、聽力 TTS、解析）
+  QuestionCard.vue 單題卡片（選項隨機排序、聽力 TTS、解析、看筆記、加單字）
+  NoteBody.vue     顯示筆記內文
+  AddCardForm.vue  新增單字表單
 assets/css/main.css  Tailwind 入口
 composables/
   useStore.ts      資料層：Supabase 或 localStorage
-  useBank.ts       題庫、出題邏輯、錯題、連續天數、統計
+  useBank.ts       題庫、出題邏輯（依程度）、錯題、連續天數、統計
+  useNotebook.ts   自己的筆記、單字、單字卡進度：Supabase 或 localStorage
+  useCards.ts      單字卡複習排程
+  useNotes.ts      內建文法筆記
+  useLevel.ts      我的程度（存在這台裝置）
+utils/renderNote.ts  筆記的簡易格式 → HTML
+data/
+  questions/       題庫
+  notes.json       內建文法筆記
+  vocab.json       內建單字
   useSpeech.ts     瀏覽器法語語音朗讀
 data/questions/    題庫 JSON（grammar / reading / listening）
 supabase/migrations/

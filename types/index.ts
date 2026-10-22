@@ -1,5 +1,6 @@
 export type Skill = 'reading' | 'grammar' | 'listening'
-export type Level = 'A2' | 'B1' | 'B2'
+export type Level = 'A1' | 'A2' | 'B1' | 'B2'
+export const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2']
 
 export interface Question {
   /** 唯一 id，例如 gr-a2-001。上線後不要改，作答紀錄靠它對應 */
@@ -19,6 +20,8 @@ export interface Question {
   answer: number
   /** 中文解析 */
   explanation: string
+  /** 相關文法筆記的 id（data/notes.json） */
+  note?: string
 }
 
 export interface Attempt {
@@ -44,4 +47,42 @@ export const SKILL_LABEL: Record<Skill, string> = {
   reading: '閱讀',
   grammar: '文法單字',
   listening: '聽力',
+}
+
+/** 內建文法筆記（data/notes.json），body 用簡易格式，見 utils/renderNote.ts */
+export interface GrammarNote {
+  id: string
+  level: Level
+  title: string
+  body: string
+}
+
+/** 自己寫的筆記 */
+export interface UserNote {
+  id: string
+  title: string
+  body: string
+  created_at: string
+  updated_at: string
+}
+
+/** 單字卡：內建的在 data/vocab.json（id 開頭 v-），自己加的存在資料庫 */
+export interface Card {
+  id: string
+  fr: string
+  zh: string
+  note?: string | null
+  tag?: string
+}
+
+export interface UserCard extends Card {
+  created_at: string
+}
+
+/** 單字卡複習進度：box 越高代表越熟，due_on 是下次該複習的日期 */
+export interface CardProgress {
+  card_id: string
+  box: number
+  due_on: string
+  reviewed_at: string
 }

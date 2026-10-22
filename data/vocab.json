@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "v-bonjour",
+    "fr": "Bonjour",
+    "zh": "你好、早安",
+    "tag": "打招呼",
+    "note": "白天任何時候都可以用"
+  },
+  {
+    "id": "v-bonsoir",
+    "fr": "Bonsoir",
+    "zh": "晚上好",
+    "tag": "打招呼",
+    "note": "傍晚見面時用"
+  },
+  {
+    "id": "v-salut",
+    "fr": "Salut",
+    "zh": "嗨、掰掰",
+    "tag": "打招呼",
+    "note": "朋友之間用，不正式"
+  },
+  {
+    "id": "v-au-revoir",
+    "fr": "Au revoir",
+    "zh": "再見",
+    "tag": "打招呼"
+  },
+  {
+    "id": "v-a-bientot",
+    "fr": "À bientôt",
+    "zh": "很快再見",
+    "tag": "打招呼"
+  },
+  {
+    "id": "v-a-demain",
+    "fr": "À demain",
+    "zh": "明天見",
+    "tag": "打招呼"
+  },
+  {
+    "id": "v-merci-beaucoup",
+    "fr": "Merci beaucoup",
+    "zh": "非常感謝",
+    "tag": "打招呼"
+  },
+  {
+    "id": "v-s-il-vous-plait",
+    "fr": "S'il vous plaît",
+    "zh": "請（對您）",
+    "tag": "打招呼",
+    "note": "對朋友說 s'il te plaît"
+  },
+  {
+    "id": "v-excusez-moi",
+    "fr": "Excusez-moi",
+    "zh": "不好意思",
+    "tag": "打招呼",
+    "note": "問路、叫服務生時用"
+  },
+  {
+    "id": "v-enchante-e",
+    "fr": "Enchanté(e)",
+    "zh": "幸會",
+    "tag": "打招呼",
+    "note": "女生寫 enchantée，唸法一樣"
+  },
+  {
+    "id": "v-ca-va",
+    "fr": "Ça va ?",
+    "zh": "你好嗎？",
+    "tag": "打招呼",
+    "note": "語調上揚是問句，平平地說是回答「還好」"
+  },
+  {
+    "id": "v-je-m-appelle",
+    "fr": "Je m'appelle…",
+    "zh": "我叫…",
+    "tag": "打招呼"
+  },
+  {
+    "id": "v-bonne-journee",
+    "fr": "Bonne journée",
+    "zh": "祝你有美好的一天",
+    "tag": "打招呼",
+    "note": "離開時說；見面說 bonjour"
+  },
+  {
+    "id": "v-de-rien",
+    "fr": "De rien",
+    "zh": "不客氣",
+    "tag": "打招呼"
+  },
+  {
+    "id": "v-pere",
+    "fr": "le père",
+    "zh": "父親",
+    "tag": "家庭",
+    "note": "mon père"
+  },
+  {
+    "id": "v-mere",
+    "fr": "la mère",
+    "zh": "母親",
+    "tag": "家庭",
+    "note": "ma mère"
+  },
+  {
+    "id": "v-frere",
+    "fr": "le frère",
+    "zh": "兄弟",
+    "tag": "家庭"
+  },
+  {
+    "id": "v-soeur",
+    "fr": "la sœur",
+    "zh": "姊妹",
+    "tag": "家庭",
+    "note": "œu 唸起來像英文 sir 的母音，嘴巴嘟圓"
+  },
+  {
+    "id": "v-fils",
+    "fr": "le fils",
+    "zh": "兒子",
+    "tag": "家庭",
+    "note": "特例：l 不唸，s 要唸，唸 Fees"
+  },
+  {
+    "id": "v-fille",
+    "fr": "la fille",
+    "zh": "女兒、女孩",
+    "tag": "家庭",
+    "note": "ll 發 y 的音"
+  },
+  {
+    "id": "v-mari",
+    "fr": "le mari",
+    "zh": "丈夫",
+    "tag": "家庭"
+  },
+  {
+    "id": "v-femme",
+    "fr": "la femme",
+    "zh": "妻子、女人",
+    "tag": "家庭",
+    "note": "特例：唸 Fam"
+  },
+  {
+    "id": "v-famille",
+    "fr": "la famille",
+    "zh": "家庭",
+    "tag": "家庭",
+    "note": "單數名詞：Ma famille habite…（不是 habitent）"
+  },
+  {
+    "id": "v-enfant-m-f",
+    "fr": "l'enfant (m./f.)",
+    "zh": "小孩",
+    "tag": "家庭",
+    "note": "男生女生都寫 enfant"
+  },
+  {
+    "id": "v-parents",
+    "fr": "les parents",
+    "zh": "父母",
+    "tag": "家庭",
+    "note": "也可以指親戚"
+  },
+  {
+    "id": "v-copain-la-copine",
+    "fr": "le copain / la copine",
+    "zh": "朋友、男友 / 女友",
+    "tag": "家庭"
+  },
+  {
+    "id": "v-ami-l-amie",
+    "fr": "l'ami / l'amie",
+    "zh": "朋友",
+    "tag": "家庭"
+  },
+  {
+    "id": "v-animal-de-compagnie-m",
+    "fr": "l'animal de compagnie (m.)",
+    "zh": "寵物",
+    "tag": "家庭",
+    "note": "字面是「陪伴的動物」"
+  },
+  {
+    "id": "v-metier",
+    "fr": "le métier",
+    "zh": "職業",
+    "tag": "職業",
+    "note": "Quel est ton métier ?"
+  },
+  {
+    "id": "v-travail",
+    "fr": "le travail",
+    "zh": "工作",
+    "tag": "職業"
+  },
+  {
+    "id": "v-la-medecin",
+    "fr": "le / la médecin",
+    "zh": "醫生",
+    "tag": "職業",
+    "note": "結尾是鼻音「桑」"
+  },
+  {
+    "id": "v-ingenieur-e",
+    "fr": "l'ingénieur(e)",
+    "zh": "工程師",
+    "tag": "職業",
+    "note": "Je suis ingénieure.（職業前不加冠詞）"
+  },
+  {
+    "id": "v-etudiant-l-etudiante",
+    "fr": "l'étudiant / l'étudiante",
+    "zh": "學生",
+    "tag": "職業"
+  },
+  {
+    "id": "v-chauffeur",
+    "fr": "le chauffeur",
+    "zh": "司機",
+    "tag": "職業"
+  },
+  {
+    "id": "v-professeur-la-professeure",
+    "fr": "le professeur / la professeure",
+    "zh": "老師",
+    "tag": "職業",
+    "note": "口語常說 le / la prof"
+  },
+  {
+    "id": "v-serveur-la-serveuse",
+    "fr": "le serveur / la serveuse",
+    "zh": "服務生",
+    "tag": "職業"
+  },
+  {
+    "id": "v-bureau",
+    "fr": "le bureau",
+    "zh": "辦公室、書桌",
+    "tag": "職業"
+  },
+  {
+    "id": "v-entreprise-f",
+    "fr": "l'entreprise (f.)",
+    "zh": "公司",
+    "tag": "職業"
+  },
+  {
+    "id": "v-la-collegue",
+    "fr": "le / la collègue",
+    "zh": "同事",
+    "tag": "職業"
+  },
+  {
+    "id": "v-salaire",
+    "fr": "le salaire",
+    "zh": "薪水",
+    "tag": "職業"
+  },
+  {
+    "id": "v-etre",
+    "fr": "être",
+    "zh": "是",
+    "tag": "動詞",
+    "note": "je suis, tu es, il est"
+  },
+  {
+    "id": "v-avoir",
+    "fr": "avoir",
+    "zh": "有",
+    "tag": "動詞",
+    "note": "j'ai, tu as, il a"
+  },
+  {
+    "id": "v-aller",
+    "fr": "aller",
+    "zh": "去",
+    "tag": "動詞",
+    "note": "je vais, tu vas, il va"
+  },
+  {
+    "id": "v-venir",
+    "fr": "venir",
+    "zh": "來",
+    "tag": "動詞",
+    "note": "je viens, ils viennent"
+  },
+  {
+    "id": "v-faire",
+    "fr": "faire",
+    "zh": "做",
+    "tag": "動詞",
+    "note": "je fais, vous faites, ils font"
+  },
+  {
+    "id": "v-prendre",
+    "fr": "prendre",
+    "zh": "拿、吃喝、搭乘",
+    "tag": "動詞",
+    "note": "je prends un café / le métro"
+  },
+  {
+    "id": "v-vouloir",
+    "fr": "vouloir",
+    "zh": "想要",
+    "tag": "動詞",
+    "note": "je veux；客氣說 je voudrais"
+  },
+  {
+    "id": "v-pouvoir",
+    "fr": "pouvoir",
+    "zh": "能夠",
+    "tag": "動詞",
+    "note": "je peux + 原形"
+  },
+  {
+    "id": "v-devoir",
+    "fr": "devoir",
+    "zh": "必須",
+    "tag": "動詞",
+    "note": "je dois + 原形"
+  },
+  {
+    "id": "v-savoir",
+    "fr": "savoir",
+    "zh": "知道、會（技能）",
+    "tag": "動詞",
+    "note": "Je sais nager.（我會游泳）"
+  },
+  {
+    "id": "v-connaitre",
+    "fr": "connaître",
+    "zh": "認識（人、地方）",
+    "tag": "動詞",
+    "note": "Je connais Paris."
+  },
+  {
+    "id": "v-parler",
+    "fr": "parler",
+    "zh": "說",
+    "tag": "動詞"
+  },
+  {
+    "id": "v-habiter",
+    "fr": "habiter",
+    "zh": "住",
+    "tag": "動詞",
+    "note": "J'habite à Taipei."
+  },
+  {
+    "id": "v-aimer",
+    "fr": "aimer",
+    "zh": "喜歡、愛",
+    "tag": "動詞",
+    "note": "J'aime beaucoup…（不能說 j'aime très）"
+  },
+  {
+    "id": "v-travailler",
+    "fr": "travailler",
+    "zh": "工作",
+    "tag": "動詞"
+  },
+  {
+    "id": "v-manger",
+    "fr": "manger",
+    "zh": "吃",
+    "tag": "動詞",
+    "note": "nous mangeons"
+  },
+  {
+    "id": "v-boire",
+    "fr": "boire",
+    "zh": "喝",
+    "tag": "動詞",
+    "note": "je bois, nous buvons"
+  },
+  {
+    "id": "v-acheter",
+    "fr": "acheter",
+    "zh": "買",
+    "tag": "動詞",
+    "note": "j'achète"
+  },
+  {
+    "id": "v-partager",
+    "fr": "partager",
+    "zh": "分享",
+    "tag": "動詞"
+  },
+  {
+    "id": "v-apporter",
+    "fr": "apporter",
+    "zh": "帶來",
+    "tag": "動詞",
+    "note": "J'apporte le vin.（去聚會帶東西）"
+  },
+  {
+    "id": "v-jouer",
+    "fr": "jouer",
+    "zh": "玩、演奏",
+    "tag": "動詞",
+    "note": "運動用 à（jouer au tennis），樂器用 de（jouer du piano）"
+  },
+  {
+    "id": "v-sortir",
+    "fr": "sortir",
+    "zh": "出去",
+    "tag": "動詞",
+    "note": "je sors, il sort"
+  },
+  {
+    "id": "v-dormir",
+    "fr": "dormir",
+    "zh": "睡覺",
+    "tag": "動詞",
+    "note": "je dors"
+  },
+  {
+    "id": "v-partir",
+    "fr": "partir",
+    "zh": "出發、離開",
+    "tag": "動詞",
+    "note": "je pars"
+  },
+  {
+    "id": "v-finir",
+    "fr": "finir",
+    "zh": "結束",
+    "tag": "動詞",
+    "note": "nous finissons"
+  },
+  {
+    "id": "v-choisir",
+    "fr": "choisir",
+    "zh": "選擇",
+    "tag": "動詞",
+    "note": "nous choisissons"
+  },
+  {
+    "id": "v-attendre",
+    "fr": "attendre",
+    "zh": "等",
+    "tag": "動詞",
+    "note": "J'attends le bus."
+  },
+  {
+    "id": "v-chercher",
+    "fr": "chercher",
+    "zh": "找",
+    "tag": "動詞"
+  },
+  {
+    "id": "v-trouver",
+    "fr": "trouver",
+    "zh": "找到",
+    "tag": "動詞"
+  },
+  {
+    "id": "v-comprendre",
+    "fr": "comprendre",
+    "zh": "懂",
+    "tag": "動詞",
+    "note": "跟 prendre 一樣變"
+  },
+  {
+    "id": "v-apprendre",
+    "fr": "apprendre",
+    "zh": "學",
+    "tag": "動詞",
+    "note": "J'apprends le français."
+  },
+  {
+    "id": "v-ralentir",
+    "fr": "ralentir",
+    "zh": "放慢",
+    "tag": "動詞",
+    "note": "字根 lent（慢）"
+  },
+  {
+    "id": "v-respirer",
+    "fr": "respirer",
+    "zh": "呼吸",
+    "tag": "動詞"
+  },
+  {
+    "id": "v-se-reposer",
+    "fr": "se reposer",
+    "zh": "休息",
+    "tag": "動詞"
+  },
+  {
+    "id": "v-se-lever",
+    "fr": "se lever",
+    "zh": "起床",
+    "tag": "動詞",
+    "note": "je me lève"
+  },
+  {
+    "id": "v-se-sentir",
+    "fr": "se sentir",
+    "zh": "覺得（身體、心情）",
+    "tag": "動詞",
+    "note": "Je me sens bien."
+  },
+  {
+    "id": "v-sentir",
+    "fr": "sentir",
+    "zh": "聞、感覺到",
+    "tag": "動詞",
+    "note": "Ça sent bon.（好香）"
+  },
+  {
+    "id": "v-avoir-envie-de",
+    "fr": "avoir envie de",
+    "zh": "想要…",
+    "tag": "動詞",
+    "note": "比 je veux 委婉"
+  },
+  {
+    "id": "v-avoir-besoin-de",
+    "fr": "avoir besoin de",
+    "zh": "需要…",
+    "tag": "動詞"
+  },
+  {
+    "id": "v-content-contente",
+    "fr": "content / contente",
+    "zh": "開心的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-fatigue-e",
+    "fr": "fatigué(e)",
+    "zh": "累的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-doux-douce",
+    "fr": "doux / douce",
+    "zh": "溫柔的、甜的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-grand-grande",
+    "fr": "grand / grande",
+    "zh": "大的、高的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-petit-petite",
+    "fr": "petit / petite",
+    "zh": "小的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-beau-belle",
+    "fr": "beau / belle",
+    "zh": "美的、帥的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-bon-bonne",
+    "fr": "bon / bonne",
+    "zh": "好的、好吃的",
+    "tag": "形容詞",
+    "note": "比較級是 meilleur"
+  },
+  {
+    "id": "v-cher-chere",
+    "fr": "cher / chère",
+    "zh": "貴的、親愛的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-facile",
+    "fr": "facile",
+    "zh": "簡單的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-difficile",
+    "fr": "difficile",
+    "zh": "難的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-important-e",
+    "fr": "important(e)",
+    "zh": "重要的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-productif-productive",
+    "fr": "productif / productive",
+    "zh": "有生產力的",
+    "tag": "形容詞",
+    "note": "-if 變陰性是 -ive"
+  },
+  {
+    "id": "v-heureux-heureuse",
+    "fr": "heureux / heureuse",
+    "zh": "幸福的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-malade",
+    "fr": "malade",
+    "zh": "生病的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-libre",
+    "fr": "libre",
+    "zh": "有空的、自由的",
+    "tag": "形容詞",
+    "note": "Tu es libre ce soir ?"
+  },
+  {
+    "id": "v-occupe-e",
+    "fr": "occupé(e)",
+    "zh": "忙的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-pret-prete",
+    "fr": "prêt / prête",
+    "zh": "準備好的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-nouveau-nouvelle",
+    "fr": "nouveau / nouvelle",
+    "zh": "新的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-vieux-vieille",
+    "fr": "vieux / vieille",
+    "zh": "老的、舊的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-jeune",
+    "fr": "jeune",
+    "zh": "年輕的",
+    "tag": "形容詞"
+  },
+  {
+    "id": "v-lundi",
+    "fr": "lundi",
+    "zh": "星期一",
+    "tag": "時間",
+    "note": "Lune（月亮）"
+  },
+  {
+    "id": "v-mardi",
+    "fr": "mardi",
+    "zh": "星期二",
+    "tag": "時間",
+    "note": "Mars（火星）"
+  },
+  {
+    "id": "v-mercredi",
+    "fr": "mercredi",
+    "zh": "星期三",
+    "tag": "時間",
+    "note": "Mercure（水星）"
+  },
+  {
+    "id": "v-jeudi",
+    "fr": "jeudi",
+    "zh": "星期四",
+    "tag": "時間",
+    "note": "Jupiter（木星）"
+  },
+  {
+    "id": "v-vendredi",
+    "fr": "vendredi",
+    "zh": "星期五",
+    "tag": "時間",
+    "note": "Vénus（金星）"
+  },
+  {
+    "id": "v-samedi",
+    "fr": "samedi",
+    "zh": "星期六",
+    "tag": "時間"
+  },
+  {
+    "id": "v-dimanche",
+    "fr": "dimanche",
+    "zh": "星期日",
+    "tag": "時間"
+  },
+  {
+    "id": "v-aujourd-hui",
+    "fr": "aujourd'hui",
+    "zh": "今天",
+    "tag": "時間"
+  },
+  {
+    "id": "v-demain",
+    "fr": "demain",
+    "zh": "明天",
+    "tag": "時間"
+  },
+  {
+    "id": "v-hier",
+    "fr": "hier",
+    "zh": "昨天",
+    "tag": "時間"
+  },
+  {
+    "id": "v-matin",
+    "fr": "le matin",
+    "zh": "早上",
+    "tag": "時間"
+  },
+  {
+    "id": "v-apres-midi-m",
+    "fr": "l'après-midi (m.)",
+    "zh": "下午",
+    "tag": "時間"
+  },
+  {
+    "id": "v-soir",
+    "fr": "le soir",
+    "zh": "晚上",
+    "tag": "時間",
+    "note": "ce soir = 今晚"
+  },
+  {
+    "id": "v-semaine",
+    "fr": "la semaine",
+    "zh": "星期、週",
+    "tag": "時間",
+    "note": "la semaine prochaine = 下週"
+  },
+  {
+    "id": "v-mois",
+    "fr": "le mois",
+    "zh": "月",
+    "tag": "時間"
+  },
+  {
+    "id": "v-an-l-annee",
+    "fr": "l'an / l'année",
+    "zh": "年",
+    "tag": "時間",
+    "note": "J'ai 31 ans."
+  },
+  {
+    "id": "v-temps",
+    "fr": "le temps",
+    "zh": "時間、天氣",
+    "tag": "時間",
+    "note": "p 和 s 都不唸，只唸鼻音「燙」"
+  },
+  {
+    "id": "v-toujours",
+    "fr": "toujours",
+    "zh": "總是",
+    "tag": "時間"
+  },
+  {
+    "id": "v-souvent",
+    "fr": "souvent",
+    "zh": "常常",
+    "tag": "時間"
+  },
+  {
+    "id": "v-parfois",
+    "fr": "parfois",
+    "zh": "有時候",
+    "tag": "時間"
+  },
+  {
+    "id": "v-ne-jamais",
+    "fr": "ne … jamais",
+    "zh": "從不",
+    "tag": "時間",
+    "note": "Je ne mange jamais de viande."
+  },
+  {
+    "id": "v-maintenant",
+    "fr": "maintenant",
+    "zh": "現在",
+    "tag": "時間"
+  },
+  {
+    "id": "v-bientot",
+    "fr": "bientôt",
+    "zh": "很快",
+    "tag": "時間"
+  },
+  {
+    "id": "v-tard",
+    "fr": "tard",
+    "zh": "晚",
+    "tag": "時間"
+  },
+  {
+    "id": "v-tot",
+    "fr": "tôt",
+    "zh": "早",
+    "tag": "時間"
+  },
+  {
+    "id": "v-maison",
+    "fr": "la maison",
+    "zh": "房子、家",
+    "tag": "生活",
+    "note": "-son 結尾是陰性"
+  },
+  {
+    "id": "v-appartement-m",
+    "fr": "l'appartement (m.)",
+    "zh": "公寓",
+    "tag": "生活"
+  },
+  {
+    "id": "v-gare",
+    "fr": "la gare",
+    "zh": "火車站",
+    "tag": "生活"
+  },
+  {
+    "id": "v-train",
+    "fr": "le train",
+    "zh": "火車",
+    "tag": "生活"
+  },
+  {
+    "id": "v-metro",
+    "fr": "le métro",
+    "zh": "地鐵",
+    "tag": "生活"
+  },
+  {
+    "id": "v-voiture",
+    "fr": "la voiture",
+    "zh": "汽車",
+    "tag": "生活"
+  },
+  {
+    "id": "v-magasin",
+    "fr": "le magasin",
+    "zh": "商店",
+    "tag": "生活"
+  },
+  {
+    "id": "v-boulangerie",
+    "fr": "la boulangerie",
+    "zh": "麵包店",
+    "tag": "生活"
+  },
+  {
+    "id": "v-marche",
+    "fr": "le marché",
+    "zh": "市場",
+    "tag": "生活"
+  },
+  {
+    "id": "v-pharmacie",
+    "fr": "la pharmacie",
+    "zh": "藥局",
+    "tag": "生活"
+  },
+  {
+    "id": "v-banque",
+    "fr": "la banque",
+    "zh": "銀行",
+    "tag": "生活"
+  },
+  {
+    "id": "v-ecole-f",
+    "fr": "l'école (f.)",
+    "zh": "學校",
+    "tag": "生活",
+    "note": "à l'école"
+  },
+  {
+    "id": "v-rue",
+    "fr": "la rue",
+    "zh": "街道",
+    "tag": "生活"
+  },
+  {
+    "id": "v-ville",
+    "fr": "la ville",
+    "zh": "城市",
+    "tag": "生活"
+  },
+  {
+    "id": "v-rendez-vous",
+    "fr": "le rendez-vous",
+    "zh": "約會、預約",
+    "tag": "生活",
+    "note": "prendre rendez-vous = 預約"
+  },
+  {
+    "id": "v-billet",
+    "fr": "le billet",
+    "zh": "票、鈔票",
+    "tag": "生活"
+  },
+  {
+    "id": "v-lumiere",
+    "fr": "la lumière",
+    "zh": "光、燈",
+    "tag": "生活"
+  },
+  {
+    "id": "v-cle",
+    "fr": "la clé",
+    "zh": "鑰匙",
+    "tag": "生活"
+  },
+  {
+    "id": "v-loyer",
+    "fr": "le loyer",
+    "zh": "房租",
+    "tag": "生活"
+  },
+  {
+    "id": "v-cafe",
+    "fr": "le café",
+    "zh": "咖啡",
+    "tag": "食物",
+    "note": "-é 結尾但是陽性"
+  },
+  {
+    "id": "v-the",
+    "fr": "le thé",
+    "zh": "茶",
+    "tag": "食物"
+  },
+  {
+    "id": "v-eau-f",
+    "fr": "l'eau (f.)",
+    "zh": "水",
+    "tag": "食物",
+    "note": "de l'eau"
+  },
+  {
+    "id": "v-pain",
+    "fr": "le pain",
+    "zh": "麵包",
+    "tag": "食物",
+    "note": "du pain"
+  },
+  {
+    "id": "v-fromage",
+    "fr": "le fromage",
+    "zh": "起司",
+    "tag": "食物",
+    "note": "-age 結尾多半陽性"
+  },
+  {
+    "id": "v-viande",
+    "fr": "la viande",
+    "zh": "肉",
+    "tag": "食物"
+  },
+  {
+    "id": "v-poisson",
+    "fr": "le poisson",
+    "zh": "魚",
+    "tag": "食物",
+    "note": "注意：poison（毒藥）只有一個 s"
+  },
+  {
+    "id": "v-legumes-m",
+    "fr": "les légumes (m.)",
+    "zh": "蔬菜",
+    "tag": "食物"
+  },
+  {
+    "id": "v-fruit",
+    "fr": "le fruit",
+    "zh": "水果",
+    "tag": "食物"
+  },
+  {
+    "id": "v-pomme",
+    "fr": "la pomme",
+    "zh": "蘋果",
+    "tag": "食物"
+  },
+  {
+    "id": "v-vin",
+    "fr": "le vin",
+    "zh": "紅酒、酒",
+    "tag": "食物"
+  },
+  {
+    "id": "v-petit-dejeuner",
+    "fr": "le petit-déjeuner",
+    "zh": "早餐",
+    "tag": "食物"
+  },
+  {
+    "id": "v-dejeuner",
+    "fr": "le déjeuner",
+    "zh": "午餐",
+    "tag": "食物"
+  },
+  {
+    "id": "v-diner",
+    "fr": "le dîner",
+    "zh": "晚餐",
+    "tag": "食物"
+  },
+  {
+    "id": "v-addition-f",
+    "fr": "l'addition (f.)",
+    "zh": "帳單（餐廳）",
+    "tag": "食物",
+    "note": "L'addition, s'il vous plaît."
+  },
+  {
+    "id": "v-avoir-faim",
+    "fr": "avoir faim",
+    "zh": "餓",
+    "tag": "食物",
+    "note": "J'ai faim."
+  },
+  {
+    "id": "v-avoir-soif",
+    "fr": "avoir soif",
+    "zh": "渴",
+    "tag": "食物",
+    "note": "J'ai soif."
+  },
+  {
+    "id": "v-quand",
+    "fr": "quand",
+    "zh": "何時、當…的時候",
+    "tag": "常用字",
+    "note": "d 不唸"
+  },
+  {
+    "id": "v-comment",
+    "fr": "comment",
+    "zh": "如何",
+    "tag": "常用字",
+    "note": "Comment allez-vous ?"
+  },
+  {
+    "id": "v-pourquoi",
+    "fr": "pourquoi",
+    "zh": "為什麼",
+    "tag": "常用字",
+    "note": "回答用 parce que"
+  },
+  {
+    "id": "v-parce-que",
+    "fr": "parce que",
+    "zh": "因為",
+    "tag": "常用字"
+  },
+  {
+    "id": "v-combien",
+    "fr": "combien",
+    "zh": "多少",
+    "tag": "常用字",
+    "note": "C'est combien ?"
+  },
+  {
+    "id": "v-ou",
+    "fr": "où",
+    "zh": "哪裡",
+    "tag": "常用字",
+    "note": "有重音的 où 是「哪裡」，ou 是「或」"
+  },
+  {
+    "id": "v-vraiment",
+    "fr": "vraiment",
+    "zh": "真的",
+    "tag": "常用字",
+    "note": "J'ai vraiment faim."
+  },
+  {
+    "id": "v-beaucoup",
+    "fr": "beaucoup",
+    "zh": "很多、非常",
+    "tag": "常用字",
+    "note": "放在動詞後面"
+  },
+  {
+    "id": "v-peu",
+    "fr": "un peu",
+    "zh": "一點點",
+    "tag": "常用字"
+  },
+  {
+    "id": "v-tres",
+    "fr": "très",
+    "zh": "很",
+    "tag": "常用字",
+    "note": "接形容詞：très bon"
+  },
+  {
+    "id": "v-aussi",
+    "fr": "aussi",
+    "zh": "也",
+    "tag": "常用字"
+  },
+  {
+    "id": "v-avec",
+    "fr": "avec",
+    "zh": "和…一起",
+    "tag": "常用字",
+    "note": "avec moi / avec lui"
+  },
+  {
+    "id": "v-sans",
+    "fr": "sans",
+    "zh": "沒有…",
+    "tag": "常用字",
+    "note": "sans sucre"
+  },
+  {
+    "id": "v-chez",
+    "fr": "chez",
+    "zh": "在…家",
+    "tag": "常用字",
+    "note": "chez moi = 在我家"
+  },
+  {
+    "id": "v-ici",
+    "fr": "ici",
+    "zh": "這裡",
+    "tag": "常用字"
+  },
+  {
+    "id": "v-bas",
+    "fr": "là-bas",
+    "zh": "那裡",
+    "tag": "常用字"
+  },
+  {
+    "id": "v-mais",
+    "fr": "mais",
+    "zh": "但是",
+    "tag": "常用字"
+  },
+  {
+    "id": "v-donc",
+    "fr": "donc",
+    "zh": "所以",
+    "tag": "常用字"
+  },
+  {
+    "id": "v-ensuite",
+    "fr": "ensuite",
+    "zh": "然後",
+    "tag": "常用字"
+  },
+  {
+    "id": "v-il-y-a",
+    "fr": "il y a",
+    "zh": "有…、…之前",
+    "tag": "常用字",
+    "note": "Il y a un chat. / il y a 3 jours"
+  },
+  {
+    "id": "v-anecdote",
+    "fr": "une anecdote",
+    "zh": "趣事、軼事",
+    "tag": "常用字"
+  },
+  {
+    "id": "v-sensation",
+    "fr": "une sensation",
+    "zh": "感覺",
+    "tag": "常用字"
+  },
+  {
+    "id": "v-envie-f",
+    "fr": "l'envie (f.)",
+    "zh": "渴望",
+    "tag": "常用字",
+    "note": "avoir envie de…"
+  }
+]

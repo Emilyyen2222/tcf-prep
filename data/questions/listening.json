@@ -1,5 +1,71 @@
 [
   {
+    "id": "co-a1-001",
+    "skill": "listening",
+    "level": "A1",
+    "topic": "數字與價格",
+    "audio": "Ce sac coûte trente-cinq euros.",
+    "prompt": "Combien coûte le sac ?",
+    "options": ["25 €", "35 €", "45 €", "53 €"],
+    "answer": 1,
+    "explanation": "trente-cinq = 35。trente 是 30，vingt 是 20，quarante 是 40。"
+  },
+  {
+    "id": "co-a1-002",
+    "skill": "listening",
+    "level": "A1",
+    "topic": "時間",
+    "audio": "Le cours de français commence à neuf heures et quart.",
+    "prompt": "À quelle heure commence le cours ?",
+    "options": ["9 h 00", "9 h 15", "9 h 45", "10 h 15"],
+    "answer": 1,
+    "explanation": "et quart = 過 15 分。et demie 是 30 分，moins le quart 是差 15 分。"
+  },
+  {
+    "id": "co-a1-003",
+    "skill": "listening",
+    "level": "A1",
+    "topic": "問路",
+    "audio": "Pour aller à la pharmacie, allez tout droit, puis tournez à gauche.",
+    "prompt": "Où faut-il tourner ?",
+    "options": ["À droite.", "À gauche.", "Nulle part, c'est tout droit.", "Au feu rouge."],
+    "answer": 1,
+    "explanation": "tout droit = 直走，puis tournez à gauche = 然後左轉。à droite 是右邊。"
+  },
+  {
+    "id": "co-a1-004",
+    "skill": "listening",
+    "level": "A1",
+    "topic": "自我介紹",
+    "audio": "Bonjour, je m'appelle Sophie. Je suis infirmière et j'habite à Québec.",
+    "prompt": "Quel est le métier de Sophie ?",
+    "options": ["Médecin.", "Professeure.", "Infirmière.", "Étudiante."],
+    "answer": 2,
+    "explanation": "infirmière = 護理師。職業前面不加冠詞：je suis infirmière。"
+  },
+  {
+    "id": "co-a1-005",
+    "skill": "listening",
+    "level": "A1",
+    "topic": "電話",
+    "audio": "Allô, c'est Marc. Je suis malade aujourd'hui, je ne viens pas au bureau.",
+    "prompt": "Pourquoi Marc téléphone-t-il ?",
+    "options": ["Il est en retard.", "Il est malade.", "Il est en vacances.", "Il a perdu ses clés."],
+    "answer": 1,
+    "explanation": "Je suis malade = 我生病了，所以今天不進辦公室。"
+  },
+  {
+    "id": "co-a1-006",
+    "skill": "listening",
+    "level": "A1",
+    "topic": "天氣",
+    "audio": "Demain, il va pleuvoir le matin, mais l'après-midi il va faire beau.",
+    "prompt": "Quel temps fera-t-il demain après-midi ?",
+    "options": ["Il va pleuvoir.", "Il va neiger.", "Il va faire beau.", "Il va faire froid."],
+    "answer": 2,
+    "explanation": "il va faire beau = 天氣會很好。早上會下雨（pleuvoir），下午轉晴。注意 mais（但是）後面的才是答案。"
+  },
+  {
     "id": "co-a2-001",
     "skill": "listening",
     "level": "A2",

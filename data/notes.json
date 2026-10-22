@@ -1,0 +1,116 @@
+[
+  {
+    "id": "pronunciation",
+    "level": "A1",
+    "title": "發音基本規則",
+    "body": "## 字尾不發音\n\n大部分單字最後一個子音不發音，但 **C、R、F、L** 結尾通常要唸（記法：英文 CaReFuL）。\n\n| 單字 | 唸法 | 說明 |\n|---|---|---|\n| Salut | 撒-驢 | t 不發音 |\n| Paris | 巴-hi | s 不發音 |\n| Ils parlent | 伊 Bar-勒 | 動詞字尾 -ent 完全不發音 |\n\n## 常見拼字和發音\n\n| 拼法 | 唸法 | 例子 |\n|---|---|---|\n| oi | 哇 (wa) | toi、moi、trois |\n| u | 嘟嘴的「淤」 | tu、salut |\n| ou | 烏 | vous、où |\n| eu | 嘟嘴的「厄」 | deux、peux |\n| ç | s 音 | ça va（撒-法） |\n| h | 永遠不發音 | hôtel、habiter |\n| qu | k 音 | quatre、qui |\n\n## 鼻母音 en / an\n\n嘴巴張大像看牙醫說 Ah，舌頭放平不動，聲音從鼻子出來，**最後不要發出 n 的音**。\n\n- en、an：France、enfant、temps\n- in、ain：vin、faim（嘴巴咧開扁平）\n- on：bonjour、maison\n\n## 連音 (liaison)\n\n前一個字字尾是不發音的子音，後一個字是母音開頭，就要連起來唸。\n\n- vous_avez → 烏-Za-vay（s 變 z）\n- les_amis → 雷-Za-mi\n- c'est_un → 賽-t昂（t 復活）\n\n> 連音時 s 和 x 都變成 z 的音：deux_amis（度-Za-mi）、six_ans（希-Zan）"
+  },
+  {
+    "id": "etre-avoir",
+    "level": "A1",
+    "title": "Être（是）和 Avoir（有）",
+    "body": "## 變位表\n\n| 人稱 | Être 是 | Avoir 有 |\n|---|---|---|\n| je | suis | **j'**ai |\n| tu | es | as |\n| il / elle / on | est | a |\n| nous | sommes | avons |\n| vous | êtes | avez |\n| ils / elles | sont | ont |\n\n> je 遇到母音開頭要縮寫：j'ai，千萬不要寫 je ai。\n\n## 年齡、飢餓用 avoir\n\n法文說「我有 31 年」、「我有飢餓感」，不說「我是」。\n\n| 中文 | ✅ 正確 | ❌ 常見錯誤 |\n|---|---|---|\n| 我 31 歲 | J'ai 31 ans. | Je suis 31. |\n| 她 12 歲 | Elle a 12 ans. | Elle est 12 ans. |\n| 我餓了 | J'ai faim. | Je suis faim. |\n| 我渴了 | J'ai soif. | |\n| 我冷 | J'ai froid. | |\n\n## 身分、國籍、職業用 être\n\n- Je suis taïwanaise.（我是台灣人，女生加 e）\n- Il est ingénieur.（他是工程師，職業前面不加冠詞）\n- Elle est française. ↔ Elle parle français.（「是法國人」用 être，「說法語」用 parler）\n\n## Have 的分流\n\n| 英文 | 意思 | 法文 |\n|---|---|---|\n| have a dog | 擁有 | J'ai un chien. |\n| have a brother | 關係 | J'ai un frère. |\n| have lunch / a coffee | 吃、喝 | Je prends un café. |\n| have a shower | 做某事 | Je prends une douche. |"
+  },
+  {
+    "id": "er-verbs",
+    "level": "A1",
+    "title": "第一組動詞（-er 結尾）",
+    "body": "## 規則\n\n砍掉 -er，依人稱接上字尾：**e、es、e、ons、ez、ent**。法文 90% 的動詞都是這組。\n\n| 人稱 | 字尾 | parler 說 | 唸法 |\n|---|---|---|---|\n| je | -e | parle | Bar-勒 |\n| tu | -es | parles | Bar-勒 |\n| il / elle / on | -e | parle | Bar-勒 |\n| nous | -ons | parlons | Bar-龍 |\n| vous | -ez | parlez | Bar-雷 |\n| ils / elles | -ent | parlent | Bar-勒 |\n\n> 聽力陷阱：je、tu、il、ils 四個唸起來完全一樣！-es、-ent 都不發音。\n\n## 常用 -er 動詞\n\n- parler 說、habiter 住（j'habite）、aimer 喜歡（j'aime）\n- travailler 工作、manger 吃、regarder 看、écouter 聽\n- cuisiner 做菜、voyager 旅行、porter 穿戴、acheter 買\n\n## 小例外\n\n| 動詞 | 特別的地方 | 例子 |\n|---|---|---|\n| manger、voyager | nous 要多一個 e，保留軟的 g 音 | nous mangeons、nous voyageons |\n| acheter、se lever | je、tu、il、ils 的 e 變 è | j'achète、nous achetons |\n| aller | 雖然是 -er，但完全不規則 | 見「常用不規則動詞」 |"
+  },
+  {
+    "id": "irregular-verbs",
+    "level": "A1",
+    "title": "常用不規則動詞",
+    "body": "## 去、來、做\n\n| 人稱 | aller 去 | venir 來 | faire 做 |\n|---|---|---|---|\n| je | vais | viens | fais |\n| tu | vas | viens | fais |\n| il / elle / on | va | vient | fait |\n| nous | allons | venons | faisons |\n| vous | allez | venez | **faites** |\n| ils / elles | vont | **viennent** | **font** |\n\n## 想要、能夠、必須\n\n這三個的模式很像：單數一組，nous / vous 回到原形，ils 又變回來。\n\n| 人稱 | vouloir 想要 | pouvoir 能夠 | devoir 必須 |\n|---|---|---|---|\n| je | veux | peux | dois |\n| tu | veux | peux | dois |\n| il / elle / on | veut | peut | doit |\n| nous | voulons | pouvons | devons |\n| vous | voulez | pouvez | devez |\n| ils / elles | veulent | peuvent | doivent |\n\n> 後面直接接原形動詞：Je peux parler français. / Tu dois manger.\n\n## 拿、喝、寫、讀\n\n| 人稱 | prendre 拿/吃喝 | boire 喝 | écrire 寫 | lire 讀 |\n|---|---|---|---|---|\n| je | prends | bois | écris | lis |\n| tu | prends | bois | écris | lis |\n| il / elle | prend | boit | écrit | lit |\n| nous | prenons | buvons | écrivons | lisons |\n| vous | prenez | buvez | écrivez | lisez |\n| ils / elles | **prennent** | boivent | écrivent | lisent |\n\n> apprendre（學）、comprendre（懂）跟 prendre 變法一模一樣。\n\n## 禮貌的「我想要」\n\n點餐、請求時用 **je voudrais**（vouloir 的條件式），比 je veux 客氣很多。\n\n- Je voudrais un café, s'il vous plaît.\n- J'aimerais voyager.（我希望能去旅行）"
+  },
+  {
+    "id": "je-tu-s",
+    "level": "A1",
+    "title": "Je 什麼時候要加 s？",
+    "body": "## Tu 永遠有 s\n\n不管哪種動詞，tu 後面的動詞結尾幾乎都是 s（少數是 x，例如 tu peux）。\n\n## Je 看動詞原形決定\n\n| 原形結尾 | je | tu | 例子 |\n|---|---|---|---|\n| -er（乖寶寶） | 只有 e | 加 s | je parle / tu parles |\n| -ir、-re、-oir（不規則） | 也加 s | 加 s | je viens / tu viens |\n\n> 只有 -er 動詞的 je 和 tu 長得不一樣，其他動詞的 je 和 tu 都一樣。\n\n## sortir、dormir、partir 這一家\n\n單數砍掉後面三個字母，加 s、s、t；複數子音回來。\n\n| 人稱 | sortir 出去 | dormir 睡 | partir 出發 |\n|---|---|---|---|\n| je | sors | dors | pars |\n| tu | sors | dors | pars |\n| il / elle | sort | dort | part |\n| nous | sortons | dormons | partons |\n| vous | sortez | dormez | partez |\n| ils / elles | sortent | dorment | partent |\n\n> 聽力判斷：聽到短短的「Sor」是單數；聽到「Sor-T」有 t 的音是複數。\n\n## finir、choisir 這一家（-iss-）\n\n單數 -is、-is、-it；複數中間多一個 **iss**，聽起來有蛇的 s 聲。\n\n| 人稱 | finir 結束 | choisir 選擇 |\n|---|---|---|\n| je | finis | choisis |\n| tu | finis | choisis |\n| il / elle | finit | choisit |\n| nous | finissons | choisissons |\n| vous | finissez | choisissez |\n| ils / elles | finissent | choisissent |"
+  },
+  {
+    "id": "articles",
+    "level": "A1",
+    "title": "冠詞：un / le / du",
+    "body": "## 三種冠詞\n\n| 種類 | 陽性 | 陰性 | 複數 | 意思 |\n|---|---|---|---|---|\n| 不定冠詞 | un | une | des | 一個（a） |\n| 定冠詞 | le | la | les | 那個（the） |\n| 部分冠詞 | du | de la | des | 一些（some） |\n\n- 不定冠詞：第一次提到、數量是「一」\n- 定冠詞：特定的那個，或泛指「某類東西」。母音開頭變 **l'**（l'ami、l'école）\n- 部分冠詞：吃喝「一些」不可數的東西。母音開頭變 **de l'**（de l'eau）\n\n## 怎麼選\n\n- C'est **une** pomme.（這是一顆蘋果）\n- C'est **la** pomme de Steve.（這是 Steve 的那顆蘋果）\n- J'aime **le** café.（喜歡、討厭後面用定冠詞，指「咖啡這種東西」）\n- Je bois **du** café.（我喝咖啡，喝一些）\n- Je mange **de la** salade.\n\n## 否定句裡變 de\n\nun、une、des、du、de la 在否定句裡都變成 **de**（母音前 d'）。le、la、les 不變。\n\n| 肯定 | 否定 |\n|---|---|\n| J'ai un chien. | Je n'ai pas **de** chien. |\n| Je bois du café. | Je ne bois pas **de** café. |\n| Il y a des enfants. | Il n'y a pas **d'**enfants. |\n| J'aime le café. | Je n'aime pas **le** café.（le 不變） |\n\n## à 和 de 遇到 le、les 要合併\n\n| 組合 | 變成 | 例子 |\n|---|---|---|\n| à + le | au | Je vais au cinéma. |\n| à + les | aux | Je vais aux États-Unis. |\n| de + le | du | Je viens du bureau. |\n| de + les | des | le livre des enfants |\n\n> à la、à l'、de la、de l' 不合併：Tu vas à l'école ?"
+  },
+  {
+    "id": "gender",
+    "level": "A1",
+    "title": "陰陽性怎麼猜",
+    "body": "## 看字尾猜（準確率約八成）\n\n| 字尾 | 通常是 | 例子 |\n|---|---|---|\n| -e | 陰性 | une table、une pomme（例外：le café、le problème） |\n| -tion、-sion | 一定陰性 | la station、la solution |\n| -son | 陰性 | la maison、la saison、la chanson |\n| -age | 陽性 | le fromage、le voyage（例外：la plage、la page） |\n| -ment | 陽性 | le moment、l'appartement |\n| 其他子音結尾 | 通常陽性 | un bus、un chat、un train、un avion |\n\n## 形容詞要跟名詞配合\n\n- 陰性加 e：petit → petite、grand → grande、français → française\n- 複數加 s：les petits chats、les grandes maisons\n- -if 變 -ive：productif → productive\n- -eux 變 -euse：heureux → heureuse\n- doux → douce、beau → belle\n\n> 背名詞時連冠詞一起背：不要背 maison，要背 la maison。"
+  },
+  {
+    "id": "negation",
+    "level": "A1",
+    "title": "否定句",
+    "body": "## 基本：ne … pas\n\nne 和 pas 像括號一樣夾住動詞。母音前 ne 變 n'。\n\n- Je **ne** suis **pas** français.\n- Ce **n'**est **pas** bon.\n- Ça **ne** va **pas**.（我不太好 / 這不行）\n\n## 其他否定\n\n| 用法 | 意思 | 例子 |\n|---|---|---|\n| ne … jamais | 從不 | Je ne mange jamais de viande. |\n| ne … plus | 不再 | Il n'habite plus ici. |\n| ne … rien | 什麼都沒有 | Je ne vois rien. |\n| ne … personne | 沒有人 | Il n'y a personne. |\n\n## 複合過去式的否定\n\nne … pas 夾住**助動詞**，過去分詞放在後面。\n\n- Je **n'**ai **pas** mangé.\n- Elle **n'**est **pas** venue.\n\n> 口語常常省略 ne：C'est pas grave. / J'sais pas. 考試寫作要寫完整的 ne … pas。"
+  },
+  {
+    "id": "questions",
+    "level": "A1",
+    "title": "問句怎麼問",
+    "body": "## 三種問法（意思一樣）\n\n| 說法 | 例子 | 場合 |\n|---|---|---|\n| 語調上揚 | Tu habites ici ? | 口語最常用 |\n| Est-ce que + 句子 | Est-ce que tu habites ici ? | 通用 |\n| 倒裝 | Habites-tu ici ? | 正式、書面 |\n\n## 疑問詞\n\n| 疑問詞 | 意思 | 例子 |\n|---|---|---|\n| où | 哪裡 | Où est-ce que tu habites ? / Tu vas où ? |\n| quand | 何時 | Tu pars quand ? |\n| comment | 如何 | Tu t'appelles comment ? |\n| combien | 多少 | C'est combien ? |\n| pourquoi | 為什麼 | Pourquoi tu apprends le français ? |\n| qui | 誰 | Qui est-ce ? |\n| que / quoi | 什麼 | Qu'est-ce que tu fais ? / C'est quoi ? |\n| quel / quelle | 哪個 | Quel est ton métier ? / Quelle heure est-il ? |\n\n> que 遇到 est-ce que 變成 qu'est-ce que；放在句尾單獨用要改成 quoi。"
+  },
+  {
+    "id": "possessives",
+    "level": "A1",
+    "title": "所有格：mon / ma / mes",
+    "body": "## 看「東西」的性別，不是看主人\n\n| 主人 | 陽性單數 | 陰性單數 | 複數 |\n|---|---|---|---|\n| 我的 | mon | ma | mes |\n| 你的 | ton | ta | tes |\n| 他的 / 她的 | son | sa | ses |\n| 我們的 | notre | notre | nos |\n| 你們的 / 您的 | votre | votre | vos |\n| 他們的 | leur | leur | leurs |\n\n> son père 可能是「他的爸爸」，也可能是「她的爸爸」。père 是陽性，所以用 son。\n\n## 母音開頭的陰性名詞用 mon\n\n為了好唸，母音開頭的陰性名詞用 mon、ton、son：\n\n- **mon** amie（我的女性朋友）、**ton** école、**son** adresse\n\n## 「誰的東西」用 de\n\n法文沒有 's，要說「東西 + de + 主人」：\n\n- le chat **de** Marie（Marie 的貓）\n- le chien **d'**Anna（母音前 de 變 d'）\n- le mari **de** Julia（Julia 的老公）"
+  },
+  {
+    "id": "places",
+    "level": "A1",
+    "title": "去哪裡：à / au / en / aux",
+    "body": "## 國家和城市\n\n| 地點 | 用 | 例子 |\n|---|---|---|\n| 城市 | à | Je vais à Taipei. / J'habite à Paris. |\n| 陰性國家（多半 -e 結尾） | en | en France、en Chine、en Italie |\n| 陽性國家 | au | au Canada、au Japon、au Maroc |\n| 複數國家 | aux | aux États-Unis、aux Philippines |\n| 母音開頭的國家 | en | en Iran、en Israël |\n\n> 台灣一般說 **à Taïwan**（當成島嶼，不加冠詞）。\n> 「去」和「在」用同一個介系詞：Je vais au Canada. / J'habite au Canada.\n\n## 從哪裡來\n\n| 地點 | 用 | 例子 |\n|---|---|---|\n| 城市、陰性國家 | de / d' | Je viens de Taipei. / Je viens de France. |\n| 陽性國家 | du | Je viens du Canada. |\n| 複數國家 | des | Je viens des États-Unis. |\n\n## 去一般地點\n\nà + 定冠詞，遇到 le 合併成 au：\n\n- Je vais **au** restaurant / **au** parc / **au** cinéma.\n- Je vais **à la** plage / **à la** banque.\n- Tu vas **à l'**école ?"
+  },
+  {
+    "id": "near-time",
+    "level": "A1",
+    "title": "剛剛、正在、等一下",
+    "body": "## 三個好用的句型\n\n| 句型 | 結構 | 意思 | 例子 |\n|---|---|---|---|\n| 最近過去式 | venir + de + 原形 | 剛剛做完 | Je viens de manger.（我剛吃飽） |\n| 正在進行 | être en train de + 原形 | 正在做 | Je suis en train de cuisiner. |\n| 最近未來式 | aller + 原形 | 等一下要做、將要 | Je vais manger.（我要去吃了） |\n\n> aller + 原形是口語最常用的未來式，比正式的未來式常用很多。\n\n## 比較\n\n| 句子 | 狀態 |\n|---|---|\n| Je mange. | 現在在吃（或習慣吃） |\n| Je suis en train de manger. | 此刻正在吃，強調進行中 |\n| J'ai mangé. | 吃過了（可能是昨天，也可能是剛剛） |\n| Je viens de manger. | 剛剛才吃完 |\n| Je vais manger. | 等一下要吃 |"
+  },
+  {
+    "id": "pronouns",
+    "level": "A2",
+    "title": "代名詞總整理",
+    "body": "## 主詞和重讀代名詞\n\n重讀代名詞用在介系詞後面（avec、pour、chez）或強調。\n\n| 主詞 | 重讀 | 例子 |\n|---|---|---|\n| je | moi | Moi, je m'appelle Emily. |\n| tu | toi | Et toi ? / C'est pour toi. |\n| il | **lui** | Je sors avec lui. |\n| elle | elle | |\n| nous | nous | |\n| vous | vous | |\n| ils | **eux** | C'est eux ! |\n| elles | elles | |\n\n> ❌ Je parle avec il. ✅ Je parle avec lui.\n\n## 直接受詞（COD）和間接受詞（COI）\n\n動詞後面直接接人或物是直接受詞；中間有 **à + 人** 是間接受詞。代名詞放在動詞前面。\n\n| 人稱 | 直接受詞 | 間接受詞（à + 人） |\n|---|---|---|\n| 我 | me (m') | me (m') |\n| 你 | te (t') | te (t') |\n| 他 / 它 | le (l') | lui |\n| 她 / 它 | la (l') | lui |\n| 我們 | nous | nous |\n| 你們 | vous | vous |\n| 他們 | les | leur |\n\n- Tu connais Marie ? — Oui, je **la** connais.（connaître qqn，直接受詞）\n- Je vois mes amis. → Je **les** vois.\n- Je téléphone à Paul. → Je **lui** téléphone.（téléphoner à qqn）\n- Je parle à mes parents. → Je **leur** parle.\n\n> 常見的 à + 人動詞：parler à、téléphoner à、dire à、donner à、écrire à、répondre à\n\n## y 和 en\n\n| 代名詞 | 取代 | 例子 |\n|---|---|---|\n| y | à + 地點 / 東西 | Tu vas à Paris ? — Oui, j'**y** vais. |\n| en | de + 東西、數量 | Tu veux du café ? — Oui, j'**en** veux. / J'**en** ai deux. |\n\n## 指示代名詞（這個、那個）\n\n後面不能再接名詞。\n\n| | 這個 | 那個 |\n|---|---|---|\n| 陽性單數 | celui-ci | celui-là |\n| 陰性單數 | celle-ci | celle-là |\n| 陽性複數 | ceux-ci | ceux-là |\n| 陰性複數 | celles-ci | celles-là |"
+  },
+  {
+    "id": "reflexive",
+    "level": "A2",
+    "title": "反身動詞（se lever）",
+    "body": "## 動作回到自己身上\n\n代名詞跟著主詞變，緊貼在動詞前面。\n\n| 人稱 | 代名詞 | se lever 起床 | s'appeler 名叫 |\n|---|---|---|---|\n| je | me (m') | me lève | m'appelle |\n| tu | te (t') | te lèves | t'appelles |\n| il / elle | se (s') | se lève | s'appelle |\n| nous | nous | nous levons | nous appelons |\n| vous | vous | vous levez | vous appelez |\n| ils / elles | se (s') | se lèvent | s'appellent |\n\n> 母音或 h 開頭時 me、te、se 縮寫：je m'appelle、il s'habille。\n\n## 常用反身動詞\n\n- se lever 起床、se coucher 睡覺、se réveiller 醒來\n- se laver 洗澡、s'habiller 穿衣服\n- se reposer 休息、se promener 散步\n- se sentir 覺得（Je me sens mal. 我覺得不舒服）\n\n## 命令句和過去式\n\n- 命令：Lève-toi !（起床！）Asseyez-vous.（請坐）\n- 過去式一律用 être，要配合主詞：Je me suis levée.（女生加 e）"
+  },
+  {
+    "id": "passe-compose",
+    "level": "A2",
+    "title": "複合過去式（passé composé）",
+    "body": "## 結構\n\n**助動詞 avoir 或 être（現在式）+ 過去分詞**，表示已經完成的動作。\n\n| 人稱 | avoir + visité | être + allé(e) |\n|---|---|---|\n| je | j'ai visité | je suis allé(e) |\n| tu | tu as visité | tu es allé(e) |\n| il / elle | il a visité | il est allé / elle est allée |\n| nous | nous avons visité | nous sommes allé(e)s |\n| vous | vous avez visité | vous êtes allé(e)(s) |\n| ils / elles | ils ont visité | ils sont allés / elles sont allées |\n\n## 過去分詞怎麼變\n\n| 原形 | 過去分詞 | 例子 |\n|---|---|---|\n| -er | -é | parler → parlé |\n| -ir | -i | finir → fini、sortir → sorti |\n| 不規則 | 要背 | être → été、avoir → eu、faire → fait、prendre → pris、voir → vu、venir → venu |\n\n## avoir 還是 être？\n\n| 優先順序 | 情況 | 助動詞 | 要不要配合主詞 |\n|---|---|---|---|\n| 1 | 反身動詞（se …） | être | ✅ 要 |\n| 2 | 移動、狀態改變的動詞 | être | ✅ 要 |\n| 3 | 其他所有動詞 | avoir | ❌ 不用 |\n\n用 être 的動詞：aller 去、venir 來、arriver 抵達、partir 離開、entrer 進、sortir 出、monter 上、descendre 下、naître 出生、mourir 死、rester 停留、tomber 跌倒、retourner 回去、devenir 變成\n\n> 用 être 時，過去分詞跟主詞配合：女生加 e，複數加 s。Ma sœur est allée au cinéma."
+  },
+  {
+    "id": "imparfait",
+    "level": "A2",
+    "title": "未完成過去式（imparfait）",
+    "body": "## 怎麼變\n\n拿 nous 的現在式，去掉 -ons，接上 **-ais、-ais、-ait、-ions、-iez、-aient**。\n\n| 人稱 | 字尾 | parler（nous parlons） | être（唯一例外 ét-） |\n|---|---|---|---|\n| je | -ais | parlais | étais |\n| tu | -ais | parlais | étais |\n| il / elle | -ait | parlait | était |\n| nous | -ions | parlions | étions |\n| vous | -iez | parliez | étiez |\n| ils / elles | -aient | parlaient | étaient |\n\n> je、tu、il、ils 四個唸起來都一樣（Bar-雷）。\n\n## imparfait 還是 passé composé？\n\n| | passé composé | imparfait |\n|---|---|---|\n| 感覺 | 📸 拍照：一個點 | 🎥 錄影：一條線 |\n| 用途 | 發生了什麼事、有結果 | 背景、狀態描述、以前的習慣 |\n| 英文 | I did | I was doing / I used to do |\n| 例子 | J'ai acheté une maison. | Je travaillais à New York. |\n\n- 習慣：Quand j'étais petite, je jouais au tennis.（我小時候常打網球）\n- 背景 + 事件：Je regardais la télé quand il est arrivé.（我正在看電視，他到了）\n- 描述：Il faisait beau. Elle était fatiguée."
+  },
+  {
+    "id": "depuis",
+    "level": "A2",
+    "title": "depuis、il y a、pendant",
+    "body": "## 看動作結束了沒\n\n| 時間詞 | 意思 | 搭配時態 | 例子 |\n|---|---|---|---|\n| depuis | 已經…了（還在繼續） | 現在式 | J'habite ici depuis 3 ans.（現在還住） |\n| il y a | …之前（已經結束） | 過去式 | Je suis arrivée il y a 3 jours. |\n| pendant | 持續了多久 | 看情況 | J'ai étudié pendant 2 heures. |\n| dans | …之後（還沒發生） | 現在式或未來 | J'arrive dans 30 minutes. |\n\n> 看到 il y a + 時間 → 想英文的 ago → 用過去式。\n> 看到 depuis + 時間 → 想英文的 since / for → 中文「已經…了」用現在式。"
+  },
+  {
+    "id": "comparison",
+    "level": "A2",
+    "title": "比較級和最高級",
+    "body": "## 比較級\n\n| 意思 | 結構 | 例子 |\n|---|---|---|\n| 比較… | plus + 形容詞 + que | Paul est plus grand que Marc. |\n| 一樣… | aussi + 形容詞 + que | Elle est aussi grande que moi. |\n| 比較不… | moins + 形容詞 + que | C'est moins cher que l'hôtel. |\n\n## 最高級\n\n**le / la / les + plus + 形容詞**，冠詞跟名詞的性別、單複數走。\n\n- le plus petit chien（最小的狗）\n- la plus belle ville（最美的城市）\n- les plus rapides（最快的）\n\n## 特別的 bon 和 bien\n\n| | 比較級 | 最高級 |\n|---|---|---|\n| bon（好的，形容詞） | **meilleur(e)** | le / la meilleur(e) |\n| bien（好地，副詞） | **mieux** | le mieux |\n\n> ❌ plus bon ✅ meilleur：Ce gâteau est meilleur que l'autre."
+  },
+  {
+    "id": "imperative",
+    "level": "A2",
+    "title": "命令句",
+    "body": "## 去掉主詞就是命令\n\n| 對象 | 平常 | 命令 | 變化 |\n|---|---|---|---|\n| tu | Tu tournes à gauche. | Tourne à gauche ! | -er 動詞去掉 s |\n| vous | Vous tournez. | Tournez ! | 不變 |\n| nous | Nous tournons. | Tournons ! | 不變（我們…吧！） |\n\n> 只有 -er 動詞（和 aller）的 tu 命令要去掉 s：Va ! Mange ! 其他動詞保留：Finis ! Viens !\n\n## 常見的命令句\n\n- Écoutez et répondez.（聽然後回答，考試指示常見）\n- Allez tout droit, puis tournez à droite.（直走，然後右轉）\n- Ne parle pas !（否定：ne + 動詞 + pas）"
+  }
+]

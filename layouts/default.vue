@@ -1,22 +1,28 @@
 <script setup lang="ts">
 const { mode, load, error } = useStore()
+const { load: loadNotebook } = useNotebook()
 const session = useState<any>('sb-session')
 const { $supabase } = useNuxtApp()
 const route = useRoute()
 
 watch(
   () => session.value?.user?.id ?? null,
-  () => load(),
+  () => {
+    load()
+    loadNotebook()
+  },
   { immediate: true },
 )
 
 const tabs = [
   { to: '/', label: '首頁' },
-  { to: '/wrong', label: '錯題本' },
+  { to: '/cards', label: '單字' },
+  { to: '/notes', label: '筆記' },
+  { to: '/wrong', label: '錯題' },
   { to: '/progress', label: '進度' },
 ]
 const isActive = (to: string) => (to === '/' ? route.path === '/' : route.path.startsWith(to))
-const showTabs = computed(() => !route.path.startsWith('/practice'))
+const showTabs = computed(() => !route.path.startsWith('/practice') && !route.path.startsWith('/notes/edit'))
 </script>
 
 <template>

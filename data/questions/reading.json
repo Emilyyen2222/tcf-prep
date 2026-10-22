@@ -1,5 +1,73 @@
 [
   {
+    "id": "ce-a1-001",
+    "skill": "reading",
+    "level": "A1",
+    "topic": "告示",
+    "passage": "BOULANGERIE DUPONT\nOuvert du mardi au dimanche\n7 h – 19 h\nFermé le lundi",
+    "prompt": "Quel jour la boulangerie est-elle fermée ?",
+    "options": ["Le mardi.", "Le dimanche.", "Le lundi.", "Le samedi."],
+    "answer": 2,
+    "explanation": "Fermé le lundi = 星期一休息。Ouvert du mardi au dimanche = 星期二到星期日營業。"
+  },
+  {
+    "id": "ce-a1-002",
+    "skill": "reading",
+    "level": "A1",
+    "topic": "簡訊",
+    "passage": "Coucou ! Je suis à la gare. Mon train arrive à Lyon à 15 h. Tu peux venir me chercher ? Merci ! Julie",
+    "prompt": "Que demande Julie ?",
+    "options": ["D'acheter un billet de train.", "De venir la chercher à la gare.", "De lui téléphoner à 15 h.", "D'aller à Lyon avec elle."],
+    "answer": 1,
+    "explanation": "Tu peux venir me chercher ? = 你可以來接我嗎？venir chercher qqn 是「來接某人」。",
+    "note": "near-time"
+  },
+  {
+    "id": "ce-a1-003",
+    "skill": "reading",
+    "level": "A1",
+    "topic": "自我介紹",
+    "passage": "Bonjour ! Je m'appelle Hugo. J'ai 25 ans et je suis étudiant. J'habite à Bordeaux avec mon frère. J'aime le football et la musique.",
+    "prompt": "Avec qui Hugo habite-t-il ?",
+    "options": ["Avec ses parents.", "Avec son frère.", "Avec un ami.", "Seul."],
+    "answer": 1,
+    "explanation": "J'habite à Bordeaux avec mon frère = 我跟我哥哥 / 弟弟住在波爾多。",
+    "note": "etre-avoir"
+  },
+  {
+    "id": "ce-a1-004",
+    "skill": "reading",
+    "level": "A1",
+    "topic": "餐廳菜單",
+    "passage": "MENU DU JOUR – 14 €\nEntrée : salade de tomates\nPlat : poulet et frites\nDessert : tarte aux pommes\nBoisson non comprise",
+    "prompt": "Qu'est-ce qui n'est pas dans le prix du menu ?",
+    "options": ["La salade.", "Le dessert.", "Le poulet.", "La boisson."],
+    "answer": 3,
+    "explanation": "Boisson non comprise = 飲料不包含在內。comprise 是 comprendre 的過去分詞，在這裡是「包含」。"
+  },
+  {
+    "id": "ce-a1-005",
+    "skill": "reading",
+    "level": "A1",
+    "topic": "邀請卡",
+    "passage": "Samedi 12 avril, c'est mon anniversaire ! Rendez-vous chez moi à 20 h. Apportez quelque chose à boire ! Thomas",
+    "prompt": "Qu'est-ce que Thomas demande aux invités ?",
+    "options": ["D'arriver à 12 h.", "D'apporter une boisson.", "D'acheter un cadeau.", "De venir au restaurant."],
+    "answer": 1,
+    "explanation": "Apportez quelque chose à boire = 帶點喝的來。chez moi = 在我家，不是餐廳。"
+  },
+  {
+    "id": "ce-a1-006",
+    "skill": "reading",
+    "level": "A1",
+    "topic": "公車告示",
+    "passage": "Ligne 5 : à partir du 1er mars, le bus ne passe plus devant la gare. Prenez la ligne 3.",
+    "prompt": "Que doivent faire les voyageurs pour aller à la gare ?",
+    "options": ["Prendre le bus 5.", "Prendre le bus 3.", "Aller à pied.", "Attendre le 1er mars."],
+    "answer": 1,
+    "explanation": "ne … plus = 不再。5 號公車不再經過車站，所以要搭 3 號（Prenez la ligne 3）。"
+  },
+  {
     "id": "ce-a2-001",
     "skill": "reading",
     "level": "A2",

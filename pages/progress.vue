@@ -112,7 +112,7 @@ useHead({ title: '進度 · TCF Prep' })
     <section id="mock" class="rounded-2xl border border-brand-border bg-white p-4 shadow-sm">
       <h2 class="text-h3 font-bold">官方模擬考紀錄</h2>
       <p class="mt-0.5 text-caption text-brand-brown-light">
-        在 <a href="https://apprendre.tv5monde.com/tcf" target="_blank" rel="noopener" class="text-brand-orange underline">TV5MONDE</a>
+        在 <a href="https://apprendre.tv5monde.com/fr/tcf/simulation-du-tcf" target="_blank" rel="noopener" class="text-brand-orange underline">TV5MONDE</a>
         或其他模擬考做完後，把分數記在這裡。
       </p>
 
