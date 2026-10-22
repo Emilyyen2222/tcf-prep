@@ -109,6 +109,8 @@ useHead({ title: '進度 · TCF Prep' })
       </div>
     </section>
 
+    <CrsCard :mocks="mocks" />
+
     <section id="mock" class="rounded-2xl border border-brand-border bg-white p-4 shadow-sm">
       <h2 class="text-h3 font-bold">官方模擬考紀錄</h2>
       <p class="mt-0.5 text-caption text-brand-muted">
