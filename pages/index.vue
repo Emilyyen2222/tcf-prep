@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { LEVELS, SKILL_LABEL, type Skill } from '~/types'
-import { ALL_QUESTIONS, accuracyBySkill, localDay, streak, wrongQuestions } from '~/composables/useBank'
+import { ALL_QUESTIONS, accuracyBySkill, streak, wrongQuestions } from '~/composables/useBank'
 import { allCards, dueCards } from '~/composables/useCards'
 
 const { attempts } = useStore()
@@ -10,7 +10,6 @@ const levelChoices = LEVELS.filter((l) => ALL_QUESTIONS.some((q) => q.level === 
 const cardsDue = computed(() => dueCards(allCards(userCards.value), progress.value).length)
 const cardsStarted = computed(() => Object.keys(progress.value).length)
 
-const todayCount = computed(() => attempts.value.filter((a) => localDay(a.created_at) === localDay()).length)
 const days = computed(() => streak(attempts.value))
 const wrongCount = computed(() => wrongQuestions(attempts.value).length)
 const acc = computed(() => accuracyBySkill(attempts.value))
@@ -36,8 +35,7 @@ const greeting = computed(() => {
 <template>
   <div class="space-y-4">
     <header>
-      <p class="text-body text-brand-brown-light">{{ greeting }}, Emily</p>
-      <h1 class="text-h1 font-bold">{{ todayCount ? `今天練了 ${todayCount} 題` : '今天還沒練習' }}</h1>
+      <h1 class="text-h1 font-bold">{{ greeting }},<br />Emily</h1>
     </header>
 
     <section class="rounded-2xl border border-brand-border bg-white p-4 shadow-sm">
